@@ -1,0 +1,13 @@
+
+home:
+  title: "Ivette Addington"
+  url: "/"
+posts:
+  title: "Posts"
+  url: "/index.html"
+projects:
+  title: "Projects"
+  url: "/projects/"
+about:
+  title: "About"
+  url: "/about/"

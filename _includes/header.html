@@ -1,0 +1,10 @@
+
+ <div class="nav">
+  <div class="nav-container">
+    <ul>
+      {% for items in site.data.navigation %}
+        <li><a href="{{ site[1].url }}{{ items[1].url }}">{{ items[1].title }}</a>{% endfor %}</li>
+      
+    </ul>
+  </div>
+</div>

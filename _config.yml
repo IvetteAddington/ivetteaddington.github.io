@@ -1,0 +1,30 @@
+permalink: /:title/
+# baseurl: http://ivetteaddington.com
+
+markdown: redcarpet
+redcarpet:
+  extensions: ['smart', 'superscript']
+
+gems:
+   - jekyll-redirect-from
+
+defaults:
+  -
+    scope:
+      path: _posts/posts
+    values:
+      layout: default
+  -
+    scope:
+      path: _posts/pages
+    values:
+      type: pages
+      layout: page
+
+  -
+    scope:
+      path: _posts/projects
+    values:
+      type: projects
+      layout: page
+
