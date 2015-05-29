@@ -5,13 +5,51 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 May 2015 15:06:37 -0400</pubDate>
-    <lastBuildDate>Thu, 28 May 2015 15:06:37 -0400</lastBuildDate>
+    <pubDate>Fri, 29 May 2015 10:40:25 -0400</pubDate>
+    <lastBuildDate>Fri, 29 May 2015 10:40:25 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Project1</title>
+        <description>&lt;p&gt;Text for project 1.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 May 2015 00:00:00 -0400</pubDate>
+        <link>/project1/</link>
+        <guid isPermaLink="true">/project1/</guid>
+        
+        
+      </item>
     
       <item>
         <title>projects</title>
         <description>&lt;p&gt;Yeah! Chips!&lt;/p&gt;
+
+&lt;div class=&quot;project-container&quot;&gt;
+    &lt;ul class=&quot;project-list&quot;&gt;
+    
+    
+    &lt;a href=&quot;/project1/&quot;&gt;
+    &lt;li&gt;
+        &lt;h4 class=&quot;title&quot;&gt;Project1&lt;/h4&gt;
+        &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+    &lt;/a&gt;
+    &lt;li&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;ul class=&quot;post-list&quot;&gt;
+    
+    
+      &lt;li&gt;
+        &lt;span class=&quot;post-meta&quot;&gt;May 25, 2015&lt;/span&gt;
+
+        &lt;h2&gt;
+          &lt;a class=&quot;post-link&quot; href=&quot;/welcome-to-jekyll/&quot;&gt;Welcome to Jekyll!&lt;/a&gt;
+        &lt;/h2&gt;
+      &lt;/li&gt;
+    
+  &lt;/ul&gt; &amp;ndash;&gt;
 </description>
         <pubDate>Tue, 26 May 2015 00:00:00 -0400</pubDate>
         <link>/projects/</link>
@@ -22,13 +60,7 @@
     
       <item>
         <title>Index</title>
-        <description>&lt;hr&gt;
-
-&lt;p&gt;name: blog posts&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Blog POsts!&lt;/p&gt;
+        <description>&lt;p&gt;Blog POsts!&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 May 2015 00:00:00 -0400</pubDate>
         <link>/index/</link>

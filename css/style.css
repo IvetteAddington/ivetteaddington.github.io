@@ -1,20 +1,3 @@
-
-
-body {
-	height: 100%;
-	max-width: 100%;
-	min-width: 100%;
-	height: 100%
-}
-
-#container {
-	margin: 10px;
-	height: 100%;
-	margin: 0px;
-
-}
-
-
 html {
 	min-height: 100%;	 
 	background-color: #00d39b;
@@ -25,6 +8,75 @@ html {
 	width: 100%;
 }
 
+body {
+	height: 100%;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+a, a:hover, a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
 #page-border {
 	background-color: white;
 }
+
+.container {
+	margin: 10px;
+	height: 100%;
+}
+
+.nav-container li {
+	display: inline;
+	float: right;
+	padding: 5px;
+
+}
+
+.nav-container li:nth-of-type(1) {
+  	font-size: 1.5em;
+  	float: left;
+  	padding-left: 10%;
+}
+
+.nav-container {
+	height: 35px;
+	padding: 0 10% .75% 0;
+	border-bottom: 1px #2f2f2f solid;
+}
+
+footer {
+	font-size: 0.75em;
+	text-align:center;
+	clear:both;
+	padding-top: 50px;
+	color:#ccc;
+	padding-bottom: 30px;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

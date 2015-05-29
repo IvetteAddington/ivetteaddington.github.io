@@ -4,7 +4,7 @@ home:
   url: "/"
 posts:
   title: "Posts"
-  url: "/index.html"
+  url: "/index/"
 projects:
   title: "Projects"
   url: "/projects/"

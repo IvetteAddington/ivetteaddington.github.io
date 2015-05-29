@@ -1,0 +1,26 @@
+<div class="project-container">
+	<ul class="project-list">
+    {% assign projects=site.posts | where:"type", 'projects' %}
+    {% for post in projects %}
+    <a href="{{ post.url }}">
+    <li>
+    	<h4 class="title">{{post.title | replace '<br/>', ''}}</h4>
+    	<div class="desc-list">{{post.desc}}</div>
+    </a>
+    <li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- <ul class="post-list">
+    {% assign posts=site.posts | where:"type", posts %}
+    {% for post in posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul> -->
