@@ -17,43 +17,54 @@
 
 
   <body>
-  
- <div class="nav navbar-default navbar-fixed-top row-md-2">
-    <ul class='list-inline'>
-      
-        <li><a href="/">Ivette Addington</a>
-        <li><a href="/index/">Posts</a>
-        <li><a href="/projects/">Projects</a>
-        <li><a href="/about/">About</a></li>    
-    </ul>
+   <div class="nav navbar-default navbar-fixed-top">
+ 	<div class="container">
+	    <ul class='list-inline'>
+	    	<li class="brand">
+	    
+	    	<a href="/">Ivette Addington</a>
+	    	</li>
+	      
+	        <li class="list-inline pull-right"><a href="/index/">Posts</a></li>
+	        <li class="list-inline pull-right"><a href="/projects/">Projects</a></li>
+	        <li class="list-inline pull-right"><a href="/about/">About</a></li>
+	    </div>    
+	    </ul>
+    </div>
 </div>
-  <div class='container'>
-
-    
+  <div class='container main'>
 
     <div class="page-content">
         <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+<h1 class="page-heading">Posts</h1>
+  <ul class="list-unstyled">
     
     
-      <li>
-        <span class="post-meta">this page</span>
-
-        <h2>
-          <a class="post-link" href="/welcome-to-jekyll/">Welcome to Jekyll!</a>
-        </h2>
-
-        <p>FROM index.html</p>
-      </li>
+      <a href="/post3/">
+        <li>
+          <h2 class="title">this is post 2!</h2>
+          <div class="desc-list"></div>
+        </li>
+      </a>
+    
+      <a href="/post2/">
+        <li>
+          <h2 class="title">this is post 2!</h2>
+          <div class="desc-list"></div>
+        </li>
+      </a>
+    
+      <a href="/welcome-to-jekyll/">
+        <li>
+          <h2 class="title">Welcome to Jekyll!</h2>
+          <div class="desc-list"></div>
+        </li>
+      </a>
     
   </ul>
 </div>
     </div>
-
-    <footer>
+<div class="footer">
   <a href="http://twitter.com/ivetteaddington" target="_blank"><img src="/images/twitter.svg" alt="twitter logo" class= "social-icon"></a>
 
   <a href="https://github.com/IvetteAddington" target="_blank"><img src="/images/gitHub.svg" alt="gitHub logo" class= "social-icon"></a>
@@ -61,10 +72,10 @@
   <a href="https://www.linkedin.com/in/ivetteaddington" target="_blank"><img src="/images/linkedIn.svg" alt="linkedIn logo" class= "social-icon"></a>
 
   <p>&copy; 2015 Ivette Addington.</p>
-</footer>
-
+</div>
 
   </div>
+  
 
   <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
   <script src='js/bootstrap.min.js'></script>

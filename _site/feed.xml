@@ -5,15 +5,15 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 May 2015 21:08:28 -0400</pubDate>
-    <lastBuildDate>Sat, 30 May 2015 21:08:28 -0400</lastBuildDate>
+    <pubDate>Sun, 31 May 2015 15:22:45 -0400</pubDate>
+    <lastBuildDate>Sun, 31 May 2015 15:22:45 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Project2</title>
+        <title>this is project 2!</title>
         <description>&lt;p&gt;Text for project 2.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 29 May 2105 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
         <link>/project2/</link>
         <guid isPermaLink="true">/project2/</guid>
         
@@ -21,12 +21,23 @@
       </item>
     
       <item>
-        <title>Project1</title>
-        <description>&lt;p&gt;Text for project 1.&lt;/p&gt;
+        <title>this is post 2!</title>
+        <description>&lt;p&gt;jdjdjdjdjdjd&lt;/p&gt;
 </description>
-        <pubDate>Fri, 29 May 2015 00:00:00 -0400</pubDate>
-        <link>/project1/</link>
-        <guid isPermaLink="true">/project1/</guid>
+        <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
+        <link>/post3/</link>
+        <guid isPermaLink="true">/post3/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>this is post 2!</title>
+        <description>&lt;p&gt;jdjdjdjdjdjd&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
+        <link>/post2/</link>
+        <guid isPermaLink="true">/post2/</guid>
         
         
       </item>
@@ -36,24 +47,24 @@
         <description>&lt;h1&gt;Projects&lt;/h1&gt;
 
 &lt;div class=&quot;project-container&quot;&gt;
-    &lt;ul class=&quot;project-list&quot;&gt;
+    &lt;ul class=&quot;list-unstyled&quot;&gt;
     
     
-    &lt;a href=&quot;/project2/&quot;&gt;
-    &lt;li&gt;
-        &lt;h4 class=&quot;title&quot;&gt;Project2&lt;/h4&gt;
-        &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-    &lt;/a&gt;
-    &lt;li&gt;
+        &lt;a href=&quot;/project2/&quot;&gt;
+            &lt;li&gt;
+                &lt;h4 class=&quot;title&quot;&gt;this is project 2!&lt;/h4&gt;
+                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/a&gt;  
     
-    &lt;a href=&quot;/project1/&quot;&gt;
-    &lt;li&gt;
-        &lt;h4 class=&quot;title&quot;&gt;Project1&lt;/h4&gt;
-        &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-    &lt;/a&gt;
-    &lt;li&gt;
+        &lt;a href=&quot;/project1/&quot;&gt;
+            &lt;li&gt;
+                &lt;h4 class=&quot;title&quot;&gt;this is project 1!&lt;/h4&gt;
+                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/a&gt;  
     
-  &lt;/ul&gt;
+    &lt;/ul&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 26 May 2015 00:00:00 -0400</pubDate>
@@ -66,20 +77,33 @@
       <item>
         <title>Index</title>
         <description>&lt;div class=&quot;home&quot;&gt;
-
-  &lt;h1 class=&quot;page-heading&quot;&gt;Posts&lt;/h1&gt;
-
-  &lt;ul class=&quot;post-list&quot;&gt;
+&lt;h1 class=&quot;page-heading&quot;&gt;Posts&lt;/h1&gt;
+  &lt;ul class=&quot;list-unstyled&quot;&gt;
     
     
-      &lt;li&gt;
-        &lt;span class=&quot;post-meta&quot;&gt;this page&lt;/span&gt;
-
-        &lt;h2&gt;
-          &lt;a class=&quot;post-link&quot; href=&quot;/welcome-to-jekyll/&quot;&gt;Welcome to Jekyll!&lt;/a&gt;
-        &lt;/h2&gt;
-        &lt;p&gt;this is from the htmlpost take 2&lt;/p&gt;
-      &lt;/li&gt;
+      &lt;a href=&quot;/post3/&quot;&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/post2/&quot;&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/welcome-to-jekyll/&quot;&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;Welcome to Jekyll!&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
     
   &lt;/ul&gt;
 &lt;/div&gt;
@@ -93,7 +117,7 @@
     
       <item>
         <title>About</title>
-        <description>&lt;h1&gt;line6&lt;/h1&gt;
+        <description>&lt;h1&gt;About&lt;/h1&gt;
 
 &lt;p&gt;Hi! I&amp;rsquo;m Ivette. I created this site to document my journey as a web developer. You will find that all the posts are written in both English and Spanish, with a in-depth look at the projects I&amp;rsquo;m working on. &lt;/p&gt;
 
@@ -130,6 +154,17 @@
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>this is project 1!</title>
+        <description>&lt;p&gt;Text for project 1.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 May 2015 18:58:32 -0400</pubDate>
+        <link>/project1/</link>
+        <guid isPermaLink="true">/project1/</guid>
+        
         
       </item>
     

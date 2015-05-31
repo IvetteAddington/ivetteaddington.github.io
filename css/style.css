@@ -14,11 +14,6 @@ body {
 	min-width: 100%;
 }
 
-a, a:hover, a:visited {
-	color: inherit;
-	text-decoration: none;
-}
-
 li {
 	list-style: none;
 }
@@ -37,37 +32,68 @@ li {
 	float: right;
 	padding: 5px;
 
+}*/
+html, body {
+	height: 100%;
 }
 
-.nav-container li:nth-of-type(1) {
-  	font-size: 1.5em;
-  	float: left;
-  	padding-left: 10%;
-  	color: #878787;
+a, a:hover, a:visited {
+	color: inherit;
+	text-decoration: none;
 }
 
-.nav-container {
-	height: 35px;
-	padding: 0 10% .75% 0;
-	border-bottom: 1px #2f2f2f solid;
+.nav {
+	/*padding: 35px;*/
+	font-family: 'Laila', serif;
 }
 
-footer {
-	font-size: 0.75em;
-	text-align:center;
-	clear:both;
-	padding-top: 50px;
+
+.list-inline li {
+	padding: 10px;
+	font-size: 1.5em;
 	color:#ccc;
-	padding-bottom: 30px;
+}
+
+
+.list-inline li.brand a {
+ color: pink;
+ font-size: 2em;
+ font-weight: bold;
+}
+
+.main {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 120px;
+}
+
+.main li {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px #ccc solid;
+	font-weight: bold;
+}
+
+.title {
+	font-family: 'Laila', serif;
+	font-weight: bold;
+}
+
+.footer {
+ font-size: 1em;
+ text-align:center;
+ clear:both;
+ padding-top: 50px;
+ color:#ccc;
 }
 
 .social-icon {
-	width: 30px;
-	height: 30px;
-	margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  margin: 0 8px;
+  padding-bottom: 10px;
 }
 
-*/
+
 
 
 

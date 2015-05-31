@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Welcome to Jekyll!"
+line: "this is what i want to appear on the first line"
 date:   2015-05-25 22:58:32
 categories: jekyll update
 ---
