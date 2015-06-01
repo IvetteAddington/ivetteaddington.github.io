@@ -4,7 +4,8 @@
     {% for post in projects %}
         <a href="{{ post.url }}">
             <li>
-                <h4 class="title">{{post.title | replace '<br/>', ''}}</h4>
+                <h2 class="title">{{post.title | replace '<br/>', ''}}</h2>
+                <h3 class="line">{{post.line}}</h3>
                 <div class="desc-list">{{post.desc}}</div>
             </li>
         </a>  
