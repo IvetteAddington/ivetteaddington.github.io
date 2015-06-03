@@ -2,6 +2,7 @@
 # index:
 #   title: "Ivette Addington"
 #   url: "/"
+en:
 posts:
   title: "Posts"
   url: "/index/"
@@ -11,3 +12,16 @@ projects:
 about:
   title: "About"
   url: "/about/"
+
+sp:
+  title: "Ivette Addington"
+  url: "/entradas/"
+entradas: 
+  title: "Entradas"
+  url: "/entradas/"
+proyectos:
+  title: "Proyectos"
+  url: "/proyectos/"
+acerca:
+  title: "Acerca De"
+  url: "/acerca-de/"

@@ -11,25 +11,84 @@ gems:
 defaults:
   -
     scope:
+      path: _posts/en 
+    values:
+      lang: en
+  -
+    scope:
       path: "/"
     values:
+      lang: en
       layout: default
   -
     scope:
-      path: _posts/posts
+      path: _posts/en/posts
     values:
       layout: default
   -
     scope:
-      path: _posts/pages
+      path: _posts/en/pages
     values:
       type: pages
       layout: page
 
   -
     scope:
-      path: _posts/projects
+      path: _posts/en/projects
     values:
       type: projects
       layout: page
+
+  -
+    scope: 
+      path: _posts/es 
+    values:
+      lang: es
+
+  -
+    scope:
+      path: _posts/es/pages
+      values:
+      type: pages
+      layout: page
+
+  -
+    scope:
+      path: _posts/es/projects
+    value:
+      type: projects
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

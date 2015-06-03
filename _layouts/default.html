@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang }}">
  
   {% include head.html %}
 
-  <body>
+ <body class="{{ page.lang }}{% if page.type == 'pages' %} page {% endif %}">
+
   {% include header.html %}
   <div class='container main'>
 
@@ -19,3 +20,4 @@
   </body>
 
 </html>
+

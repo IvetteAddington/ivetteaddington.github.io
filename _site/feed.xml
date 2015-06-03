@@ -5,9 +5,69 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jun 2015 09:54:32 -0400</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2015 09:54:32 -0400</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2015 22:59:15 -0400</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 22:59:15 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Proyectos</title>
+        <description>&lt;h1&gt;Proyectos&lt;/h1&gt;
+
+&lt;div class=&quot;project-container&quot;&gt;
+    &lt;ul class=&quot;list-unstyled&quot;&gt;
+    
+    
+        &lt;a href=&quot;/project2/&quot;&gt;
+            &lt;li&gt;
+                &lt;h2 class=&quot;title&quot;&gt;this is project 2!&lt;/h2&gt;
+                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/a&gt;  
+    
+        &lt;a href=&quot;/project1/&quot;&gt;
+            &lt;li&gt;
+                &lt;h2 class=&quot;title&quot;&gt;this is project 1!&lt;/h2&gt;
+                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/a&gt;  
+    
+    &lt;/ul&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
+        <link>/proyectos%231/</link>
+        <guid isPermaLink="true">/proyectos%231/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Entrada#1</title>
+        <description>&lt;h3&gt;This is from the entrada #1 file.&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
+        <link>/entrada%231/</link>
+        <guid isPermaLink="true">/entrada%231/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Acerca De</title>
+        <description>&lt;h1&gt;Acerca De&lt;/h1&gt;
+
+&lt;h3&gt;Hola! Yo soy Ivette. Empeze este blog para documentar mis experiencias como desarolladora de web. Todos as endradas estan escritas en Inglés y Español, con una mirada en profundidad a los proyectos en los que estoy trabajando.&lt;/h3&gt;
+
+&lt;h3&gt;Si tienes qualquier preguntas, por favor no dude en comunicarse!&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
+        <link>/acerca-de/</link>
+        <guid isPermaLink="true">/acerca-de/</guid>
+        
+        
+      </item>
     
       <item>
         <title>this is project 2!</title>
@@ -83,6 +143,30 @@
   &lt;ul class=&quot;list-unstyled&quot;&gt;
     
     
+      &lt;a href=&quot;/proyectos%231/&quot;&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;Proyectos&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/entrada%231/&quot;&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;Entrada#1&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/acerca-de/&quot;&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;Acerca De&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
       &lt;a href=&quot;/post3/&quot;&gt;
         &lt;li&gt;
           &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
@@ -156,17 +240,6 @@
         <category>jekyll</category>
         
         <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>this is project 1!</title>
-        <description>&lt;p&gt;Text for project 1.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 May 2015 18:58:32 -0400</pubDate>
-        <link>/project1/</link>
-        <guid isPermaLink="true">/project1/</guid>
-        
         
       </item>
     
