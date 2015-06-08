@@ -1,23 +1,64 @@
+---
+<!-- layout: translate -->
+---
+
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
- 
-  {% include head.html %}
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=0.85">
+  <meta name="description" content="{% if page.desc %}{{ page.desc | strip_html }}{% else %}{{ page.excerpt | strip_html | replace: "[[", " ("  | replace: "]]", ")" }}{% endif %}">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% assign posts=site.posts | where: "date", page.date %}
+    {% for post in posts %}
+      {% if post.lang != page.lang %}
+        <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+      {% endif %}
+    {% endfor %}
+  <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+</head>
 
- <body class="{{ page.lang }}{% if page.type == 'pages' %} page {% endif %}">
+<body class="{{ page.lang }}{% if page.type == 'pages' %} page{% endif %}">
 
-  {% include header.html %}
-  <div class='container main'>
-
-    <div class="page-content">
-        {{ content }}
-    </div>
-{% include footer.html %}
+<div class="nav navbar-default navbar-fixed-top">
+  <div class="container nav">
+    <ul class="list-inline">
+      {% for menu in site.data.navigation[page.lang] %}
+        <li class="brand"><a href="/">Ivette Addington</a></li>
+        <li class="list-inline pull-right"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>
+      {% endfor %}
+      <li class="lang">
+        {% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
+        {% for post in posts %}
+          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+        {% endfor %}  
+      </li>
+    </ul>
   </div>
-  
+</div>
 
-  <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-  <script src='js/bootstrap.min.js'></script>
-  </body>
+<h1>{{ page.title }}</h1>
 
+<div class="article">
+  {% if page.type != 'pages' %}
+  <p class="date">
+    {% include date.html date=page.date %}
+  </p>
+  {% endif %}
+  {{ content }}
+</div>
+
+<div class="footer">
+  <a href="http://twitter.com/ivetteaddington" target="_blank"><img src="/images/twitter.svg" alt="twitter logo" class= "social-icon"></a>
+
+  <a href="https://github.com/IvetteAddington" target="_blank"><img src="/images/gitHub.svg" alt="gitHub logo" class= "social-icon"></a>
+
+  <a href="https://www.linkedin.com/in/ivetteaddington" target="_blank"><img src="/images/linkedIn.svg" alt="linkedIn logo" class= "social-icon"></a>
+
+  <p>&copy; 2015 Ivette Addington.</p>
+</div>
+
+
+</body>
 </html>
-

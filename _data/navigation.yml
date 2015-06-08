@@ -1,8 +1,7 @@
-
-# index:
-#   title: "Ivette Addington"
-#   url: "/"
 en:
+index:
+  title: "Ivette Addington"
+  url: "/"
 posts:
   title: "Posts"
   url: "/index/"

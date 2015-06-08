@@ -71,6 +71,9 @@ a, a:hover, a:visited {
   padding-bottom: 10px;
 }
 
+.en:lang(en), .es:lang(es) {
+	font-weight: bold;
+}
 
 
 
