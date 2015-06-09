@@ -17,9 +17,9 @@ defaults:
       layout: default
   -
     scope:
-      path: _posts/sp 
+      path: _posts/es 
     values:
-      lang: sp
+      lang: es
   -
     scope:
       path: _posts/es/pages
