@@ -30,7 +30,7 @@
     <ul class="list-inline">
       <li class="brand"><a href="/">Ivette Addington</a></li>
       {% for menu in site.data.navigation %}  
-        <li class="list-inline pull-right"><a href="{{ menu[1].title }}">{{ menu[1].title }}</a></li>
+        <li class="list-inline pull-right"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>
       {% endfor %}
       <li class="lang">
         {% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
