@@ -8,4 +8,4 @@ lang: es
 
 Proyectos
 =====
-###Esta es the pagina para listar mis proyectos. 
+{% include projects.html %}
