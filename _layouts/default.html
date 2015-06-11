@@ -33,7 +33,7 @@
         <li class="list-inline pull-right"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>
       {% endfor %}
       <li class="lang">
-        {% assign posts=site.posts %}
+        {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
         {% for post in posts %}
           <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
         {% endfor %}  
