@@ -5,8 +5,13 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Wed, 10 Jun 2015 22:01:43 -0400</pubDate>
     <lastBuildDate>Wed, 10 Jun 2015 22:01:43 -0400</lastBuildDate>
+=======
+    <pubDate>Wed, 10 Jun 2015 22:46:47 -0400</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2015 22:46:47 -0400</lastBuildDate>
+>>>>>>> fcd68591a3e33cf72647df3a9483cec645edd4ff
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -23,7 +28,7 @@
                 &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
         &lt;a href=&quot;/proyectos%231/&quot;&gt;
             &lt;li&gt;
@@ -31,7 +36,7 @@
                 &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
         &lt;a href=&quot;/project2/&quot;&gt;
             &lt;li&gt;
@@ -39,7 +44,7 @@
                 &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
         &lt;a href=&quot;/project1/&quot;&gt;
             &lt;li&gt;
@@ -47,7 +52,7 @@
                 &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
     &lt;/ul&gt;
 &lt;/div&gt;
@@ -61,17 +66,52 @@
     
       <item>
         <title>Entradas</title>
-        <description>&lt;p&gt;&lt;ul class=&quot;list list-unstyled&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  &amp;lt;a href=&amp;quot;/entrada%231/&amp;quot;&amp;gt;
-    &amp;lt;li&amp;gt;
-      &amp;lt;h2 class=&amp;quot;title&amp;quot;&amp;gt;This is the first spanish blog post&amp;lt;/h2&amp;gt;
-      &amp;lt;h3 class=&amp;quot;line&amp;quot;&amp;gt;&amp;lt;/h3&amp;gt;
-      &amp;lt;div class=&amp;quot;desc-list&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-    &amp;lt;/li&amp;gt;
-  &amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;/ul&gt;
-&lt;/div&gt;&lt;/p&gt;
+        <description>&lt;div class=&quot;container&quot;&gt;
+  &lt;ul class=&quot;list list-unstyled&quot;&gt;
+    
+    
+      &lt;a href=&quot;/entradas/&quot;&gt;&lt;p class=&quot;es&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;Entradas&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/entrada%231/&quot;&gt;&lt;p class=&quot;es&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;This is the first spanish blog post&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/post3/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/post2/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/welcome-to-jekyll/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;Welcome to Jekyll!&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Tue, 09 Jun 2015 00:00:00 -0400</pubDate>
         <link>/entradas/</link>
@@ -94,7 +134,7 @@
                 &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
         &lt;a href=&quot;/proyectos%231/&quot;&gt;
             &lt;li&gt;
@@ -102,7 +142,7 @@
                 &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
         &lt;a href=&quot;/project2/&quot;&gt;
             &lt;li&gt;
@@ -110,7 +150,7 @@
                 &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
         &lt;a href=&quot;/project1/&quot;&gt;
             &lt;li&gt;
@@ -118,7 +158,7 @@
                 &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
     &lt;/ul&gt;
 &lt;/div&gt;
@@ -208,7 +248,7 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
                 &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
         &lt;a href=&quot;/proyectos%231/&quot;&gt;
             &lt;li&gt;
@@ -216,7 +256,7 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
                 &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
         &lt;a href=&quot;/project2/&quot;&gt;
             &lt;li&gt;
@@ -224,7 +264,7 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
                 &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
         &lt;a href=&quot;/project1/&quot;&gt;
             &lt;li&gt;
@@ -232,7 +272,7 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
                 &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
-        &lt;/a&gt;  
+        &lt;/a&gt;
     
     &lt;/ul&gt;
 &lt;/div&gt;
@@ -246,25 +286,52 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
     
       <item>
         <title>Index</title>
-        <description>&lt;p&gt;&lt;ul class=&quot;list list-unstyled&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  &amp;lt;a href=&amp;quot;/post3/&amp;quot;&amp;gt;
-    &amp;lt;li&amp;gt;
-      &amp;lt;h2 class=&amp;quot;title&amp;quot;&amp;gt;this is post 2!&amp;lt;/h2&amp;gt;
-      &amp;lt;h3 class=&amp;quot;line&amp;quot;&amp;gt;this is what i want to appear on the first line&amp;lt;/h3&amp;gt;
-      &amp;lt;div class=&amp;quot;desc-list&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-    &amp;lt;/li&amp;gt;
-  &amp;lt;/a&amp;gt;
-
-  &amp;lt;a href=&amp;quot;/welcome-to-jekyll/&amp;quot;&amp;gt;
-    &amp;lt;li&amp;gt;
-      &amp;lt;h2 class=&amp;quot;title&amp;quot;&amp;gt;Welcome to Jekyll!&amp;lt;/h2&amp;gt;
-      &amp;lt;h3 class=&amp;quot;line&amp;quot;&amp;gt;this is what i want to appear on the first line&amp;lt;/h3&amp;gt;
-      &amp;lt;div class=&amp;quot;desc-list&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-    &amp;lt;/li&amp;gt;
-  &amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;/ul&gt;
-&lt;/div&gt;&lt;/p&gt;
+        <description>&lt;div class=&quot;container&quot;&gt;
+  &lt;ul class=&quot;list list-unstyled&quot;&gt;
+    
+    
+      &lt;a href=&quot;/entradas/&quot;&gt;&lt;p class=&quot;es&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;Entradas&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/entrada%231/&quot;&gt;&lt;p class=&quot;es&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;This is the first spanish blog post&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/post3/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/post2/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+      &lt;a href=&quot;/welcome-to-jekyll/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+        &lt;li&gt;
+          &lt;h2 class=&quot;title&quot;&gt;Welcome to Jekyll!&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Tue, 26 May 2015 00:00:00 -0400</pubDate>
         <link>/index/</link>

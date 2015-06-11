@@ -9,17 +9,18 @@ gems:
    - jekyll-redirect-from
 
 defaults:
-  -
-    scope:
-      path: ""
-    values:
-      lang: en
-      layout: default
-  -
-    scope:
-      path: _posts/es 
-    values:
-      lang: es
+
+  # -
+  #   scope:
+  #     path: ""
+  #   values:
+  #     lang: en
+  #     layout: default
+  # -
+  #   scope:
+  #     path: _posts/es
+  #   values:
+  #     lang: es
   -
     scope:
       path: _posts/es/pages
@@ -36,10 +37,21 @@ defaults:
     values:
       type: projects
   -
-    scope: 
-      path: _posts/en/projects 
+    scope:
+      path: _posts/en/projects
     values:
       type: projects
+
+  -
+    scope:
+      path: _posts/es/posts
+    values:
+      type: posts
+  -
+    scope:
+      path: _posts/en/posts
+    values:
+      type: posts
 
 
 
