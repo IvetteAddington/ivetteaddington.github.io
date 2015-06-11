@@ -5,20 +5,13 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Wed, 10 Jun 2015 22:01:43 -0400</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2015 22:01:43 -0400</lastBuildDate>
-=======
-    <pubDate>Wed, 10 Jun 2015 22:46:47 -0400</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2015 22:46:47 -0400</lastBuildDate>
->>>>>>> fcd68591a3e33cf72647df3a9483cec645edd4ff
+    <pubDate>Thu, 11 Jun 2015 11:36:21 -0400</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2015 11:36:21 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Proyectos</title>
-        <description>&lt;h1&gt;Proyectos&lt;/h1&gt;
-
-&lt;div class=&quot;project-container&quot;&gt;
+        <description>&lt;div class=&quot;project-container&quot;&gt;
     &lt;ul class=&quot;list-unstyled&quot;&gt;
     
     
@@ -32,7 +25,7 @@
     
         &lt;a href=&quot;/proyectos%231/&quot;&gt;
             &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;Proyectos&lt;/h2&gt;
+                &lt;h2 class=&quot;title&quot;&gt;Proyectos en espanol&lt;/h2&gt;
                 &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
@@ -86,7 +79,7 @@
         &lt;/li&gt;
       &lt;/a&gt;
     
-      &lt;a href=&quot;/post3/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;a href=&quot;/post3/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
         &lt;li&gt;
           &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
           &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
@@ -94,7 +87,7 @@
         &lt;/li&gt;
       &lt;/a&gt;
     
-      &lt;a href=&quot;/post2/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;a href=&quot;/post2/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
         &lt;li&gt;
           &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
           &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
@@ -102,7 +95,7 @@
         &lt;/li&gt;
       &lt;/a&gt;
     
-      &lt;a href=&quot;/welcome-to-jekyll/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;a href=&quot;/welcome-to-jekyll/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
         &lt;li&gt;
           &lt;h2 class=&quot;title&quot;&gt;Welcome to Jekyll!&lt;/h2&gt;
           &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
@@ -121,10 +114,8 @@
       </item>
     
       <item>
-        <title>Proyectos</title>
-        <description>&lt;h1&gt;Proyectos&lt;/h1&gt;
-
-&lt;div class=&quot;project-container&quot;&gt;
+        <title>Proyectos en espanol</title>
+        <description>&lt;div class=&quot;project-container&quot;&gt;
     &lt;ul class=&quot;list-unstyled&quot;&gt;
     
     
@@ -138,7 +129,7 @@
     
         &lt;a href=&quot;/proyectos%231/&quot;&gt;
             &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;Proyectos&lt;/h2&gt;
+                &lt;h2 class=&quot;title&quot;&gt;Proyectos en espanol&lt;/h2&gt;
                 &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
@@ -252,7 +243,7 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
     
         &lt;a href=&quot;/proyectos%231/&quot;&gt;
             &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;Proyectos&lt;/h2&gt;
+                &lt;h2 class=&quot;title&quot;&gt;Proyectos en espanol&lt;/h2&gt;
                 &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
@@ -306,7 +297,7 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
         &lt;/li&gt;
       &lt;/a&gt;
     
-      &lt;a href=&quot;/post3/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;a href=&quot;/post3/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
         &lt;li&gt;
           &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
           &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
@@ -314,7 +305,7 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
         &lt;/li&gt;
       &lt;/a&gt;
     
-      &lt;a href=&quot;/post2/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;a href=&quot;/post2/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
         &lt;li&gt;
           &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
           &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
@@ -322,7 +313,7 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
         &lt;/li&gt;
       &lt;/a&gt;
     
-      &lt;a href=&quot;/welcome-to-jekyll/&quot;&gt;&lt;p class=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;a href=&quot;/welcome-to-jekyll/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
         &lt;li&gt;
           &lt;h2 class=&quot;title&quot;&gt;Welcome to Jekyll!&lt;/h2&gt;
           &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;

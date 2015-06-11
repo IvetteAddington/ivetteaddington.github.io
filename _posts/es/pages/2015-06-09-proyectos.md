@@ -5,7 +5,4 @@ title: "Proyectos"
 lang: es
 ---
 
-
-Proyectos
-=====
 {% include projects.html %}

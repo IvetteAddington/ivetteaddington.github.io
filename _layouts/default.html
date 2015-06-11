@@ -1,19 +1,14 @@
----
-<!-- layout: translate -->
----
-
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
   <meta charset='utf-8'>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-  <!-- <meta name="description" content="{% if page.desc %}{{ page.desc | strip_html }}{% else %}{{ page.excerpt | strip_html | replace: "[[", " ("  | replace: "]]", ")" }}{% endif %}"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  {% assign posts=site.posts | where: "date", page.date %}
+  {% assign posts=site.posts %}
     {% for post in posts %}
       {% if post.lang != page.lang %}
         <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
@@ -28,22 +23,17 @@
 <div class="nav navbar-default navbar-fixed-top">
   <div class="container nav">
     <ul class="list-inline">
-      <li class="brand"><a href="/">Ivette Addington</a></li>
+      <li class="brand"><a href="/index/">Ivette Addington</a></li>
       {% for menu in site.data.navigation %}
         <li class="list-inline pull-right"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>
       {% endfor %}
-<<<<<<< HEAD
       <li class="lang">
-        {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+        {% assign posts=site.posts | where:"title", page.title | sort: 'path' %}
         {% for post in posts %}
           <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
         {% endfor %}  
       </li>
-=======
-
->>>>>>> fcd68591a3e33cf72647df3a9483cec645edd4ff
     </ul>
-    <a data-lang="es" href="localhost:4000/es/" class="btn btn-info btn-sm toggle-language">Español</a>
   </div>
 </div>
 
