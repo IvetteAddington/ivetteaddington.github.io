@@ -8,6 +8,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
   {% assign posts=site.posts %}
     {% for post in posts %}
       {% if post.lang != page.lang %}
@@ -37,10 +38,11 @@
   </div>
 </div>
 
-<h1>{{ page.title }}</h1>
+
 
 <div class="container main">
   <div class="page-content">
+  <h1>{{ page.title }}</h1>
     {{ content }}
   </div>
 </div>

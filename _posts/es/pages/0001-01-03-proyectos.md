@@ -1,10 +1,8 @@
 ---
-title: projects
+title: Proyectos
 layout: default
-lang: en
+lang: es
+name: projects_index
 ---
-
-Projects
-========
 
 {% include projects.html %}

@@ -5,196 +5,28 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jun 2015 11:36:21 -0400</pubDate>
-    <lastBuildDate>Thu, 11 Jun 2015 11:36:21 -0400</lastBuildDate>
+    <pubDate>Thu, 11 Jun 2015 14:52:32 -0400</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2015 14:52:32 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Proyectos</title>
-        <description>&lt;div class=&quot;project-container&quot;&gt;
-    &lt;ul class=&quot;list-unstyled&quot;&gt;
-    
-    
-        &lt;a href=&quot;/proyectos/&quot;&gt;
-            &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;Proyectos&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/a&gt;
-    
-        &lt;a href=&quot;/proyectos%231/&quot;&gt;
-            &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;Proyectos en espanol&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
-                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/a&gt;
-    
-        &lt;a href=&quot;/project2/&quot;&gt;
-            &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;this is project 2!&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/a&gt;
-    
-        &lt;a href=&quot;/project1/&quot;&gt;
-            &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;this is project 1!&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/a&gt;
-    
-    &lt;/ul&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 09 Jun 2015 00:00:00 -0400</pubDate>
-        <link>/proyectos/</link>
-        <guid isPermaLink="true">/proyectos/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Entradas</title>
-        <description>&lt;div class=&quot;container&quot;&gt;
-  &lt;ul class=&quot;list list-unstyled&quot;&gt;
-    
-    
-      &lt;a href=&quot;/entradas/&quot;&gt;&lt;p class=&quot;es&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;Entradas&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-      &lt;a href=&quot;/entrada%231/&quot;&gt;&lt;p class=&quot;es&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;This is the first spanish blog post&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-      &lt;a href=&quot;/post3/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-      &lt;a href=&quot;/post2/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-      &lt;a href=&quot;/welcome-to-jekyll/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;Welcome to Jekyll!&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-  &lt;/ul&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 09 Jun 2015 00:00:00 -0400</pubDate>
-        <link>/entradas/</link>
-        <guid isPermaLink="true">/entradas/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Proyectos en espanol</title>
-        <description>&lt;div class=&quot;project-container&quot;&gt;
-    &lt;ul class=&quot;list-unstyled&quot;&gt;
-    
-    
-        &lt;a href=&quot;/proyectos/&quot;&gt;
-            &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;Proyectos&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/a&gt;
-    
-        &lt;a href=&quot;/proyectos%231/&quot;&gt;
-            &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;Proyectos en espanol&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
-                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/a&gt;
-    
-        &lt;a href=&quot;/project2/&quot;&gt;
-            &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;this is project 2!&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/a&gt;
-    
-        &lt;a href=&quot;/project1/&quot;&gt;
-            &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;this is project 1!&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/a&gt;
-    
-    &lt;/ul&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
-        <link>/proyectos%231/</link>
-        <guid isPermaLink="true">/proyectos%231/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>This is the first spanish blog post</title>
-        <description>&lt;h3&gt;This is from the entrada #1 file.&lt;/h3&gt;
+        <title>este es el titulo de proyecto 2!</title>
+        <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
 
-&lt;p&gt;type: pages
-layout: default
-title: &amp;ldquo;Acerca De&amp;rdquo;
-lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
-        <link>/entrada%231/</link>
-        <guid isPermaLink="true">/entrada%231/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Acerca De</title>
-        <description>&lt;h1&gt;Acerca De&lt;/h1&gt;
-
-&lt;h3&gt;Hola! Yo soy Ivette. Empeze este blog para documentar mis experiencias como desarolladora de web. Todos as endradas estan escritas en Inglés y Español, con una mirada en profundidad a los proyectos en los que estoy trabajando.&lt;/h3&gt;
-
-&lt;h3&gt;Si tienes qualquier preguntas, por favor no dude en comunicarse!&lt;/h3&gt;
-</description>
-        <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
-        <link>/acerca-de/</link>
-        <guid isPermaLink="true">/acerca-de/</guid>
+        <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
+        <link>/proyecto2/</link>
+        <guid isPermaLink="true">/proyecto2/</guid>
         
         
       </item>
     
       <item>
         <title>this is project 2!</title>
-        <description>&lt;p&gt;Text for project 2.&lt;/p&gt;
+        <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
+
+&lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
         <link>/project2/</link>
@@ -204,8 +36,27 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
       </item>
     
       <item>
-        <title>this is post 2!</title>
-        <description>&lt;p&gt;jdjdjdjdjdjd&lt;/p&gt;
+        <title>this is project 1!</title>
+        <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
+
+&lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
+        <link>/project1/</link>
+        <guid isPermaLink="true">/project1/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>This is post 3!</title>
+        <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
+
+&lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
+
+&lt;p&gt;Post-ironic literally scenester stumptown tofu tilde. Vegan salvia fashion axe lomo cronut pickled. Pork belly occupy Pitchfork, Marfa artisan keytar mixtape heirloom. Direct trade cornhole wayfarers, freegan iPhone mlkshk sriracha Odd Future small batch. XOXO roof party fanny pack Brooklyn, fashion axe cliche next level brunch keytar art party tousled Williamsburg. Deep v fingerstache hoodie chillwave slow-carb. 8-bit keffiyeh drinking vinegar, DIY Bushwick Carles pug Odd Future cray chia Banksy Truffaut mixtape gluten-free.&lt;/p&gt;
+
+&lt;p&gt;Godard mustache banjo before they sold out, authentic Neutra Pitchfork Williamsburg aesthetic forage readymade put a bird on it typewriter. Artisan DIY occupy lomo. Banjo umami whatever, street art flexitarian Blue Bottle keffiyeh lumbersexual Helvetica normcore. PBR locavore cronut, pop-up Brooklyn Truffaut pork belly squid VHS Schlitz four dollar toast retro cray ennui twee. Aesthetic four loko mixtape butcher, paleo disrupt next level fap plaid twee. Butcher pork belly street art, forage deep v Vice selvage selfies mumblecore lo-fi listicle kogi. Pug try-hard lomo synth Tumblr lo-fi.&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
         <link>/post3/</link>
@@ -216,7 +67,13 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
     
       <item>
         <title>this is post 2!</title>
-        <description>&lt;p&gt;jdjdjdjdjdjd&lt;/p&gt;
+        <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
+
+&lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
+
+&lt;p&gt;Post-ironic literally scenester stumptown tofu tilde. Vegan salvia fashion axe lomo cronut pickled. Pork belly occupy Pitchfork, Marfa artisan keytar mixtape heirloom. Direct trade cornhole wayfarers, freegan iPhone mlkshk sriracha Odd Future small batch. XOXO roof party fanny pack Brooklyn, fashion axe cliche next level brunch keytar art party tousled Williamsburg. Deep v fingerstache hoodie chillwave slow-carb. 8-bit keffiyeh drinking vinegar, DIY Bushwick Carles pug Odd Future cray chia Banksy Truffaut mixtape gluten-free.&lt;/p&gt;
+
+&lt;p&gt;Godard mustache banjo before they sold out, authentic Neutra Pitchfork Williamsburg aesthetic forage readymade put a bird on it typewriter. Artisan DIY occupy lomo. Banjo umami whatever, street art flexitarian Blue Bottle keffiyeh lumbersexual Helvetica normcore. PBR locavore cronut, pop-up Brooklyn Truffaut pork belly squid VHS Schlitz four dollar toast retro cray ennui twee. Aesthetic four loko mixtape butcher, paleo disrupt next level fap plaid twee. Butcher pork belly street art, forage deep v Vice selvage selfies mumblecore lo-fi listicle kogi. Pug try-hard lomo synth Tumblr lo-fi.&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
         <link>/post2/</link>
@@ -226,25 +83,87 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
       </item>
     
       <item>
-        <title>projects</title>
-        <description>&lt;h1&gt;Projects&lt;/h1&gt;
+        <title>Esta es entrada 3!</title>
+        <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
 
-&lt;div class=&quot;project-container&quot;&gt;
+&lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
+
+&lt;p&gt;Post-ironic literally scenester stumptown tofu tilde. Vegan salvia fashion axe lomo cronut pickled. Pork belly occupy Pitchfork, Marfa artisan keytar mixtape heirloom. Direct trade cornhole wayfarers, freegan iPhone mlkshk sriracha Odd Future small batch. XOXO roof party fanny pack Brooklyn, fashion axe cliche next level brunch keytar art party tousled Williamsburg. Deep v fingerstache hoodie chillwave slow-carb. 8-bit keffiyeh drinking vinegar, DIY Bushwick Carles pug Odd Future cray chia Banksy Truffaut mixtape gluten-free.&lt;/p&gt;
+
+&lt;p&gt;Godard mustache banjo before they sold out, authentic Neutra Pitchfork Williamsburg aesthetic forage readymade put a bird on it typewriter. Artisan DIY occupy lomo. Banjo umami whatever, street art flexitarian Blue Bottle keffiyeh lumbersexual Helvetica normcore. PBR locavore cronut, pop-up Brooklyn Truffaut pork belly squid VHS Schlitz four dollar toast retro cray ennui twee. Aesthetic four loko mixtape butcher, paleo disrupt next level fap plaid twee. Butcher pork belly street art, forage deep v Vice selvage selfies mumblecore lo-fi listicle kogi. Pug try-hard lomo synth Tumblr lo-fi.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
+        <link>/entrada3/</link>
+        <guid isPermaLink="true">/entrada3/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>esta es entrada 2!</title>
+        <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
+
+&lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
+
+&lt;p&gt;Post-ironic literally scenester stumptown tofu tilde. Vegan salvia fashion axe lomo cronut pickled. Pork belly occupy Pitchfork, Marfa artisan keytar mixtape heirloom. Direct trade cornhole wayfarers, freegan iPhone mlkshk sriracha Odd Future small batch. XOXO roof party fanny pack Brooklyn, fashion axe cliche next level brunch keytar art party tousled Williamsburg. Deep v fingerstache hoodie chillwave slow-carb. 8-bit keffiyeh drinking vinegar, DIY Bushwick Carles pug Odd Future cray chia Banksy Truffaut mixtape gluten-free.&lt;/p&gt;
+
+&lt;p&gt;Godard mustache banjo before they sold out, authentic Neutra Pitchfork Williamsburg aesthetic forage readymade put a bird on it typewriter. Artisan DIY occupy lomo. Banjo umami whatever, street art flexitarian Blue Bottle keffiyeh lumbersexual Helvetica normcore. PBR locavore cronut, pop-up Brooklyn Truffaut pork belly squid VHS Schlitz four dollar toast retro cray ennui twee. Aesthetic four loko mixtape butcher, paleo disrupt next level fap plaid twee. Butcher pork belly street art, forage deep v Vice selvage selfies mumblecore lo-fi listicle kogi. Pug try-hard lomo synth Tumblr lo-fi.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
+        <link>/entrada2/</link>
+        <guid isPermaLink="true">/entrada2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 May 2015 18:58:32 -0400</pubDate>
+        <link>/post1/</link>
+        <guid isPermaLink="true">/post1/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Bienvenido a Jekyll!</title>
+        <description>&lt;p&gt;Aqui es donde encontraras las entradas del blog. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 May 2015 00:00:00 -0400</pubDate>
+        <link>/entrada1/</link>
+        <guid isPermaLink="true">/entrada1/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Proyectos</title>
+        <description>&lt;div class=&quot;project-container&quot;&gt;
     &lt;ul class=&quot;list-unstyled&quot;&gt;
     
     
-        &lt;a href=&quot;/proyectos/&quot;&gt;
+        &lt;a href=&quot;/proyecto2/&quot;&gt;
             &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;Proyectos&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/a&gt;
-    
-        &lt;a href=&quot;/proyectos%231/&quot;&gt;
-            &lt;li&gt;
-                &lt;h2 class=&quot;title&quot;&gt;Proyectos en espanol&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
+                &lt;h2 class=&quot;title&quot;&gt;este es el titulo de proyecto 2!&lt;/h2&gt;
+                &lt;h3 class=&quot;line&quot;&gt;esta es la linea para describir proyecto 2.&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
         &lt;/a&gt;
@@ -252,7 +171,7 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
         &lt;a href=&quot;/project2/&quot;&gt;
             &lt;li&gt;
                 &lt;h2 class=&quot;title&quot;&gt;this is project 2!&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+                &lt;h3 class=&quot;line&quot;&gt;this is the line that will describe project 2.&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
         &lt;/a&gt;
@@ -260,7 +179,15 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
         &lt;a href=&quot;/project1/&quot;&gt;
             &lt;li&gt;
                 &lt;h2 class=&quot;title&quot;&gt;this is project 1!&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
+                &lt;h3 class=&quot;line&quot;&gt;this is the line that will describe project1.&lt;/h3&gt;
+                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/a&gt;
+    
+        &lt;a href=&quot;/proyecto1/&quot;&gt;
+            &lt;li&gt;
+                &lt;h2 class=&quot;title&quot;&gt;Proyectos en espanol&lt;/h2&gt;
+                &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
         &lt;/a&gt;
@@ -268,65 +195,9 @@ lang: &amp;ldquo;sp&amp;rdquo;&lt;/p&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 26 May 2015 00:00:00 -0400</pubDate>
-        <link>/projects/</link>
-        <guid isPermaLink="true">/projects/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Index</title>
-        <description>&lt;div class=&quot;container&quot;&gt;
-  &lt;ul class=&quot;list list-unstyled&quot;&gt;
-    
-    
-      &lt;a href=&quot;/entradas/&quot;&gt;&lt;p class=&quot;es&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;Entradas&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-      &lt;a href=&quot;/entrada%231/&quot;&gt;&lt;p class=&quot;es&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;This is the first spanish blog post&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-      &lt;a href=&quot;/post3/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-      &lt;a href=&quot;/post2/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;this is post 2!&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-      &lt;a href=&quot;/welcome-to-jekyll/&quot;&gt;&lt;p class=&quot;en&quot;&gt;&lt;/p&gt;
-        &lt;li&gt;
-          &lt;h2 class=&quot;title&quot;&gt;Welcome to Jekyll!&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;this is what i want to appear on the first line&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-  &lt;/ul&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 26 May 2015 00:00:00 -0400</pubDate>
-        <link>/index/</link>
-        <guid isPermaLink="true">/index/</guid>
+        <pubDate>Wed, 03 Jan 0001 00:00:00 -0500</pubDate>
+        <link>/proyectos/</link>
+        <guid isPermaLink="true">/proyectos/</guid>
         
         
       </item>
