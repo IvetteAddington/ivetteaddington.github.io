@@ -21,37 +21,37 @@ defaults:
   #     path: _posts/es
   #   values:
   #     lang: es
-  -
-    scope:
-      path: _posts/es/pages
-    values:
-      type: pages
-  -
-    scope:
-      path: _posts/en/pages
-    values:
-      type: pages
-  -
-    scope:
-      path: _posts/es/projects
-    values:
-      type: projects
-  -
-    scope:
-      path: _posts/en/projects
-    values:
-      type: projects
+  # -
+  #   scope:
+  #     path: _posts/es/pages
+  #   values:
+  #     type: pages
+  # -
+  #   scope:
+  #     path: _posts/en/pages
+  #   values:
+  #     type: pages
+  # -
+  #   scope:
+  #     path: _posts/es/projects
+  #   values:
+  #     type: projects
+  # -
+  #   scope:
+  #     path: _posts/en/projects
+  #   values:
+  #     type: projects
 
-  -
-    scope:
-      path: _posts/es/posts
-    values:
-      type: posts
-  -
-    scope:
-      path: _posts/en/posts
-    values:
-      type: posts
+  # -
+  #   scope:
+  #     path: _posts/es/posts
+  #   values:
+  #     type: posts
+  # -
+  #   scope:
+  #     path: _posts/en/posts
+  #   values:
+  #     type: posts
 
 
 

@@ -1,15 +1,15 @@
 <div class="project-container">
-    <ul class="list-unstyled">
-    {% assign projects=site.posts | where:"type", 'projects' %}
-    {% for post in projects %}
-        <a href="{{ post.url }}">
-            <li>
-                <h2 class="title">{{post.title | replace '<br/>', ''}}</h2>
-                <h3 class="line">{{post.line}}</h3>
-                <div class="desc-list">{{post.desc}}</div>
-            </li>
-        </a>
+  <ul class="list list-unstyled">
+    {% assign posts=site.posts | where:"lang", page.lang | where:"type", "projects" %}
+    {% for post in posts %}
+      <a href="{{ post.url }}" class="{{ post.lang }}">
+        <li class="lang">
+          <h2 class="title">{{post.title | replace '<br/>', ''}}</h2>
+          <h3 class="line">{{post.line}}</h3>
+          <div class="desc-list">{{post.desc}}</div>
+        </li>
+      </a>
     {% endfor %}
-    </ul>
+  </ul>
 </div>
 
