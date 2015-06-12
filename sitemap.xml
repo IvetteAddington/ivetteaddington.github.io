@@ -7,11 +7,11 @@
     <xhtml:link 
                  rel="alternate"
                  hreflang="es"
-                 href="http://localhost:4000/posts/es/"
+                 href="http://site.url/posts/es/"
                  />
     <xhtml:link 
                  rel="alternate"
                  hreflang="en"
-                 href="http://localhost:4000/posts/en/"
+                 href="http://site.url/posts/en/"
                  />
   </url>

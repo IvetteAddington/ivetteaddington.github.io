@@ -1,3 +1,4 @@
+
 permalink: /:title/
 # baseurl: http://ivetteaddington.com
 
@@ -7,6 +8,7 @@ redcarpet:
 
 gems:
    - jekyll-redirect-from
+
 
 defaults:
 
