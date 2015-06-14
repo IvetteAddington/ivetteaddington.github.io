@@ -9,9 +9,6 @@ redcarpet:
 gems:
    - jekyll-redirect-from
 
-
-defaults:
-
   # -
   #   scope:
   #     path: ""

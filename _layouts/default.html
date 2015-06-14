@@ -33,8 +33,8 @@
         {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
         {% for post in posts %}
           <li class="lang">
-          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-        {% endfor %}  
+          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | replace: "en", "english" | replace: "es", "espanol" }}</a>
+        {% endfor %}
       </li>
     </ul>
   </div>
