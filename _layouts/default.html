@@ -25,7 +25,11 @@
 <div class="nav navbar-default navbar-fixed-top">
   <div class="container nav">
     <ul class="list-inline">
-      <li class="brand"><a href="/index/">Ivette Addington</a></li>
+      {% if page.lang == 'en' %}
+        <li class="brand"><a href="/index/">Ivette Addington</a></li>
+      {% else %}   
+        <li class="brand"><a href="/entradas/">Ivette Addington</a></li>
+      {% endif %}
       {% for menu in site.data.navigation %}
         <li class="list-inline pull-right"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>
       {% endfor %}
