@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Jun 2015 20:20:34 -0400</pubDate>
-    <lastBuildDate>Sat, 13 Jun 2015 20:20:34 -0400</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2015 10:40:38 -0400</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2015 10:40:38 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -156,7 +156,8 @@
     
       <item>
         <title>Proyectos</title>
-        <description>&lt;div class=&quot;project-container&quot;&gt;
+        <description>&lt;div class=&quot;home&quot;&gt;
+&lt;div class=&quot;project-container&quot;&gt;
   &lt;ul class=&quot;list list-unstyled&quot;&gt;
     
     
@@ -178,6 +179,8 @@
     
   &lt;/ul&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Jan 0001 00:00:00 -0500</pubDate>
         <link>/proyectos/</link>

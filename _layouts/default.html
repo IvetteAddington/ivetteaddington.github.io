@@ -30,8 +30,9 @@
       {% else %}   
         <li class="brand"><a href="/entradas/">Ivette Addington</a></li>
       {% endif %}
-      {% for menu in site.data.navigation %}
-        <li class="list-inline pull-right"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>
+
+      {% for menu in site.data.navigation[page.lang] %}
+        <li class="list-inline pull-right"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>          
       {% endfor %}
       <li class="lang">
         {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
