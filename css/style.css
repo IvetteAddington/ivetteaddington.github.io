@@ -24,7 +24,7 @@ a, a:hover, a:visited {
 	font-size: 1.5em;	
 }
 .list-inline li a:hover {
-	color: black;
+	color: #2E2E2E;
 }
 
 .list-inline li.brand a {
@@ -35,7 +35,7 @@ a, a:hover, a:visited {
 }
 
 .list-inline li.brand a:hover {
-	color: black;
+	color: #2E2E2E;
 }
 
 .main {
@@ -71,6 +71,9 @@ a, a:hover, a:visited {
   padding-bottom: 10px;
 }
 
+.en:lang(en), .es:lang(es) {
+	font-weight: bold;
+}
 
 
 

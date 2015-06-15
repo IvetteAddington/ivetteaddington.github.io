@@ -1,3 +1,4 @@
+
 permalink: /:title/
 # baseurl: http://ivetteaddington.com
 
@@ -8,28 +9,80 @@ redcarpet:
 gems:
    - jekyll-redirect-from
 
-defaults:
-  -
-    scope:
-      path: "/"
-    values:
-      layout: default
-  -
-    scope:
-      path: _posts/posts
-    values:
-      layout: default
-  -
-    scope:
-      path: _posts/pages
-    values:
-      type: pages
-      layout: page
+  # -
+  #   scope:
+  #     path: ""
+  #   values:
+  #     lang: en
+  #     layout: default
+  # -
+  #   scope:
+  #     path: _posts/es
+  #   values:
+  #     lang: es
+  # -
+  #   scope:
+  #     path: _posts/es/pages
+  #   values:
+  #     type: pages
+  # -
+  #   scope:
+  #     path: _posts/en/pages
+  #   values:
+  #     type: pages
+  # -
+  #   scope:
+  #     path: _posts/es/projects
+  #   values:
+  #     type: projects
+  # -
+  #   scope:
+  #     path: _posts/en/projects
+  #   values:
+  #     type: projects
 
-  -
-    scope:
-      path: _posts/projects
-    values:
-      type: projects
-      layout: page
+  # -
+  #   scope:
+  #     path: _posts/es/posts
+  #   values:
+  #     type: posts
+  # -
+  #   scope:
+  #     path: _posts/en/posts
+  #   values:
+  #     type: posts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="es">
 <head>
   <meta charset='utf-8'>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,44 +7,94 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>Bienvenido a Jekyll!</title>
 
-  {% assign posts=site.posts %}
-    {% for post in posts %}
-      {% if post.lang != page.lang %}
-        <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
-      {% endif %}
-    {% endfor %}
+  
+    
+      
+    
+      
+        <link rel="alternate" hreflang="en" href="/project2/" />
+      
+    
+      
+        <link rel="alternate" hreflang="en" href="/project1/" />
+      
+    
+      
+        <link rel="alternate" hreflang="en" href="/post3/" />
+      
+    
+      
+        <link rel="alternate" hreflang="en" href="/post2/" />
+      
+    
+      
+    
+      
+    
+      
+        <link rel="alternate" hreflang="en" href="/post1/" />
+      
+    
+      
+    
+      
+    
+      
+        <link rel="alternate" hreflang="en" href="/projects/" />
+      
+    
+      
+        <link rel="alternate" hreflang="en" href="/index/" />
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <link rel="alternate" hreflang="en" href="/about/" />
+      
+    
 
   <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body class="{{ page.lang }}{% if page.type == 'pages' %} page{% endif %}">
+<body class="es">
 
 <div class="nav navbar-default navbar-fixed-top">
   <div class="container nav">
     <ul class="list-inline">
-      {% if page.lang == 'en' %}
-        <li class="brand"><a href="/index/">Ivette Addington</a></li>
-      {% else %}   
+         
         <li class="brand"><a href="/entradas/">Ivette Addington</a></li>
-      {% endif %}
+      
 
-      {% for menu in site.data.navigation[page.lang] %}
-        <li class="list-inline"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>          
-      {% endfor %}
+      
+        <li class="list-inline"><a href="/entradas/">Entradas</a></li>          
+      
+        <li class="list-inline"><a href="/proyectos/">Proyectos</a></li>          
+      
+        <li class="list-inline"><a href="/acerca-de/">Acerca De</a></li>          
+      
       <li class="lang">
-        {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
-        {% for post in posts %}
+        
+        
           <li class="lang">
-          {% capture language %}{{page.lang}}{% endcapture %}
-          {% if language == "es" %}
-          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "en" | replace: "en", "English" | remove: "es" }}</a>
-          {% else %}
-          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Espanol" | remove: "en" }}</a>
-          {% endif %}
-        {% endfor %}  
+          
+          
+          <a href="/post1/" class="en">English</a>
+          
+        
+          <li class="lang">
+          
+          
+          <a href="/entrada1/" class="es"></a>
+          
+          
       </li>
     </ul>
   </div>
@@ -53,8 +103,9 @@
       
 <div class="container main">
   <div class="page-content">
-  <h1>{{ page.title }}</h1>
-    {{ content }}
+  <h1>Bienvenido a Jekyll!</h1>
+    <p>Aqui es donde encontraras las entradas del blog. </p>
+
   </div>
 </div>
 

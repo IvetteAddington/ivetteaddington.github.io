@@ -1,13 +1,21 @@
+en:
+  posts:
+    title: "Posts"
+    url: "/index/"
+  projects:
+    title: "Projects"
+    url: "/projects/"
+  about:
+    title: "About"
+    url: "/about/"
 
-# index:
-#   title: "Ivette Addington"
-#   url: "/"
-posts:
-  title: "Posts"
-  url: "/index/"
-projects:
-  title: "Projects"
-  url: "/projects/"
-about:
-  title: "About"
-  url: "/about/"
+es:
+  entradas: 
+    title: "Entradas"
+    url: "/entradas/"
+  proyectos:
+    title: "Proyectos"
+    url: "/proyectos/"
+  acerca:
+    title: "Acerca De"
+    url: "/acerca-de/"
