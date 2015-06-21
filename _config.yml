@@ -1,6 +1,6 @@
 
 permalink: /:title/
-http:/ivetteaddington.com
+# http:/ivetteaddington.com
 markdown: redcarpet
 redcarpet:
   extensions: ['smart', 'superscript']
