@@ -42,7 +42,7 @@
           {% if language == "es" %}
           <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "en" | replace: "en", "English" | remove: "es" }}</a>
           {% else %}
-          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Espanol" | remove: "en" }}</a>
+          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Español" | remove: "en" }}</a>
           {% endif %}
         {% endfor %}  
       </li>
