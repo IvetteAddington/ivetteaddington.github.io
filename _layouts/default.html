@@ -8,21 +8,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
   {% assign posts=site.posts %}
     {% for post in posts %}
       {% if post.lang != page.lang %}
         <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
       {% endif %}
     {% endfor %}
-
   <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 </head>
 
 <body class="{{ page.lang }}{% if page.type == 'pages' %} page{% endif %}">
 
-<div class="nav navbar-default navbar-fixed-top">
+<div class="nav navbar-default navbar-fixed-top" role="navigation">
   <div class="container nav">
     <ul class="list-inline">
       {% if page.lang == 'en' %}
@@ -42,14 +40,14 @@
           {% if language == "es" %}
           <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "en" | replace: "en", "English" | remove: "es" }}</a>
           {% else %}
-          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Espanol" | remove: "en" }}</a>
+          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Español" | remove: "en" }}</a>
           {% endif %}
-        {% endfor %}  
+        {% endfor %}
       </li>
     </ul>
   </div>
 </div>
-</li>
+
       
 <div class="container main">
   <div class="page-content">
