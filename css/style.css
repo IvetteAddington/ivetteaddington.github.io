@@ -14,6 +14,7 @@ nav {
 
 .container-fluid {
 	background-color: #008080;
+	padding-top: 20px;
 }
 
 .container-fluid a {
@@ -24,9 +25,6 @@ nav {
 	font-size: 1.5em;
 	color: #E3E3E3;	
 }
-.list-inline li a:hover {
-	color: #2E2E2E;
-}
 
 .navbar-brand {
  font-size: 2.8em;
@@ -34,10 +32,20 @@ nav {
  color: #E3E3E3;
 }
 
+.nav a:hover {
+	color: #2E2E2E;
+	background-color: transparent;
+}
+
+.nav .list-inline a:hover {
+	background-color: transparent;
+}
+
 .main {
 	font-family: 'Roboto', sans-serif;
 	margin-top: 100px;
 }
+
 
 .main li {
 	padding-top: 30px;

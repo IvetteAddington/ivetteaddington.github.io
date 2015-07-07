@@ -40,7 +40,7 @@
     </div>
 
       <div class="collapse navbar-collapse" id="nav-collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav pull-right">
       {% for menu in site.data.navigation[page.lang] %}
         <li class="list-inline"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>          
       {% endfor %}
@@ -83,6 +83,6 @@
 </div>
 
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 </html>
