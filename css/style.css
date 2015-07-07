@@ -41,6 +41,10 @@ nav {
 	background-color: transparent;
 }
 
+.nav .lang a:hover {
+	background-color: transparent;
+}
+
 .main {
 	font-family: 'Roboto', sans-serif;
 	margin-top: 100px;
