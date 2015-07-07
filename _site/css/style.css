@@ -19,9 +19,6 @@ nav {
 .container-fluid a {
 	color: #E3E3E3;
 }
-/*.navbar .brand, .navbar .nav > li > a {
-    color: #D64848;
-}*/
 
 .nav li {
 	font-size: 1.5em;
@@ -36,11 +33,6 @@ nav {
  font-weight: bold;
  color: #E3E3E3;
 }
-
-/*.list-inline li.brand a:hover {
-	color: #2E2E2E;
-}*/
-
 
 .main {
 	font-family: 'Roboto', sans-serif;
