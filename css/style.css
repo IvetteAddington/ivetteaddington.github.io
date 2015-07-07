@@ -79,28 +79,9 @@ nav {
 	font-weight: bold;
 }
 
-/*.navbar-toggle span { position: absolute }*/
-
-.navbar-toggle span, 
-.navbar-toggle span:before,
-.navbar-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 3px;
-  width: 35px;
-  background: #E3E3E3;
-  position: absolute;
-  display: block;
-  content: '';
+.navbar-toggle span {
+	background: #E3E3E3;
 }
-.navbar-toggle span:before {
-  top: -10px;
-}
-.navbar-toggle span:after {
-  bottom: -10px; 
-}
-
-
 
 
 
