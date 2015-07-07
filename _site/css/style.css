@@ -8,35 +8,38 @@ a, a:hover, a:visited {
 	text-decoration: none;
 }
 
-
-.nav {
+nav {
 	font-family: 'Laila', serif;
+}
+
+.container-fluid {
 	background-color: #008080;
+}
+
+.container-fluid a {
 	color: #E3E3E3;
 }
-
-.navbar .brand, .navbar .nav > li > a {
+/*.navbar .brand, .navbar .nav > li > a {
     color: #D64848;
-}
+}*/
 
-.list-inline li {
-	padding: 10px;
-	font-size: 1.5em;	
+.nav li {
+	font-size: 1.5em;
+	color: #E3E3E3;	
 }
 .list-inline li a:hover {
 	color: #2E2E2E;
 }
 
-.list-inline li.brand a {
- color: #ccc;
- font-size: 2em;
+.navbar-brand {
+ font-size: 2.8em;
  font-weight: bold;
  color: #E3E3E3;
 }
 
-.list-inline li.brand a:hover {
+/*.list-inline li.brand a:hover {
 	color: #2E2E2E;
-}
+}*/
 
 
 .main {
@@ -76,7 +79,26 @@ a, a:hover, a:visited {
 	font-weight: bold;
 }
 
+/*.navbar-toggle span { position: absolute }*/
 
+.navbar-toggle span, 
+.navbar-toggle span:before,
+.navbar-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 3px;
+  width: 35px;
+  background: #E3E3E3;
+  position: absolute;
+  display: block;
+  content: '';
+}
+.navbar-toggle span:before {
+  top: -10px;
+}
+.navbar-toggle span:after {
+  bottom: -10px; 
+}
 
 
 
