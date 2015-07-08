@@ -87,12 +87,9 @@ nav {
 	background: #E3E3E3;
 }
 
-@media (min-width: @screen-xs-min) {
-  .navbar-brand {
-    font-size: 18px;
-  }
+.navbar {
+	background-color: #008080;
 }
-
 
 
 
