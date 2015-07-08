@@ -87,6 +87,11 @@ nav {
 	background: #E3E3E3;
 }
 
+@media (min-width: @screen-sm-min) {
+  .navbar-brand {
+    font-size: 10px;
+  }
+}
 
 
 
