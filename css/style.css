@@ -27,7 +27,7 @@ nav {
 }
 
 .navbar-brand {
- font-size: 2.5em;
+ font-size: 2.8em;
  font-weight: bold;
  color: #E3E3E3;
 }
@@ -89,10 +89,14 @@ nav {
 
 .navbar {
 	background-color: #008080;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
 }
 
-
-
+.navbar a {
+	color: #E3E3E3;
+}
 
 
 
