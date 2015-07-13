@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
-  <title>Bienvenido a Jekyll!</title>
+  <title>Empezando Este Blog</title>
   
     
       
@@ -101,8 +101,59 @@
     
 <div class="container main">
   <div class="page-content col-md-10 col-md-offset-1 ">
-    <h1>Bienvenido a Jekyll!</h1>
-      <p>Aqui es donde encontraras las entradas del blog. </p>
+    <h1>Empezando Este Blog</h1>
+      <p>Hace unas semanas me encontré con alguien en un meetup tecnología que se había trasladado recientemente a los Estados Unidos de Sur America. Ella mencionó cuán grande era ver una próspera comunidad de mujeres en tecnología, pero desearía ver mas latinas compartiendo su historia a la comunidad hispana.</p>
+
+<p>Después de esa charla, me inspiré a finalmente escribir un blog sobre mis propias experiencias, en Inglés y Español. Tratando de buscar informacion acerca de come crear un blog bilingüe, me encontré con artículos sobre la creacion de la nueva healthcare.gov sitio web. Los desarrolladores encargados de crear este sitio utilizaron <html><a href="http://jekyllrb.com/" target="_blank">Jekyll</a></html>, un generador de sitio simple, estático sin una base de datos relacional. Al principio, era un poco escéptica, pero su facilidad y gran documentación realmente hice usando jekyll una obviedad. Como un blog de un solo lenguaje, Jekyll esta casi listo para ir tan pronto la joya está instalada y corria, pero haciendo el blog multilingüe tomó un poco más trabajo. </p>
+
+<p>Quería que los usuarios puedan navegar de languge a languge de dondequiera que estuvieran en el sitio, así que tuve que crear una relación entre todos los puestos. Aquí es donde el <html><a href="http://jekyllrb.com/docs/frontmatter/" target="_blank">Front Matter</a></html> de Jekyll convirtió especically práctico.</p>
+
+<p>Para empezar, tuve que crear capretas para los dos lenguges: &ldquo;en&rdquo; y &ldquo;es&rdquo; adentro de la carpeta <html><a href="http://jekyllrb.com/docs/structure/" target="_blank">_posts</a></html>. Adentro de esas caprets tuve que crear tres mas: &ldquo;pages&rdquo;, &ldquo;posts&rdquo;, y &ldquo;projects&rdquo; para aguantar las paginas y entradas en Inglés y Español. </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">_posts</span>
+<span class="err">  </span> <span class="err">├──</span> <span class="n">en</span>
+<span class="err">  </span> <span class="err">│  </span> <span class="err">├──</span> <span class="n">pages</span>
+<span class="err">  </span> <span class="err">│  </span> <span class="err">│  </span> <span class="err">├──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="n">about</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span> <span class="err">│  </span> <span class="err">│  </span> <span class="err">├──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">02</span><span class="o">-</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span> <span class="err">│  </span> <span class="err">│  </span> <span class="err">└──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">03</span><span class="o">-</span><span class="n">projects</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span> <span class="err">│  </span> <span class="err">├──</span> <span class="n">posts</span>
+<span class="err">  </span> <span class="err">│  </span> <span class="err">│  </span> <span class="err">└──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="n">post1</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span> <span class="err">│  </span> <span class="err">└──</span> <span class="n">projects</span>
+<span class="err">  </span> <span class="err">│  </span>     <span class="err">├──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="n">project1</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span> <span class="err">│  </span>     <span class="err">└──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">02</span><span class="o">-</span><span class="n">project2</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span> <span class="err">└──</span> <span class="n">es</span>
+<span class="err">  </span>     <span class="err">├──</span> <span class="n">pages</span>
+<span class="err">  </span>     <span class="err">│  </span> <span class="err">├──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="n">acerca</span><span class="o">-</span><span class="n">de</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span>     <span class="err">│  </span> <span class="err">├──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">02</span><span class="o">-</span><span class="n">entradas</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span>     <span class="err">│  </span> <span class="err">└──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">03</span><span class="o">-</span><span class="n">proyectos</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span>     <span class="err">├──</span> <span class="n">posts</span>
+<span class="err">  </span>     <span class="err">│  </span> <span class="err">└──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="n">entrada1</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span>     <span class="err">└──</span> <span class="n">projects</span>
+<span class="err">  </span>         <span class="err">├──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="n">proyecto1</span><span class="o">.</span><span class="n">md</span>
+<span class="err">  </span>         <span class="err">└──</span> <span class="mo">0001</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mo">02</span><span class="o">-</span><span class="n">proyecto2</span><span class="o">.</span><span class="n">md</span></code></pre></div>
+
+<p>Además de los usos mas comunos de Front Matter, como &ldquo;type&rdquo; (tipo), &ldquo;layout&rdquo; (diseño), &ldquo;title&rdquo; (título), &ldquo;date&rdquo; (fecha) he añadido dos variables adicionales que crearían la relación entre los dos: &ldquo;name&rdquo; (nombre) y &ldquo;lang&rdquo; (lenguge). Cada puesto y página tiene una identificación identica de &ldquo;name&rdquo; en el otro idioma, por lo que usuarios pueden alternar fácilmente entre los dos idiomas . </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">English</span> <span class="n">post</span><span class="o">/</span><span class="ss">page</span><span class="p">:</span>
+<span class="o">---</span>
+<span class="nb">name</span><span class="p">:</span> <span class="n">post1</span>
+<span class="ss">lang</span><span class="p">:</span> <span class="n">en</span>
+<span class="o">---</span>
+<span class="no">Spanish</span> <span class="n">post</span><span class="o">/</span><span class="ss">page</span><span class="p">:</span>
+<span class="o">---</span>
+<span class="nb">name</span><span class="p">:</span> <span class="n">post1</span>
+<span class="ss">lang</span><span class="p">:</span> <span class="n">es</span></code></pre></div>
+
+<p>Despues en _layouts/default, añadí el sigiente hreflang tag para alternar entre los idiomas cuando incitado.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="p">{</span><span class="o">%</span> <span class="n">assign</span> <span class="n">posts</span><span class="o">=</span><span class="n">site</span><span class="o">.</span><span class="n">posts</span> <span class="sx">%}</span>
+<span class="sx">    {% for post in posts %}</span>
+      <span class="p">{</span><span class="o">%</span> <span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">lang</span> <span class="o">!=</span> <span class="n">page</span><span class="o">.</span><span class="n">lang</span> <span class="sx">%}</span>
+<span class="sx">        &lt;link rel=&quot;alternate&quot; hreflang=&quot;{{ post.lang }</span><span class="p">}</span><span class="s2">&quot; href=&quot;</span><span class="p">{{</span> <span class="n">post</span><span class="o">.</span><span class="n">url</span> <span class="p">}}</span><span class="s2">&quot; /&gt;</span>
+<span class="s2">      {% endif %}</span>
+<span class="s2">    {% endfor %}</span></code></pre></div>
+
+<p>Estos tres pasos son vitales para que de sitio trabaje a propósito. La siguiente entrada explicará cómo crear navegación dinámica con la capacidad de alternar entre los dos idiomas.  </p>
 
   </div>
 </div>
