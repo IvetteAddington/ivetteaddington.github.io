@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Jul 2015 10:42:25 -0400</pubDate>
-    <lastBuildDate>Mon, 13 Jul 2015 10:42:25 -0400</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2015 11:08:56 -0400</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2015 11:08:56 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -56,7 +56,7 @@
 
 &lt;p&gt;I wanted the users to be able to navigate to its language couterpart from wherever they were on the site, so I had to create a relationship between all the posts. This is where Jekyll&amp;rsquo;s front matter became especically handy. &lt;/p&gt;
 
-&lt;p&gt;First thing was to utilize the [_posts][posts] folder to house both english and spanish pages and posts. &lt;/p&gt;
+&lt;p&gt;First thing was to utilize the &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot; target=&quot;_blank&quot;&gt;_posts&lt;/a&gt;&lt;/html&gt; folder to house both english and spanish pages and posts. &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;
@@ -85,9 +85,7 @@
 &lt;span class=&quot;ss&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot; title=&quot;title&amp;quot; target=&amp;quot;_blank&quot;&gt;posts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 May 2015 18:58:32 -0400</pubDate>
         <link>/post1/</link>
