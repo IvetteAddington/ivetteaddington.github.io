@@ -84,5 +84,7 @@ nav {
   padding-bottom: 10px;
 }
 
-
+.page-content a {
+	color: #008080;
+}
 
