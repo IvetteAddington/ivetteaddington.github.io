@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Jul 2015 17:19:50 -0400</pubDate>
-    <lastBuildDate>Mon, 13 Jul 2015 17:19:50 -0400</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2015 00:27:07 -0400</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2015 00:27:07 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -170,6 +170,26 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
 &lt;/div&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6 col-md-6&quot;&gt;
+    &lt;div class=&quot;thumbnail&quot;&gt;
+    
+    
+      &lt;img src=&quot;/img/&quot;&gt;
+      &lt;div class=&quot;caption&quot;&gt;
+      &lt;a href=&quot;/proyecto1/&quot; class=&quot;es&quot;&gt;
+        &lt;h2 class=&quot;title&quot;&gt;Proyecto numero 1&lt;/h2&gt;
+        &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
+      &lt;/a&gt;
+        &lt;p&gt;&lt;a href=&quot;&quot; class=&quot;btn btn-default&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visit project&lt;/a&gt; 
+           &lt;a href=&quot;&quot; class=&quot;btn btn-default&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+    
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  
 </description>
         <pubDate>Wed, 03 Jan 0001 00:00:00 -0500</pubDate>
         <link>/proyectos/</link>
@@ -197,6 +217,26 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
 &lt;/div&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6 col-md-6&quot;&gt;
+    &lt;div class=&quot;thumbnail&quot;&gt;
+    
+    
+      &lt;img src=&quot;/img/blog.png&quot;&gt;
+      &lt;div class=&quot;caption&quot;&gt;
+      &lt;a href=&quot;/project1/&quot; class=&quot;en&quot;&gt;
+        &lt;h2 class=&quot;title&quot;&gt;this is project 1!&lt;/h2&gt;
+        &lt;h3 class=&quot;line&quot;&gt;this is the line that will describe project1.&lt;/h3&gt;
+      &lt;/a&gt;
+        &lt;p&gt;&lt;a href=&quot;http://ivetteaddington.com/index/&quot; class=&quot;btn btn-default&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visit project&lt;/a&gt; 
+           &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+    
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  
 </description>
         <pubDate>Wed, 03 Jan 0001 00:00:00 -0500</pubDate>
         <link>/projects/</link>
@@ -255,7 +295,44 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
     
       <item>
         <title>Proyecto numero 1</title>
-        <description></description>
+        <description>&lt;div class=&quot;home&quot;&gt;
+&lt;div class=&quot;project-container&quot;&gt;
+  &lt;ul class=&quot;list list-unstyled&quot;&gt;
+    
+    
+      &lt;a href=&quot;/proyecto1/&quot; class=&quot;es&quot;&gt;
+        &lt;li class=&quot;lang&quot;&gt;
+          &lt;h2 class=&quot;title&quot;&gt;Proyecto numero 1&lt;/h2&gt;
+          &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
+          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/a&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6 col-md-6&quot;&gt;
+    &lt;div class=&quot;thumbnail&quot;&gt;
+    
+    
+      &lt;img src=&quot;/img/&quot;&gt;
+      &lt;div class=&quot;caption&quot;&gt;
+      &lt;a href=&quot;/proyecto1/&quot; class=&quot;es&quot;&gt;
+        &lt;h2 class=&quot;title&quot;&gt;Proyecto numero 1&lt;/h2&gt;
+        &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
+      &lt;/a&gt;
+        &lt;p&gt;&lt;a href=&quot;&quot; class=&quot;btn btn-default&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visit project&lt;/a&gt; 
+           &lt;a href=&quot;&quot; class=&quot;btn btn-default&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+    
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  
+</description>
         <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
         <link>/proyecto1/</link>
         <guid isPermaLink="true">/proyecto1/</guid>
