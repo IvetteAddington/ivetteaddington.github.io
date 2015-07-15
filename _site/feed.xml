@@ -5,12 +5,25 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Jul 2015 17:19:50 -0400</pubDate>
-    <lastBuildDate>Mon, 13 Jul 2015 17:19:50 -0400</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2015 16:18:34 -0400</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2015 16:18:34 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>this is project 1!</title>
+        <title>ivetteaddington.com</title>
+        <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
+
+&lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
+        <link>/proyecto1/</link>
+        <guid isPermaLink="true">/proyecto1/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ivetteaddington.com</title>
         <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
 
 &lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
@@ -153,23 +166,29 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
     
       <item>
         <title>Proyectos</title>
-        <description>&lt;div class=&quot;home&quot;&gt;
-&lt;div class=&quot;project-container&quot;&gt;
-  &lt;ul class=&quot;list list-unstyled&quot;&gt;
+        <description>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6 col-md-6&quot;&gt;
+    &lt;div class=&quot;thumbnail&quot;&gt;
     
     
+      
+      &lt;div class=&quot;caption text-center&quot;&gt;
       &lt;a href=&quot;/proyecto1/&quot; class=&quot;es&quot;&gt;
-        &lt;li class=&quot;lang&quot;&gt;
-          &lt;h2 class=&quot;title&quot;&gt;Proyecto numero 1&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;mi primer proyecto en espanol.&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
+        &lt;img src=&quot;/img/blog.png&quot;&gt;
+        &lt;h2 class=&quot;title&quot;&gt;ivetteaddington.com&lt;/h2&gt;
+        &lt;h4 class=&quot;line&quot;&gt;Mis pensamientos en código y vida en tecnología.&lt;/h4&gt;
       &lt;/a&gt;
+      
+      
+      &lt;p&gt;&lt;a href=&quot;/proyecto1/&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visita sitio&lt;/a&gt; 
+           &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;ve codigo&lt;/a&gt;&lt;/p&gt;
+      
+      &lt;/div&gt;
     
-  &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+  
 </description>
         <pubDate>Wed, 03 Jan 0001 00:00:00 -0500</pubDate>
         <link>/proyectos/</link>
@@ -180,23 +199,29 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
     
       <item>
         <title>Projects</title>
-        <description>&lt;div class=&quot;home&quot;&gt;
-&lt;div class=&quot;project-container&quot;&gt;
-  &lt;ul class=&quot;list list-unstyled&quot;&gt;
+        <description>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6 col-md-6&quot;&gt;
+    &lt;div class=&quot;thumbnail&quot;&gt;
     
     
+      
+      &lt;div class=&quot;caption text-center&quot;&gt;
       &lt;a href=&quot;/project1/&quot; class=&quot;en&quot;&gt;
-        &lt;li class=&quot;lang&quot;&gt;
-          &lt;h2 class=&quot;title&quot;&gt;this is project 1!&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;this is the line that will describe project1.&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
+        &lt;img src=&quot;/img/blog.png&quot;&gt;
+        &lt;h2 class=&quot;title&quot;&gt;ivetteaddington.com&lt;/h2&gt;
+        &lt;h4 class=&quot;line&quot;&gt;My thoughts on code and life in tech.&lt;/h4&gt;
       &lt;/a&gt;
+      
+      
+        &lt;p&gt;&lt;a href=&quot;/project1/&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visit project&lt;/a&gt; 
+           &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt;&lt;/p&gt;
+      
+      &lt;/div&gt;
     
-  &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+  
 </description>
         <pubDate>Wed, 03 Jan 0001 00:00:00 -0500</pubDate>
         <link>/projects/</link>
@@ -249,16 +274,6 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
         <pubDate>Tue, 02 Jan 0001 00:00:00 -0500</pubDate>
         <link>/entradas/</link>
         <guid isPermaLink="true">/entradas/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Proyecto numero 1</title>
-        <description></description>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
-        <link>/proyecto1/</link>
-        <guid isPermaLink="true">/proyecto1/</guid>
         
         
       </item>
