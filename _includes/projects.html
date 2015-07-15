@@ -9,7 +9,7 @@
       <a href="{{ post.url }}" class="{{ post.lang }}">
         <img src="/img/{{ post.image }}">
         <h3 class="title">{{post.title | replace '<br/>', ''}}</h3>
-        <h4 class="line">{{post.line}}</h4>
+        <h5 class="line">{{post.line}}</h5>
       </a>
       {% capture language %}{{page.lang}}{% endcapture %}
       {% if language == "en" %}
