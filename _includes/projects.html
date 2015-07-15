@@ -8,7 +8,7 @@
       <div class="caption text-center">
       <a href="{{ post.url }}" class="{{ post.lang }}">
         <img src="/img/{{ post.image }}">
-        <h2 class="title">{{post.title | replace '<br/>', ''}}</h2>
+        <h3 class="title">{{post.title | replace '<br/>', ''}}</h3>
         <h4 class="line">{{post.line}}</h4>
       </a>
       {% capture language %}{{page.lang}}{% endcapture %}
