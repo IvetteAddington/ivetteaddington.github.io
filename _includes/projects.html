@@ -2,26 +2,25 @@
 <div class="row">
   <div class="col-sm-6 col-md-6 col-xs-12 ">
     <div class="thumbnail">
-    {% assign posts=site.posts | where:"lang", page.lang | where:"type", "projects" %}
-    {% for post in posts %}
-      
-      <div class="caption text-center">
-      <a href="{{ post.url }}" class="{{ post.lang }}">
-        <img src="/img/{{ post.image }}">
-        <h3 class="title">{{post.title | replace '<br/>', ''}}</h3>
-        <h5 class="line">{{post.line}}</h5>
-      </a>
-      {% capture language %}{{page.lang}}{% endcapture %}
-      {% if language == "en" %}
-        <p><a href="{{ post.url }}" class="btn btn-default text-center" role="button" target="_blank">visit project</a> 
-           <a href="{{ post.code }}" class="btn btn-default text-center" role="button" target="_blank">view code</a></p>
-      {% else %}
-      <p><a href="{{ post.url }}" class="btn btn-default text-center" role="button" target="_blank">visita sitio</a> 
-           <a href="{{ post.code }}" class="btn btn-default text-center" role="button" target="_blank">ve codigo</a></p>
-      {% endif %}
-      </div>
-    {% endfor %}
+      {% assign posts=site.posts | where:"lang", page.lang | where:"type", "projects" %}
+      {% for post in posts %}
+        <div class="caption text-center">
+          <a href="{{ post.url }}" class="{{ post.lang }}">
+            <img src="/img/{{ post.image }}">
+            <h3 class="title">{{post.title | replace '<br/>', ''}}</h3>
+            <h5 class="line">{{post.line}}</h5>
+          </a>
+          {% capture language %}{{page.lang}}{% endcapture %}
+          {% if language == "en" %}
+            <a href="{{ post.url }}" class="btn btn-default text-center" role="button" target="_blank">visit project</a> 
+            <a href="{{ post.code }}" class="btn btn-default text-center" role="button" target="_blank">view code</a>
+          {% else %}
+            <a href="{{ post.url }}" class="btn btn-default text-center" role="button" target="_blank">visita sitio</a> 
+            <a href="{{ post.code }}" class="btn btn-default text-center" role="button" target="_blank">ve codigo</a>
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>
-  
+
