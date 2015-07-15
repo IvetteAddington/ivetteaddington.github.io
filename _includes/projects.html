@@ -11,8 +11,14 @@
         <h2 class="title">{{post.title | replace '<br/>', ''}}</h2>
         <h4 class="line">{{post.line}}</h4>
       </a>
+      {% capture language %}{{page.lang}}{% endcapture %}
+      {% if language == "en" %}
         <p><a href="{{ post.url }}" class="btn btn-default text-center" role="button" target="_blank">visit project</a> 
            <a href="{{ post.code }}" class="btn btn-default text-center" role="button" target="_blank">view code</a></p>
+      {% else %}
+      <p><a href="{{ post.url }}" class="btn btn-default text-center" role="button" target="_blank">visita sitio</a> 
+           <a href="{{ post.code }}" class="btn btn-default text-center" role="button" target="_blank">ve codigo</a></p>
+      {% endif %}
       </div>
     {% endfor %}
     </div>

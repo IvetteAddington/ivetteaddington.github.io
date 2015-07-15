@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jul 2015 14:38:31 -0400</pubDate>
-    <lastBuildDate>Tue, 14 Jul 2015 14:38:31 -0400</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2015 16:18:34 -0400</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2015 16:18:34 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -178,8 +178,11 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
         &lt;h2 class=&quot;title&quot;&gt;ivetteaddington.com&lt;/h2&gt;
         &lt;h4 class=&quot;line&quot;&gt;Mis pensamientos en código y vida en tecnología.&lt;/h4&gt;
       &lt;/a&gt;
-        &lt;p&gt;&lt;a href=&quot;/proyecto1/&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visit project&lt;/a&gt; 
-           &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt;&lt;/p&gt;
+      
+      
+      &lt;p&gt;&lt;a href=&quot;/proyecto1/&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visita sitio&lt;/a&gt; 
+           &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;ve codigo&lt;/a&gt;&lt;/p&gt;
+      
       &lt;/div&gt;
     
     &lt;/div&gt;
@@ -208,8 +211,11 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
         &lt;h2 class=&quot;title&quot;&gt;ivetteaddington.com&lt;/h2&gt;
         &lt;h4 class=&quot;line&quot;&gt;My thoughts on code and life in tech.&lt;/h4&gt;
       &lt;/a&gt;
+      
+      
         &lt;p&gt;&lt;a href=&quot;/project1/&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visit project&lt;/a&gt; 
            &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt;&lt;/p&gt;
+      
       &lt;/div&gt;
     
     &lt;/div&gt;
