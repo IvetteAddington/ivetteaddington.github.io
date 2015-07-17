@@ -11,6 +11,10 @@
   
     
       
+        <link rel="alternate" hreflang="en" href="/project2/" />
+      
+    
+      
     
       
         <link rel="alternate" hreflang="en" href="/project1/" />
@@ -96,9 +100,33 @@
 <div class="container main">
   <div class="page-content col-md-10 col-md-offset-1 ">
     <h1>ivetteaddington.com</h1>
-      <p>Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.</p>
+      <p>Soy un novata cuando se trata de codificación, pero quería ser capaz de mostrar los proyectos en los que he estado trabajando, documentando mi progreso y escribiendo sobre los desafíos que he abordado para que el código funcione. Como novato, me doy cuenta de la importancia que es para mostrar no sólo el progreso personal y comunicar claramente el proceso, sino que también una cartera para los empleadores o clientes potenciales.</p>
 
-<p>Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&rsquo;s tofu.</p>
+<h3>Acerca de este Blog</h3>
+
+<p>Desde el principio, sabía que quería que este blog sea bilingüe. Con fluidez en Inglés y Español, quería una plataforma en la qual puediera escribir en ambos idiomas con una transición sin fisuras de un idioma a otro. Mi primer pensamiento fue para crear el blog usando Ruby on Rails y usar una base de datos para crear la relación entre los dos idiomas, pero después de algunas investigaciones acerca de sitios multilingüe, me encontré con <html><a href="http://jekyllrb.com/" target="_blank">Jekyll</a></html>. Jekyll tenía un montón de ventajas en su lado para crear este blog, por ejemplo: la documentación rica, no hay necesidad de crear una base de datos y alojamiento gratuito en las páginas de GitHub . Pero, después de examinar las posibilidades personalizable de Jekyll, me di cuenta que podía personalizar Jekyll Front Matter lograr la transición entre los dos idiomas que queria lograr. </p>
+
+<h3>Desafíos</h3>
+
+<h4><html><u>Nota</u></html>:Entro en mas detalle y un poco de código en algunos de estos retos en las entradas del blog, enlaces estan en la parte inferior de esta entrada.</h4>
+
+<p>Aunque Jekyll es fácil de usar, crear un blog bilingüe tenía algunos desafíos. El primero fue la creación de la estructura del sitio para mensajes, páginas y plantillas en ambos idiomas. Jekyll viene con algunas funciones del núcleo necesarias para funcionar. Por ejemplo, la carpeta _POST guardar todas las entradas del blog, ya que Kejyll sabe que mirar ahí para el contenido. Yo sabía que quería mantener la estructura lo más limpio posible y aunque tan sólo pudiera utilizar el Front Matter para determinar qué idioma el contenido fue escrito en, manteniendo ordenanza también era importante. Después de un poco de ensayo y error, la separación de todo el contenido, incluyendo entrada del blog, proyectos y las plantillas de acuerdo con el lenguaje hace navegar el sitio mas fácil.</p>
+
+<p>El segundo fue las creación de una plantilla que pudiera leer los dates de qualquier pàgina y determinar el idioma en la qual esta escrita. De ahi, dar la opción de transición a su contraparte de idioma. Para ello, he creado una variable &lsquo;lang&rsquo; dentro del Front Matter, la plantilla predeterminada entonces captura esa información y se ajusta al sitio, la funcionalidad y la información en consecuencia. Aunque hay algunas maneras de crear la transición entre los dos sitios, usando la lógica de líquido (con inspiración de ruby&rsquo;s if/else) tuve la oportunidad de crear un solo modelo para ambos idiomas.</p>
+
+<p>El tercer obstáculo fue la navegación dinámica. No quería que la navegación mostrara todas las opciones en Inglés y Español al mismo tiemps, más bien, aparecer de acuerdo al idioma en la qual estan viendo el sitio, con la capacidad de hacer la transición al otra lengua. La mayor parte de la información que encontré acerca de navegación era codificar dentro de la plantilla, pero eso realmente no tenía sentido para un blog bilingüe. En ves, dentro de la carpeta _data, he creado un archivo navigation.yml que me permitió editar la navegación.</p>
+
+<h3>Pensamientos Finales</h3>
+
+<p>Sabía desde el principio este proyecto sería un poco difícil. En primer lugar, líquido era una forma de crear sitions que nunca había utilizado y en segundo lugar porque había una gran cantidad de información sobre la creación de un sitio/blog usando la gema Jekyll, pero no había mucha información sobre lo que es bilingüe. Ser capaz de personalizar el código es una parte importante del desarrollo, así que estoy encantado que pude usar Jekyll pare completar este proyecto. </p>
+
+<p>Este proyecto también me enseñó la importancia de romper el trabajo. A veces, proyectos parecen abrumadoras, pero tomarse el tiempo para romper las tareas es una gran parte de programación. Utilize un borde<html><a href="http://trello.com/" target="_blank">Trello</a></html> para este proyecto. En mi caso, Trello sirvió múltiples funciones- para empezar, me dio un camino claro de los pasos que seguir para acompletar este blog. En segundo lugar, me animó a romper los pasos en tareas más pequeñas y funcionalidad específicas. Tercer lugar, sirvio como inspiración- pude ver dia a dia el progreso del sitio y ver la lista to tareas mas y mas pequeña sirvio como inspiracion para seguir adelante.</p>
+
+<h3>Entradas De Blog Acerda De Este Proyecto</h3>
+
+<p><html>
+<a href="http://ivetteaddington.com/entrada1/">Crear la estructura de un blog bilingüe</a>
+</html></p>
 
   </div>
 </div>

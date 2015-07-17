@@ -5,15 +5,49 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 13:45:15 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 13:45:15 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2015 21:24:40 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2015 21:24:40 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+        <title>Addington Food Blog</title>
+        <description></description>
+        <pubDate>Wed, 15 Jul 2015 00:00:00 -0400</pubDate>
+        <link>/project2/</link>
+        <guid isPermaLink="true">/project2/</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>ivetteaddington.com</title>
-        <description>&lt;p&gt;Godard paleo drinking vinegar banjo messenger bag slow-carb single-origin coffee retro, aesthetic quinoa try-hard Tumblr farm-to-table flannel wayfarers. Vegan cornhole Schlitz, YOLO normcore Kickstarter fashion axe meh. Bespoke brunch photo booth, ennui four loko seitan vegan. Master cleanse ennui put a bird on it, kale chips freegan normcore Odd Future pug DIY +1. Wolf fap cred, tattooed pork belly tote bag meditation photo booth jean shorts retro trust fund iPhone. Farm-to-table Austin kale chips gentrify, 8-bit meggings messenger bag before they sold out mustache sustainable pour-over. Taxidermy fingerstache retro, blog readymade PBR gluten-free four loko.&lt;/p&gt;
+        <description>&lt;p&gt;Soy un novata cuando se trata de codificación, pero quería ser capaz de mostrar los proyectos en los que he estado trabajando, documentando mi progreso y escribiendo sobre los desafíos que he abordado para que el código funcione. Como novato, me doy cuenta de la importancia que es para mostrar no sólo el progreso personal y comunicar claramente el proceso, sino que también una cartera para los empleadores o clientes potenciales.&lt;/p&gt;
 
-&lt;p&gt;Heirloom meditation trust fund whatever, gentrify pop-up hoodie. Ennui cardigan art party High Life mlkshk ethical, quinoa tofu polaroid synth squid. Four dollar toast pop-up leggings Godard PBR&amp;amp;B mustache, flannel slow-carb. Put a bird on it keytar meggings, Neutra High Life before they sold out brunch Blue Bottle retro Odd Future Intelligentsia. Distillery post-ironic Thundercats pour-over. Cred paleo pour-over, leggings biodiesel locavore Marfa Truffaut Banksy photo booth gastropub Blue Bottle scenester. Freegan paleo raw denim 3 wolf moon, actually Pinterest Odd Future 90&amp;rsquo;s tofu.&lt;/p&gt;
+&lt;h3&gt;Acerca de este Blog&lt;/h3&gt;
+
+&lt;p&gt;Desde el principio, sabía que quería que este blog sea bilingüe. Con fluidez en Inglés y Español, quería una plataforma en la qual puediera escribir en ambos idiomas con una transición sin fisuras de un idioma a otro. Mi primer pensamiento fue para crear el blog usando Ruby on Rails y usar una base de datos para crear la relación entre los dos idiomas, pero después de algunas investigaciones acerca de sitios multilingüe, me encontré con &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;&lt;/html&gt;. Jekyll tenía un montón de ventajas en su lado para crear este blog, por ejemplo: la documentación rica, no hay necesidad de crear una base de datos y alojamiento gratuito en las páginas de GitHub . Pero, después de examinar las posibilidades personalizable de Jekyll, me di cuenta que podía personalizar Jekyll Front Matter lograr la transición entre los dos idiomas que queria lograr. &lt;/p&gt;
+
+&lt;h3&gt;Desafíos&lt;/h3&gt;
+
+&lt;h4&gt;&lt;html&gt;&lt;u&gt;Nota&lt;/u&gt;&lt;/html&gt;:Entro en mas detalle y un poco de código en algunos de estos retos en las entradas del blog, enlaces estan en la parte inferior de esta entrada.&lt;/h4&gt;
+
+&lt;p&gt;Aunque Jekyll es fácil de usar, crear un blog bilingüe tenía algunos desafíos. El primero fue la creación de la estructura del sitio para mensajes, páginas y plantillas en ambos idiomas. Jekyll viene con algunas funciones del núcleo necesarias para funcionar. Por ejemplo, la carpeta _POST guardar todas las entradas del blog, ya que Kejyll sabe que mirar ahí para el contenido. Yo sabía que quería mantener la estructura lo más limpio posible y aunque tan sólo pudiera utilizar el Front Matter para determinar qué idioma el contenido fue escrito en, manteniendo ordenanza también era importante. Después de un poco de ensayo y error, la separación de todo el contenido, incluyendo entrada del blog, proyectos y las plantillas de acuerdo con el lenguaje hace navegar el sitio mas fácil.&lt;/p&gt;
+
+&lt;p&gt;El segundo fue las creación de una plantilla que pudiera leer los dates de qualquier pàgina y determinar el idioma en la qual esta escrita. De ahi, dar la opción de transición a su contraparte de idioma. Para ello, he creado una variable &amp;lsquo;lang&amp;rsquo; dentro del Front Matter, la plantilla predeterminada entonces captura esa información y se ajusta al sitio, la funcionalidad y la información en consecuencia. Aunque hay algunas maneras de crear la transición entre los dos sitios, usando la lógica de líquido (con inspiración de ruby&amp;rsquo;s if/else) tuve la oportunidad de crear un solo modelo para ambos idiomas.&lt;/p&gt;
+
+&lt;p&gt;El tercer obstáculo fue la navegación dinámica. No quería que la navegación mostrara todas las opciones en Inglés y Español al mismo tiemps, más bien, aparecer de acuerdo al idioma en la qual estan viendo el sitio, con la capacidad de hacer la transición al otra lengua. La mayor parte de la información que encontré acerca de navegación era codificar dentro de la plantilla, pero eso realmente no tenía sentido para un blog bilingüe. En ves, dentro de la carpeta _data, he creado un archivo navigation.yml que me permitió editar la navegación.&lt;/p&gt;
+
+&lt;h3&gt;Pensamientos Finales&lt;/h3&gt;
+
+&lt;p&gt;Sabía desde el principio este proyecto sería un poco difícil. En primer lugar, líquido era una forma de crear sitions que nunca había utilizado y en segundo lugar porque había una gran cantidad de información sobre la creación de un sitio/blog usando la gema Jekyll, pero no había mucha información sobre lo que es bilingüe. Ser capaz de personalizar el código es una parte importante del desarrollo, así que estoy encantado que pude usar Jekyll pare completar este proyecto. &lt;/p&gt;
+
+&lt;p&gt;Este proyecto también me enseñó la importancia de romper el trabajo. A veces, proyectos parecen abrumadoras, pero tomarse el tiempo para romper las tareas es una gran parte de programación. Utilize un borde&lt;html&gt;&lt;a href=&quot;http://trello.com/&quot; target=&quot;_blank&quot;&gt;Trello&lt;/a&gt;&lt;/html&gt; para este proyecto. En mi caso, Trello sirvió múltiples funciones- para empezar, me dio un camino claro de los pasos que seguir para acompletar este blog. En segundo lugar, me animó a romper los pasos en tareas más pequeñas y funcionalidad específicas. Tercer lugar, sirvio como inspiración- pude ver dia a dia el progreso del sitio y ver la lista to tareas mas y mas pequeña sirvio como inspiracion para seguir adelante.&lt;/p&gt;
+
+&lt;h3&gt;Entradas De Blog Acerda De Este Proyecto&lt;/h3&gt;
+
+&lt;p&gt;&lt;html&gt;
+&lt;a href=&quot;http://ivetteaddington.com/entrada1/&quot;&gt;Crear la estructura de un blog bilingüe&lt;/a&gt;
+&lt;/html&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 May 2015 18:58:32 -0400</pubDate>
         <link>/proyecto1/</link>
@@ -36,9 +70,9 @@
 
 &lt;p&gt;Although Jekyll is very user friendly, making the blog bilingual had a few challenges. The first was creating the site structure for both English and Spanish posts, pages and templates. Jekyll comes with some core functionality that it needs in order to run. For example, the _post folder needs to house all blog posts, since it knows to look in there for content. I knew that I wanted to keep the structure as clean as possible and although I could just use front matter to determine what language the content was written in, keeping the orderly was also important. After some trial and error, separating all the content, including blog post, projects and templates according to language made it easy to navigate. &lt;/p&gt;
 
-&lt;p&gt;The second was creating one default template that would read the page&amp;rsquo;s data to determine, determine the language and just give the option of transitioning to its language counterpart. To accomplish this I created a &amp;lsquo;lang&amp;rsquo; variable inside the front matter, the default template would then capture that information and adjust the site, functionality and information accordingly. Although there are a few ways to create the transition between the two sites, using liquid logic (with ruby&amp;rsquo;s if/else inspiration) I was able to create just one template for both languages.&lt;/p&gt;
+&lt;p&gt;The second was creating one default template that would read the page&amp;rsquo;s data to determine the language and give the option of transitioning to its language counterpart. To accomplish this I created a &amp;lsquo;lang&amp;rsquo; variable inside the front matter, the default template would then capture that information and adjust the site, functionality and information accordingly. Although there are a few ways to create the transition between the two sites, using liquid logic (with ruby&amp;rsquo;s if/else inspiration) I was able to create just one template for both languages.&lt;/p&gt;
 
-&lt;p&gt;The third major hurdle was the dynamic navigation. I didn&amp;rsquo;t want the navigation to show all the options in English and Spanish, rather, to appear according to the language the site was on, with the ability to transition to the other language. Most of the information I found on navigation was to hard code within the default template, but this really did not make sense for a bilingual blog, so within the _data folder, I created a navigation.yml folder that allowed me to edit the navigation accordingly. &lt;/p&gt;
+&lt;p&gt;The third major hurdle was the dynamic navigation. I didn&amp;rsquo;t want the navigation to show all the options in English and Spanish, rather, to appear according to the language the site was on, with the ability to transition to the other language. Most of the information I found on navigation was to hard code within the default template, but this really did not make sense for a bilingual blog, so within the _data folder, I created a navigation.yml file that allowed me to edit the navigation accordingly. &lt;/p&gt;
 
 &lt;h3&gt;Final Thoughts&lt;/h3&gt;
 
@@ -227,6 +261,19 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
       
       
         &lt;div class=&quot;caption text-center&quot;&gt;
+          &lt;a href=&quot;/project2/&quot; class=&quot;en&quot;&gt;
+            &lt;img src=&quot;/img/food_blog.png&quot;&gt;
+            &lt;h3 class=&quot;title&quot;&gt;Addington Food Blog&lt;/h3&gt;
+            &lt;h5 class=&quot;line&quot;&gt;I love food, so I write about it.&lt;/h5&gt;
+          &lt;/a&gt;
+          
+          
+            &lt;a href=&quot;/project2/&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visit project&lt;/a&gt; 
+            &lt;a href=&quot;&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt;
+          
+        &lt;/div&gt;
+      
+        &lt;div class=&quot;caption text-center&quot;&gt;
           &lt;a href=&quot;/project1/&quot; class=&quot;en&quot;&gt;
             &lt;img src=&quot;/img/blog.png&quot;&gt;
             &lt;h3 class=&quot;title&quot;&gt;ivetteaddington.com&lt;/h3&gt;
@@ -307,19 +354,6 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
         <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
         <link>/acerca-de/</link>
         <guid isPermaLink="true">/acerca-de/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>About</title>
-        <description>&lt;p&gt;Hi! I&amp;rsquo;m Ivette. I created this site to document my journey as a web developer. You will find that all the posts are written in both English and Spanish, with a in-depth look at the projects I&amp;rsquo;m working on. &lt;/p&gt;
-
-&lt;p&gt;If you have any questions, feel free to reach out! &lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
-        <link>/about/</link>
-        <guid isPermaLink="true">/about/</guid>
         
         
       </item>
