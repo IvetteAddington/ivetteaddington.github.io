@@ -1,15 +1,15 @@
 
 <div class="row">
 
-  <div class="col-sm-6 col-md-6">
+  <div class="col-sm-6 col-md-5">
   {% assign posts=site.posts | where:"lang", page.lang | where:"type", "projects" %}
       
     <div class="thumbnail">
       {% for post in posts %}
         <div class="caption text-center">
           <a href="{{ post.url }}" class="{{ post.lang }}">
-            <img src="/img/{{ post.image }}" class="img-responsive">
-            <h2 class="title">{{post.title | replace '<br/>', ''}}</h2>
+            <img src="/img/{{ post.image }}" class="img-responsive" style="height: 200px; width: 100%; display: block";>
+            <h2 class="title">{{post.title}}</h2>
             <h4 class="line">{{post.line}}</h4>
           </a>
           {% capture language %}{{page.lang}}{% endcapture %}
@@ -21,11 +21,11 @@
             <a href="{{ post.code }}" class="btn btn-default text-center" role="button" target="_blank">ve codigo</a>
           {% endif %}
         </div>
-      
-      <br>
-    </div>
+      </div>
     {% endfor %}
   </div>
-
 </div>
+
+
+
 

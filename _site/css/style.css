@@ -93,7 +93,7 @@ h3 {
 	color: #555;
 }
 
-.btn {
+/*.btn {
 	margin: 5px;
 	padding: 10px 20px;
 	border: 1px solid #008080;
@@ -114,6 +114,11 @@ h3 {
 .btn :hover {
 	background: darken($btn-default, 10%);
 	color: inherit;
+}*/
+
+.page-content {
+	background-color: blue;
 }
+
 
 
