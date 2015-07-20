@@ -14,7 +14,7 @@ nav {
 
 .nav li {
 	font-size: 1.5em;
-	color: #E3E3E3;	
+	color: #E3E3E3;
 }
 
 .navbar-brand {
@@ -103,14 +103,14 @@ h3 {
 	cursor: pointer;
 	transition: all 0.2s ease;
 	text-transform: uppercase;
-	
+
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	line-height: 1.3;
 	border-color: darken($btn-default, 10%);
 	color: darken($btn-default, 40%);
  }
- 
+
 .btn :hover {
 	background: darken($btn-default, 10%);
 	color: inherit;
@@ -120,5 +120,11 @@ h3 {
 	background-color: blue;
 }
 
+.img-container {
+}
 
-
+.project-img {
+	display: block;
+	width: 100%;
+	height: 200px;
+}
