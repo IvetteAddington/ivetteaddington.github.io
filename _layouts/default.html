@@ -1,82 +1,62 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
+
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  {% assign posts=site.posts %}
-    {% for post in posts %}
-      {% if post.lang != page.lang %}
-        <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
-      {% endif %}
-    {% endfor %}
-  <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% assign posts=site.posts %} {% for post in posts %} {% if post.lang != page.lang %}
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" /> {% endif %} {% endfor %}
+    <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
+    <link rel="stylesheet" href="{{ " /css/style.css " | prepend: site.baseurl }}">
 </head>
 
 <body class="{{ page.lang }}{% if page.type == 'pages' %} page{% endif %}">
-
-  <nav class="navbar navbar-fixed-top" role="navigation">
-    <div class="container nav">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-          
-        {% if page.lang == 'en' %}
-          <a class="navbar-brand" href="/index/">Ivette Addington</a>
-        {% else %}   
-          <a class="navbar-brand" href="/entradas/">Ivette Addington</a>
-        {% endif %}
-      </div>
-
-      <div class="collapse navbar-collapse" id="nav-collapse">
-        <ul class="nav navbar-nav pull-right">
-          {% for menu in site.data.navigation[page.lang] %}
-            <li class="list-inline"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>          
-          {% endfor %}
-
-          {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
-          {% for post in posts %}
-            <li class="lang">
-              {% capture language %}{{page.lang}}{% endcapture %}
-              {% if language == "es" %}
-                  <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "en" | replace: "en", "English" | remove: "es" }}</a>
-              {% else %}
-                  <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Español" | remove: "en" }}</a>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container nav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                {% if page.lang == 'en' %}
+                <a class="navbar-brand" href="/index/">Ivette Addington</a> {% else %}
+                <a class="navbar-brand" href="/entradas/">Ivette Addington</a> {% endif %}
+            </div>
+            <div class="collapse navbar-collapse" id="nav-collapse">
+                <ul class="nav navbar-nav pull-right">
+                    {% for menu in site.data.navigation[page.lang] %}
+                    <li class="list-inline"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>
+                    {% endfor %} {% assign posts=site.posts | where:"name", page.name | sort: 'path' %} {% for post in posts %}
+                    <li class="lang">
+                        {% capture language %}{{page.lang}}{% endcapture %} {% if language == "es" %}
+                        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "en" | replace: "en", "English" | remove: "es" }}</a> {% else %}
+                        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Español" | remove: "en" }}</a> {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container main">
+        <div class="page-content col-md-10 col-md-offset-1 ">
+            <h1>{{ page.title }}</h1> {{ content }}
+        </div>
     </div>
-  </nav>
-
-    
-<div class="container main">
-  <div class="page-content col-md-10 col-md-offset-1 ">
-    <h1>{{ page.title }}</h1>
-      {{ content }}
-  </div>
-</div>
-<div class="footer">
-  <a href="http://twitter.com/ivetteaddington" target="_blank"><img src="/img/twitter.svg" alt="twitter logo" class= "social-icon"></a>
-
-  <a href="https://github.com/IvetteAddington" target="_blank"><img src="/img/gitHub.svg" alt="gitHub logo" class= "social-icon"></a>
-
-  <a href="https://www.linkedin.com/in/ivetteaddington" target="_blank"><img src="/img/linkedIn.svg" alt="linkedIn logo" class= "social-icon"></a>
-
-  <p>&copy; 2015 Ivette Addington.</p>
-</div>
-
-<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <div class="footer">
+        <a href="http://twitter.com/ivetteaddington" target="_blank"><img src="/img/twitter.svg" alt="twitter logo" class="social-icon"></a>
+        <a href="https://github.com/IvetteAddington" target="_blank"><img src="/img/gitHub.svg" alt="gitHub logo" class="social-icon"></a>
+        <a href="https://www.linkedin.com/in/ivetteaddington" target="_blank"><img src="/img/linkedIn.svg" alt="linkedIn logo" class="social-icon"></a>
+        <p>&copy; 2015 Ivette Addington.</p>
+    </div>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
+
 </html>

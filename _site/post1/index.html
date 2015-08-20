@@ -1,110 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
-  <title>Getting Started</title>
-  
-    
-      
-    
-      
-        <link rel="alternate" hreflang="es" href="/proyecto1/" />
-      
-    
-      
-    
-      
-    
-      
-        <link rel="alternate" hreflang="es" href="/entrada1/" />
-      
-    
-      
-        <link rel="alternate" hreflang="es" href="/proyectos/" />
-      
-    
-      
-    
-      
-    
-      
-        <link rel="alternate" hreflang="es" href="/entradas/" />
-      
-    
-      
-        <link rel="alternate" hreflang="es" href="/acerca-de/" />
-      
-    
-      
-    
-  <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
-  <link rel="stylesheet" href="/css/style.css">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
+    <title>Getting Started</title>
+          
+    <link rel="alternate" hreflang="es" href="/proyecto1/" />       
+    <link rel="alternate" hreflang="es" href="/entrada1/" />   
+    <link rel="alternate" hreflang="es" href="/proyectos/" />       
+    <link rel="alternate" hreflang="es" href="/entradas/" />   
+    <link rel="alternate" hreflang="es" href="/acerca-de/" />    
+    <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
+    <link rel="stylesheet" href=" /css/style.css ">
 </head>
 
 <body class="en">
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container nav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand" href="/index/">Ivette Addington</a> 
+            </div>
+            <div class="collapse navbar-collapse" id="nav-collapse">
+                <ul class="nav navbar-nav pull-right">
+                    
+                    <li class="list-inline"><a href="/index/">Posts</a></li>
+                    
+                    <li class="list-inline"><a href="/projects/">Projects</a></li>
+                    
+                    <li class="list-inline"><a href="/about/">About</a></li>
+                      
+                    <li class="lang">
+                         
+                        <a href="/post1/" class="en"></a> 
+                    </li>
+                    
+                    <li class="lang">
+                         
+                        <a href="/entrada1/" class="es">Español</a> 
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container main">
+        <div class="page-content col-md-10 col-md-offset-1 ">
+            <h1>Getting Started</h1> <p>A few weeks ago I met someone at a tech meetup who had recently relocated to the States from South America. She mentioned how great is was to see a thriving community of women in tech, but wished there was more latinas to tell their stories and share with the Spanish speaking community. </p>
 
-  <nav class="navbar navbar-fixed-top" role="navigation">
-    <div class="container nav">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-          
-        
-          <a class="navbar-brand" href="/index/">Ivette Addington</a>
-        
-      </div>
+<p>After that chat, I was inspired to start writing about my own experiences, in both English and Spanish, but was not quite sure what the best approach for a bilingual blog was. After some research I came across articles about the new <html><a href="http://healthcare.gov">healthcare.gov</a></html> website. The developers commissioned with creating this site used <html><a href="http://jekyllrb.com/" target="_blank">Jekyll</a></html>, a simple, static site generator without a relational database. I was skeptical at first, but its ease and great documentation really made using Jekyll a no brainer. As a single language blog, Jekyll is pretty much ready to go as soon as the gem is installed and ran, but making the blog bilingual took a bit more work. </p>
 
-      <div class="collapse navbar-collapse" id="nav-collapse">
-        <ul class="nav navbar-nav pull-right">
-          
-            <li class="list-inline"><a href="/index/">Posts</a></li>          
-          
-            <li class="list-inline"><a href="/projects/">Projects</a></li>          
-          
-            <li class="list-inline"><a href="/about/">About</a></li>          
-          
+<p>I wanted the users to be able to navigate to a post&rsquo;s language counterpart from wherever they were on the site, so I had to create a relationship between all the posts. This is where Jekyll&rsquo;s <html><a href="http://jekyllrb.com/docs/frontmatter/" target="_blank">Front Matter</a></html> functionality became especially handy. </p>
 
-          
-          
-            <li class="lang">
-              
-              
-                  <a href="/post1/" class="en"></a>
-              
-            </li>
-          
-            <li class="lang">
-              
-              
-                  <a href="/entrada1/" class="es">Español</a>
-              
-            </li>
-          
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-    
-<div class="container main">
-  <div class="page-content col-md-10 col-md-offset-1 ">
-    <h1>Getting Started</h1>
-      <p>A few weeks ago I met someone at a tech meetup who had recently relocated to the States from South America. She mentioned how great is was to see a thriving community of women in tech, but wished there was more latinas to tell their stories and share with the Spanish speaking community. </p>
-
-<p>After that chat, I was inspired to finally start the blog I&rsquo;d wanted to write about my own experiences, in both English and Spanish. After some research I came across articles about the new healthcare.gov website. The developers commissioned with creating this site used <html><a href="http://jekyllrb.com/" target="_blank">Jekyll</a></html>, a simple, static site generator without a relational database. I was skeptical at first, but its ease and great documentation really made using Jekyll a no brainer. As a single language blog, Jekyll is pretty much ready to go as soon as the gem is installed and ran, but making the blog multilingual took a bit more work. </p>
-
-<p>I wanted the users to be able to navigate to its language counterpart from wherever they were on the site, so I had to create a relationship between all the posts. This is where Jekyll&rsquo;s <html><a href="http://jekyllrb.com/docs/frontmatter/" target="_blank">Front Matter</a></html> became especially handy. </p>
-
-<p>First thing was to utilize the <html><a href="http://jekyllrb.com/docs/structure/" target="_blank">_posts</a></html> folder to house both english and spanish pages and posts. I created a &ldquo;en&rdquo; and &ldquo;es&rdquo; folder and each of those housed a pages, posts, and projects page.</p>
+<p>First thing was to utilize the <html><a href="http://jekyllrb.com/docs/structure/" target="_blank">_posts</a></html> folder to house both english and spanish pages and posts. I created a &ldquo;en&rdquo; and &ldquo;es&rdquo; folder and each of those housed a pages, posts, and projects folder.</p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">_posts</span>
 <span class="err">  </span> <span class="err">├──</span> <span class="n">en</span>
@@ -143,28 +102,25 @@ Each post and page has an identical identifying &ldquo;name&rdquo; in the other 
 
 <p>Then in _layouts/default, I added the following hreflang tag to alternate between the languages when promted. </p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="p">{</span><span class="o">%</span> <span class="n">assign</span> <span class="n">posts</span><span class="o">=</span><span class="n">site</span><span class="o">.</span><span class="n">posts</span> <span class="sx">%}</span>
-<span class="sx">    {% for post in posts %}</span>
-      <span class="p">{</span><span class="o">%</span> <span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">lang</span> <span class="o">!=</span> <span class="n">page</span><span class="o">.</span><span class="n">lang</span> <span class="sx">%}</span>
-<span class="sx">        &lt;link rel=&quot;alternate&quot; hreflang=&quot;{{ post.lang }</span><span class="p">}</span><span class="s2">&quot; href=&quot;</span><span class="p">{{</span> <span class="n">post</span><span class="o">.</span><span class="n">url</span> <span class="p">}}</span><span class="s2">&quot; /&gt;</span>
-<span class="s2">      {% endif %}</span>
-<span class="s2">    {% endfor %}</span></code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="p">{</span><span class="o">%</span> <span class="n">assign</span> <span class="n">posts</span><span class="o">=</span><span class="n">site</span><span class="o">.</span><span class="n">posts</span> <span class="sx">%}</span>
+<span class="lineno">2</span> <span class="sx">    {% for post in posts %}</span>
+<span class="lineno">3</span>       <span class="p">{</span><span class="o">%</span> <span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">lang</span> <span class="o">!=</span> <span class="n">page</span><span class="o">.</span><span class="n">lang</span> <span class="sx">%}</span>
+<span class="lineno">4</span> <span class="sx">        &lt;link rel=&quot;alternate&quot; hreflang=&quot;{{ post.lang }</span><span class="p">}</span><span class="s2">&quot; href=&quot;</span><span class="p">{{</span> <span class="n">post</span><span class="o">.</span><span class="n">url</span> <span class="p">}}</span><span class="s2">&quot; /&gt;</span>
+<span class="lineno">5</span> <span class="s2">      {% endif %}</span>
+<span class="lineno">6</span> <span class="s2">    {% endfor %}</span></code></pre></div>
 
 <p>These three steps were vital to making the site work as intended. The next post will explain how to create dynamic navigation with the ability to alternate between both languages.  </p>
 
-  </div>
-</div>
-<div class="footer">
-  <a href="http://twitter.com/ivetteaddington" target="_blank"><img src="/img/twitter.svg" alt="twitter logo" class= "social-icon"></a>
-
-  <a href="https://github.com/IvetteAddington" target="_blank"><img src="/img/gitHub.svg" alt="gitHub logo" class= "social-icon"></a>
-
-  <a href="https://www.linkedin.com/in/ivetteaddington" target="_blank"><img src="/img/linkedIn.svg" alt="linkedIn logo" class= "social-icon"></a>
-
-  <p>&copy; 2015 Ivette Addington.</p>
-</div>
-
-<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="http://twitter.com/ivetteaddington" target="_blank"><img src="/img/twitter.svg" alt="twitter logo" class="social-icon"></a>
+        <a href="https://github.com/IvetteAddington" target="_blank"><img src="/img/gitHub.svg" alt="gitHub logo" class="social-icon"></a>
+        <a href="https://www.linkedin.com/in/ivetteaddington" target="_blank"><img src="/img/linkedIn.svg" alt="linkedIn logo" class="social-icon"></a>
+        <p>&copy; 2015 Ivette Addington.</p>
+    </div>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -5,9 +5,85 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Jul 2015 10:54:41 -0400</pubDate>
-    <lastBuildDate>Mon, 20 Jul 2015 10:54:41 -0400</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2015 15:12:43 -0400</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2015 15:12:43 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Dynamic Navigation</title>
+        <description>&lt;p&gt;When I started to plan the functionality of this blog, I wanted the site&amp;rsquo;s navigation to change according the the user&amp;rsquo;s choice of language, while giving the option to easily switch back and forth from one language to another. Jekyll made it pretty easy to create the custom data to generate the site desired functionality by using the _data folder. &lt;/p&gt;
+
+&lt;p&gt;Jekyll&amp;rsquo;s _data folder comes in handy when you want to use additional data to generate a site. In my case, I wanted two sets on navigation- one for each language. So, inside the _data folder I created a navigation.yml file.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_data&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yml&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In the navigation.yml file I created two sets of navigations- one in English(en) and one in Spanish(es). The &amp;ldquo;title&amp;rdquo; is what will appear on the site, with its corresponding &amp;ldquo;url&amp;rdquo; below it. One thing to keep in mind here- YAML (like Python) is pretty specific about its whitespace, so make sure to use the spacebar instead of tab for spacing. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Posts&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/index/&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;projects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Projects&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/projects/&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;About&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/about/&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;es&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;entradas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Entradas&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/entradas/&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;proyectos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Proyectos&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/proyectos/&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;19&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;acerca&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Acerca De&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;21&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/acerca-de/&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To complete the navigation functionality, In my default.html I looped through navigation.yml according to the current [page.lang]- seen on lines two through eight below. This code allows to navigate through the rest of the site in the languge the user is requesting. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;nav navbar-nav pull-right&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;menu&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    &amp;lt;li class=&amp;quot;list-inline&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;     &amp;lt;a href=&amp;quot;{{ menu[1].url }&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;gt;{{ menu[1].title }}&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;    &amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;    {% endfor %}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I also wanted the ability to transition from one language to another on the navigation, but only wanted the link to the alternate languge to show, otherwise, I thought the navbar may look too crowded and confusing since the user was already on one of the two languages. First on lines one and two, I had to create the variable to be able to loop through the posts. Then, on line four, I captured the language of the post and used that information to answer the if/else statement on lines five though thirteen. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assign&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;path&amp;#39;&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%} &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    {% for post in posts %}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;lang&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;         &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;capture&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;language&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}{{page.lang}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endcapture&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%} &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;        {% if language == &amp;quot;es&amp;quot; %}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;{{ post.url }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;{{ post.lang }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;              &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;post.lang&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;en&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;en&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;English&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;es&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt; &lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;        {% else %}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;            &amp;lt;a href=&amp;quot;{{ post.url }}&amp;quot; class=&amp;quot;{{ post.lang }}&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;                {{ post.lang | where: &amp;quot;post.lang&amp;quot;, &amp;quot;es&amp;quot; | replace: &amp;quot;es&amp;quot;, &amp;quot;Español&amp;quot; | remove: &amp;quot;en&amp;quot; }}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;            &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;         &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endif&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    &amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    {% endfor %}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ul&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;I then used the same format on the templates for projects and posts.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+   
+</description>
+        <pubDate>Thu, 20 Aug 2015 00:00:00 -0400</pubDate>
+        <link>/post2/</link>
+        <guid isPermaLink="true">/post2/</guid>
+        
+        
+        <category>jekyll,</category>
+        
+        <category>navigation,</category>
+        
+        <category>bilingual</category>
+        
+      </item>
     
       <item>
         <title>Addington Food Blog</title>
@@ -97,11 +173,11 @@
         <title>Getting Started</title>
         <description>&lt;p&gt;A few weeks ago I met someone at a tech meetup who had recently relocated to the States from South America. She mentioned how great is was to see a thriving community of women in tech, but wished there was more latinas to tell their stories and share with the Spanish speaking community. &lt;/p&gt;
 
-&lt;p&gt;After that chat, I was inspired to finally start the blog I&amp;rsquo;d wanted to write about my own experiences, in both English and Spanish. After some research I came across articles about the new healthcare.gov website. The developers commissioned with creating this site used &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;&lt;/html&gt;, a simple, static site generator without a relational database. I was skeptical at first, but its ease and great documentation really made using Jekyll a no brainer. As a single language blog, Jekyll is pretty much ready to go as soon as the gem is installed and ran, but making the blog multilingual took a bit more work. &lt;/p&gt;
+&lt;p&gt;After that chat, I was inspired to start writing about my own experiences, in both English and Spanish, but was not quite sure what the best approach for a bilingual blog was. After some research I came across articles about the new &lt;html&gt;&lt;a href=&quot;http://healthcare.gov&quot;&gt;healthcare.gov&lt;/a&gt;&lt;/html&gt; website. The developers commissioned with creating this site used &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;&lt;/html&gt;, a simple, static site generator without a relational database. I was skeptical at first, but its ease and great documentation really made using Jekyll a no brainer. As a single language blog, Jekyll is pretty much ready to go as soon as the gem is installed and ran, but making the blog bilingual took a bit more work. &lt;/p&gt;
 
-&lt;p&gt;I wanted the users to be able to navigate to its language counterpart from wherever they were on the site, so I had to create a relationship between all the posts. This is where Jekyll&amp;rsquo;s &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot; target=&quot;_blank&quot;&gt;Front Matter&lt;/a&gt;&lt;/html&gt; became especially handy. &lt;/p&gt;
+&lt;p&gt;I wanted the users to be able to navigate to a post&amp;rsquo;s language counterpart from wherever they were on the site, so I had to create a relationship between all the posts. This is where Jekyll&amp;rsquo;s &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot; target=&quot;_blank&quot;&gt;Front Matter&lt;/a&gt;&lt;/html&gt; functionality became especially handy. &lt;/p&gt;
 
-&lt;p&gt;First thing was to utilize the &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot; target=&quot;_blank&quot;&gt;_posts&lt;/a&gt;&lt;/html&gt; folder to house both english and spanish pages and posts. I created a &amp;ldquo;en&amp;rdquo; and &amp;ldquo;es&amp;rdquo; folder and each of those housed a pages, posts, and projects page.&lt;/p&gt;
+&lt;p&gt;First thing was to utilize the &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot; target=&quot;_blank&quot;&gt;_posts&lt;/a&gt;&lt;/html&gt; folder to house both english and spanish pages and posts. I created a &amp;ldquo;en&amp;rdquo; and &amp;ldquo;es&amp;rdquo; folder and each of those housed a pages, posts, and projects folder.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;
@@ -140,12 +216,12 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
 
 &lt;p&gt;Then in _layouts/default, I added the following hreflang tag to alternate between the languages when promted. &lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assign&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;sx&quot;&gt;    {% for post in posts %}&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;sx&quot;&gt;        &amp;lt;link rel=&amp;quot;alternate&amp;quot; hreflang=&amp;quot;{{ post.lang }&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; href=&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; /&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;s2&quot;&gt;      {% endif %}&lt;/span&gt;
-&lt;span class=&quot;s2&quot;&gt;    {% endfor %}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assign&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    {% for post in posts %}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;       &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;        &amp;lt;link rel=&amp;quot;alternate&amp;quot; hreflang=&amp;quot;{{ post.lang }&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; href=&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; /&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;      {% endif %}&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;    {% endfor %}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;These three steps were vital to making the site work as intended. The next post will explain how to create dynamic navigation with the ability to alternate between both languages.  &lt;/p&gt;
 </description>
@@ -225,25 +301,20 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
       <item>
         <title>Proyectos</title>
         <description>&lt;div class=&quot;row&quot;&gt;
-
-
-  
-  
+     
     &lt;div class=&quot;col-sm-6 col-md-6&quot;&gt;
-      &lt;div class=&quot;thumbnail caption text-center&quot;&gt;
-          &lt;a href=&quot;/proyecto1/&quot; class=&quot;es&quot;&gt;
-            &lt;div class=&quot;img-container&quot;&gt;
-                &lt;img src=&quot;/img/blog.png&quot; class=&quot;img-responsive project-img&quot;&gt;
-            &lt;/div&gt;
-            &lt;h2 class=&quot;title&quot;&gt;ivetteaddington.com&lt;/h2&gt;
-            &lt;h4 class=&quot;line&quot;&gt;Mis pensamientos en código y vida en tecnología.&lt;/h4&gt;
-          &lt;/a&gt;
-          
-          
+        &lt;div class=&quot;thumbnail caption text-center&quot;&gt;
+            &lt;a href=&quot;/proyecto1/&quot; class=&quot;es&quot;&gt;
+                &lt;div class=&quot;img-container&quot;&gt;
+                    &lt;img src=&quot;/img/blog.png&quot; class=&quot;img-responsive project-img&quot;&gt;
+                &lt;/div&gt;
+                &lt;h2 class=&quot;title&quot;&gt;ivetteaddington.com&lt;/h2&gt;
+                &lt;h4 class=&quot;line&quot;&gt;Mis pensamientos en código y vida en tecnología.&lt;/h4&gt;
+            &lt;/a&gt;
+             
             &lt;a href=&quot;/proyecto1/&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visita sitio&lt;/a&gt;
-            &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;ve codigo&lt;/a&gt;
-          
-      &lt;/div&gt;
+            &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;ve codigo&lt;/a&gt; 
+        &lt;/div&gt;
     &lt;/div&gt;
     
 &lt;/div&gt;
@@ -258,42 +329,35 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
       <item>
         <title>Projects</title>
         <description>&lt;div class=&quot;row&quot;&gt;
-
-
-  
-  
+     
     &lt;div class=&quot;col-sm-6 col-md-6&quot;&gt;
-      &lt;div class=&quot;thumbnail caption text-center&quot;&gt;
-          &lt;a href=&quot;/project2/&quot; class=&quot;en&quot;&gt;
-            &lt;div class=&quot;img-container&quot;&gt;
-                &lt;img src=&quot;/img/food_blog.png&quot; class=&quot;img-responsive project-img&quot;&gt;
-            &lt;/div&gt;
-            &lt;h2 class=&quot;title&quot;&gt;Addington Food Blog&lt;/h2&gt;
-            &lt;h4 class=&quot;line&quot;&gt;I love food, so I write about it.&lt;/h4&gt;
-          &lt;/a&gt;
-          
-          
+        &lt;div class=&quot;thumbnail caption text-center&quot;&gt;
+            &lt;a href=&quot;/project2/&quot; class=&quot;en&quot;&gt;
+                &lt;div class=&quot;img-container&quot;&gt;
+                    &lt;img src=&quot;/img/food_blog.png&quot; class=&quot;img-responsive project-img&quot;&gt;
+                &lt;/div&gt;
+                &lt;h2 class=&quot;title&quot;&gt;Addington Food Blog&lt;/h2&gt;
+                &lt;h4 class=&quot;line&quot;&gt;I love food, so I write about it.&lt;/h4&gt;
+            &lt;/a&gt;
+             
             &lt;a href=&quot;/project2/&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visit project&lt;/a&gt;
-            &lt;a href=&quot;&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt;
-          
-      &lt;/div&gt;
+            &lt;a href=&quot;&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt; 
+        &lt;/div&gt;
     &lt;/div&gt;
     
     &lt;div class=&quot;col-sm-6 col-md-6&quot;&gt;
-      &lt;div class=&quot;thumbnail caption text-center&quot;&gt;
-          &lt;a href=&quot;/project1/&quot; class=&quot;en&quot;&gt;
-            &lt;div class=&quot;img-container&quot;&gt;
-                &lt;img src=&quot;/img/blog.png&quot; class=&quot;img-responsive project-img&quot;&gt;
-            &lt;/div&gt;
-            &lt;h2 class=&quot;title&quot;&gt;ivetteaddington.com&lt;/h2&gt;
-            &lt;h4 class=&quot;line&quot;&gt;My thoughts on code and life in tech.&lt;/h4&gt;
-          &lt;/a&gt;
-          
-          
+        &lt;div class=&quot;thumbnail caption text-center&quot;&gt;
+            &lt;a href=&quot;/project1/&quot; class=&quot;en&quot;&gt;
+                &lt;div class=&quot;img-container&quot;&gt;
+                    &lt;img src=&quot;/img/blog.png&quot; class=&quot;img-responsive project-img&quot;&gt;
+                &lt;/div&gt;
+                &lt;h2 class=&quot;title&quot;&gt;ivetteaddington.com&lt;/h2&gt;
+                &lt;h4 class=&quot;line&quot;&gt;My thoughts on code and life in tech.&lt;/h4&gt;
+            &lt;/a&gt;
+             
             &lt;a href=&quot;/project1/&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;visit project&lt;/a&gt;
-            &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt;
-          
-      &lt;/div&gt;
+            &lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;btn btn-default text-center&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;view code&lt;/a&gt; 
+        &lt;/div&gt;
     &lt;/div&gt;
     
 &lt;/div&gt;
@@ -308,18 +372,25 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
       <item>
         <title>Blog Enteries</title>
         <description>&lt;div class=&quot;home&quot;&gt;
-  &lt;ul class=&quot;list list-unstyled&quot;&gt;
-    
-    
-      &lt;a href=&quot;/post1/&quot; class=&quot;en&quot;&gt;
-        &lt;li class=&quot;lang&quot;&gt;
-          &lt;h2 class=&quot;title&quot;&gt;Getting Started&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;Making this blog bilingual&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-  &lt;/ul&gt;
+    &lt;ul class=&quot;list list-unstyled&quot;&gt;
+         
+        &lt;a href=&quot;/post2/&quot; class=&quot;en&quot;&gt;
+            &lt;li class=&quot;lang&quot;&gt;
+                &lt;h2 class=&quot;title&quot;&gt;Dynamic Navigation&lt;/h2&gt;
+                &lt;h3 class=&quot;line&quot;&gt;How I added dynamic navigation to my bilingual blog&lt;/h3&gt;
+                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&quot;/post1/&quot; class=&quot;en&quot;&gt;
+            &lt;li class=&quot;lang&quot;&gt;
+                &lt;h2 class=&quot;title&quot;&gt;Getting Started&lt;/h2&gt;
+                &lt;h3 class=&quot;line&quot;&gt;Making this blog bilingual&lt;/h3&gt;
+                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/a&gt;
+        
+    &lt;/ul&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 02 Jan 0001 00:00:00 -0500</pubDate>
@@ -332,36 +403,22 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
       <item>
         <title>Entradas</title>
         <description>&lt;div class=&quot;home&quot;&gt;
-  &lt;ul class=&quot;list list-unstyled&quot;&gt;
-    
-    
-      &lt;a href=&quot;/entrada1/&quot; class=&quot;es&quot;&gt;
-        &lt;li class=&quot;lang&quot;&gt;
-          &lt;h2 class=&quot;title&quot;&gt;Empezando Este Blog&lt;/h2&gt;
-          &lt;h3 class=&quot;line&quot;&gt;Come crear un blog bilingüe&lt;/h3&gt;
-          &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/a&gt;
-    
-  &lt;/ul&gt;
+    &lt;ul class=&quot;list list-unstyled&quot;&gt;
+         
+        &lt;a href=&quot;/entrada1/&quot; class=&quot;es&quot;&gt;
+            &lt;li class=&quot;lang&quot;&gt;
+                &lt;h2 class=&quot;title&quot;&gt;Empezando Este Blog&lt;/h2&gt;
+                &lt;h3 class=&quot;line&quot;&gt;Come crear un blog bilingüe&lt;/h3&gt;
+                &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/a&gt;
+        
+    &lt;/ul&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 02 Jan 0001 00:00:00 -0500</pubDate>
         <link>/entradas/</link>
         <guid isPermaLink="true">/entradas/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Acerca De</title>
-        <description>&lt;p&gt;Hola! Yo soy Ivette. Empeze este blog para documentar mis experiencias como desarolladora de web. Todos as endradas estan escritas en Inglés y Español, con una mirada en profundidad a los proyectos en los que estoy trabajando.&lt;/p&gt;
-
-&lt;p&gt;Si tienes qualquier preguntas, por favor no dude en comunicarse!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 -0500</pubDate>
-        <link>/acerca-de/</link>
-        <guid isPermaLink="true">/acerca-de/</guid>
         
         
       </item>
