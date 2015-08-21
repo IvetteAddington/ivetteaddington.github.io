@@ -26,18 +26,28 @@
                     <span class="icon-bar"></span>
                 </button>
                 {% if page.lang == 'en' %}
-                <a class="navbar-brand" href="/index/">Ivette Addington</a> {% else %}
-                <a class="navbar-brand" href="/entradas/">Ivette Addington</a> {% endif %}
+                  <a class="navbar-brand" href="/index/">Ivette Addington</a> 
+                {% else %}
+                  <a class="navbar-brand" href="/entradas/">Ivette Addington</a> 
+                {% endif %}
             </div>
             <div class="collapse navbar-collapse" id="nav-collapse">
                 <ul class="nav navbar-nav pull-right">
                     {% for menu in site.data.navigation[page.lang] %}
-                    <li class="list-inline"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>
-                    {% endfor %} {% assign posts=site.posts | where:"name", page.name | sort: 'path' %} {% for post in posts %}
+                      <li class="list-inline">
+                        <a href="{{ menu[1].url }}">{{ menu[1].title }}</a>
+                      </li>
+                    {% endfor %} 
+                    
+                    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %} 
+                    {% for post in posts %}
                     <li class="lang">
-                        {% capture language %}{{page.lang}}{% endcapture %} {% if language == "es" %}
-                        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "en" | replace: "en", "English" | remove: "es" }}</a> {% else %}
-                        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Español" | remove: "en" }}</a> {% endif %}
+                        {% capture language %}{{page.lang}}{% endcapture %} 
+                        {% if language == "es" %}
+                          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "en" | replace: "en", "English" | remove: "es" }}</a> 
+                        {% else %}
+                          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Español" | remove: "en" }}</a> 
+                        {% endif %}
                     </li>
                     {% endfor %}
                 </ul>
