@@ -13,7 +13,7 @@ nav {
 }
 
 .nav li {
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	color: #E3E3E3;
 }
 
@@ -122,22 +122,4 @@ h3 {
 	display: block;
 }
 
-@media screen and (max-width: 950px) {
- your font  style goes here
 
-}
-
-
-@media screen and (max-width: 650px) {
- your font  style goes here
-
-
-}
-
-@media screen and (max-width: 320px) {
- .navbar-brand {
- font-size: 2.5em;
- font-weight: bold;
- color: red;
-}
-}
