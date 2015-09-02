@@ -121,3 +121,5 @@ h3 {
 	width: 100%;
 	display: block;
 }
+
+@media (device-height : 568px) 
