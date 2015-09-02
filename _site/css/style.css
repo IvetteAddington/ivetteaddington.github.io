@@ -134,7 +134,7 @@ h3 {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
  .navbar-brand {
  font-size: 2.5em;
  font-weight: bold;
