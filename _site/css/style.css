@@ -13,12 +13,12 @@ nav {
 }
 
 .nav li {
-	font-size: 1vw;
+	font-size: 1.5em;
 	color: #E3E3E3;
 }
 
 .navbar-brand {
- font-size: 2.5em;
+ font-size: 2.5vm;
  font-weight: bold;
  color: #E3E3E3;
 }
