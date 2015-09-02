@@ -3,14 +3,18 @@
 
 <head>
     <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    {% assign posts=site.posts %} {% for post in posts %} {% if post.lang != page.lang %}
-    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" /> {% endif %} {% endfor %}
+    {% assign posts=site.posts %} 
+    {% for post in posts %} 
+    {% if post.lang != page.lang %}
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" /> 
+    {% endif %} 
+    {% endfor %}
     <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
     <link rel="stylesheet" href="{{ " /css/style.css " | prepend: site.baseurl }}">
 </head>
