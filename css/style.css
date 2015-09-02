@@ -122,4 +122,19 @@ h3 {
 	display: block;
 }
 
-@media (device-height : 568px) 
+@media screen and (max-width: 950px) {
+ your font  style goes here
+
+}
+
+
+@media screen and (max-width: 650px) {
+ your font  style goes here
+
+
+}
+
+@media screen and (max-width: 480px) {
+ font-size: 1em;
+ color: blue;
+}
