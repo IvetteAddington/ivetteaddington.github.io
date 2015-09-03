@@ -143,6 +143,11 @@ h3 {
 
 .title {
 	font-size: 1.2em;
-	color: blue;
 }
+
+.nav li {
+	font-size: 1em;
+	color: #E3E3E3;
+}
+
 }
