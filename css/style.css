@@ -50,6 +50,10 @@ nav {
 	color: #E3E3E3;
 }
 
+#page_title{
+	font-size:2.3em;
+}
+
 .main {
 	font-family: 'Roboto', sans-serif;
 	margin-top: 100px;
@@ -137,7 +141,11 @@ h3 {
 	 font-size: 1.8em;
 	 font-weight: bold;
 	 color: #E3E3E3;
-	 margin-left: 3px;
+	 margin-left: 5px;
+}
+
+#page_title{
+	font-size:1.4em;
 }
 
 .main li {
