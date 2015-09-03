@@ -128,7 +128,7 @@ h3 {
 @media (max-width: 49rem) { 
 
 .navbar-brand {
-	 font-size: 1.7em;
+	 font-size: 1.8em;
 	 font-weight: bold;
 	 color: #E3E3E3;
 	 margin-left: 3px;
@@ -143,6 +143,7 @@ h3 {
 
 .main {
 	color: blue;
+	font-size: 1.4em;
 }
 
 .title {
