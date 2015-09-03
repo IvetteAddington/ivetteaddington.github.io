@@ -139,18 +139,22 @@ h3 {
 	padding-bottom: 10px;
 	border-bottom: 1px #ccc solid;
 	font-weight: bold;
+	color: purple;
 }
 
 .main {
-	font-size: 1.1em;	
+	font-size: 1.1em;
+	color: blue;	
 }
 
 .title {
 	font-size: 1.2em;
+	color: red;
 }
 
 .line {
 	font-size: 1em;
+	color: yellow;
 }
 
 }
