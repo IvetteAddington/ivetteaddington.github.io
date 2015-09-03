@@ -125,7 +125,7 @@ h3 {
 @media (max-width: 49rem) { /* Mobile First Approach; 49rem = 784px  */
 
 .navbar-brand {
- font-size: 1.4em;
+ font-size: 1.5em;
  font-weight: bold;
  color: #E3E3E3;
 }
