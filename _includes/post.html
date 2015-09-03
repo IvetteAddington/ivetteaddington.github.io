@@ -3,8 +3,8 @@
         {% assign posts=site.posts | where: "lang", page.lang | where:"type", "posts" %} {% for post in posts %}
         <a href="{{ post.url }}" class="{{ post.lang }}">
             <li class="lang">
-                <h2 class="title">{{ post.title | replace '<br/>', '' }}</h2>
-                <h3 class="line">{{ post.line }}</h3>
+                <p class="title">{{ post.title | replace '<br/>', '' }}</p>
+                <p class="line">{{ post.line }}</p>
                 <div class="desc-list">{{ post.desc }}</div>
             </li>
         </a>
