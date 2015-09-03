@@ -64,10 +64,15 @@ nav {
 }
 
 .title {
-	font-size: 3em;
+	font-size: 2.1em;
 	font-family: 'Laila', serif;
 	font-weight: bold;
 	color: #008080;
+}
+
+.line {
+	font-size: 1.6em;
+	color: #555;
 }
 
 .page-content a {
