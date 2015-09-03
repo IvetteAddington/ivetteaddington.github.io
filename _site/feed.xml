@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Sep 2015 11:29:42 -0400</pubDate>
-    <lastBuildDate>Thu, 03 Sep 2015 11:29:42 -0400</lastBuildDate>
+    <pubDate>Thu, 03 Sep 2015 11:35:19 -0400</pubDate>
+    <lastBuildDate>Thu, 03 Sep 2015 11:35:19 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -455,7 +455,7 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
         &lt;a href=&quot;/post2/&quot; class=&quot;en&quot;&gt;
             &lt;li class=&quot;lang&quot;&gt;
                 &lt;h2 class=&quot;title&quot;&gt;Dynamic Navigation with Jekyll&lt;/h2&gt;
-                &lt;h3 class=&quot;line&quot;&gt;How I added dynamic navigation to my bilingual blog&lt;/h3&gt;
+                &lt;h3 class=&quot;line&quot;&gt;Adding dynamic navigation to a bilingual blog&lt;/h3&gt;
                 &lt;div class=&quot;desc-list&quot;&gt;&lt;/div&gt;
             &lt;/li&gt;
         &lt;/a&gt;
