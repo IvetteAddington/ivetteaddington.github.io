@@ -140,4 +140,8 @@ h3 {
 	border-bottom: 1px #ccc solid;
 	font-weight: bold;
 }
+
+.title {
+	font-size: 12px;
+}
 }
