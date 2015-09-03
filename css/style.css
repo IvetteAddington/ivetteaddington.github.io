@@ -122,7 +122,7 @@ h3 {
 	display: block;
 }
 
-@media (min-width: 49rem) { /* Mobile First Approach; 49rem = 784px  */
+@media (max-width: 49rem) { /* Mobile First Approach; 49rem = 784px  */
 
 .navbar-brand {
  font-size: 1em;
