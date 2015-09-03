@@ -142,23 +142,23 @@ h3 {
 }
 
 .main {
-	font-size: .9em;
+	font-size: .8em;
 	color: blue;	
 }
 
 .title {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	color: red;
 }
 
 .line {
-	font-size: 1.1em;
+	font-size: 1.3em;
 	color: yellow;
 }
 
 .social-icon {
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	margin: 0 8px;
 	padding-bottom: 10px;
 }
