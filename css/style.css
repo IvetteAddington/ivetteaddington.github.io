@@ -147,7 +147,7 @@ h3 {
   width: 100%;
 }
 
-  .masonry-image {
+.masonry-image {
     width: 50%;
   }
 /*************************************
@@ -188,10 +188,19 @@ h3 {
 	font-size: 1em;
 }
 
-.social-icon {
-	width: 40px;
-	height: 40px;
-	margin: 0 5px;
+.fa {
+	width: 20px;
+	height: 20px;
+	margin: 0 3px;
 	padding-bottom: 5px;
 }
+
+.masonry-image {
+  margin-bottom: -6px;
+  width: 100%;
+}
+
+.masonry-image {
+    width: 100%;
+  }
 }
