@@ -126,7 +126,6 @@ h3 {
 }
 
 .fa {
-	
 	width: 30px;
 	height: 30px;
 	margin: 0 8px;
@@ -147,12 +146,17 @@ h3 {
   width: 100%;
 }
 
-  .masonry-image {
+.masonry-image {
     width: 50%;
   }
 /*************************************
 	responsive
 /*************************************/
+@media (max-width: 49rem) {
+	#grid {
+	width: 100%;
+	}	
+}
 
 @media (max-width: 57rem) { 
 
@@ -188,10 +192,27 @@ h3 {
 	font-size: 1em;
 }
 
-.social-icon {
-	width: 40px;
-	height: 40px;
-	margin: 0 5px;
+.footer {
+	font-size: .5em;
+	text-align:center;
+	clear:both;
+	padding-top: 30px;
+	color:#555;
+}
+
+.fa {
+	width: 20px;
+	height: 20px;
+	margin: 0 4px;
 	padding-bottom: 5px;
 }
+
+.masonry-image {
+  margin-bottom: -6px;
+  width: 100%;
+}
+
+/*.masonry-image {
+    width: 100%;
+  }*/
 }

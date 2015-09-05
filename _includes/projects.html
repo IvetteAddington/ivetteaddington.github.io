@@ -1,3 +1,4 @@
+
 <div id="grid" class="js-masonry" data-masonry-options='{ "columnWidth": 0, "itemSelector": ".masonry-image" }'> 
     {% assign posts=site.posts | where:"lang", page.lang | where:"type", "projects" %} 
     {% for post in posts %}
@@ -7,6 +8,7 @@
             </a>
         </div>
     {% endfor %}
+</div>
 </div>
 
 
