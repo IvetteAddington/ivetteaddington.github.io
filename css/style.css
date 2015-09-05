@@ -158,6 +158,10 @@ h3 {
         overflow-x: hidden;
     }
 
+    .footer {
+    	padding: 0px 10px 0px 10px;
+    }
+
 }
 
 @media (max-width: 57rem) { 
