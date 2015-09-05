@@ -153,9 +153,13 @@ h3 {
 	responsive
 /*************************************/
 @media (max-width: 49rem) {
-    .container #grid{
+    .container{
         padding: 0;
         overflow-x: hidden;
+    }
+
+    .fa {
+    	padding: -10px;
     }
 }
 
