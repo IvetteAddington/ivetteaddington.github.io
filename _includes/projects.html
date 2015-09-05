@@ -1,23 +1,14 @@
-<div class="row">
-    {% assign posts=site.posts | where:"lang", page.lang | where:"type", "projects" %} {% for post in posts %}
-    <div class="col-sm-6 col-md-6">
-        <div class="thumbnail caption text-center">
+<div id="grid" class="js-masonry" data-masonry-options='{ "columnWidth": 0, "itemSelector": ".masonry-image" }'> 
+    {% assign posts=site.posts | where:"lang", page.lang | where:"type", "projects" %} 
+    {% for post in posts %}
+        <div class="masonry-image">
             <a href="{{ post.url }}" class="{{ post.lang }}">
-                <div class="img-container">
-                    <img src="/img/{{ post.image }}" class="img-responsive project-img">
-                </div>
-                <h2 class="title">{{post.title}}</h2>
-                <h4 class="line">{{post.line}}</h4>
+                <img src="/img/{{ post.image }}" class="img-responsive project-img">
             </a>
-            {% capture language %}{{page.lang}}{% endcapture %} {% if language == "en" %}
-            <a href="{{ post.url }}" class="btn btn-default text-center" role="button" target="_blank">visit project</a>
-            <a href="{{ post.code }}" class="btn btn-default text-center" role="button" target="_blank">view code</a> {% else %}
-            <a href="{{ post.url }}" class="btn btn-default text-center" role="button" target="_blank">visita sitio</a>
-            <a href="{{ post.code }}" class="btn btn-default text-center" role="button" target="_blank">ve codigo</a> {% endif %}
         </div>
-    </div>
     {% endfor %}
 </div>
 
 
+       
 
