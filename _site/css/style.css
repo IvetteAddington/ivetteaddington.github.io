@@ -153,14 +153,11 @@ h3 {
 	responsive
 /*************************************/
 @media (max-width: 49rem) {
-    .container{
+    .container .masonry-image{
         padding: 0;
         overflow-x: hidden;
     }
 
-    .fa {
-    	padding: -10px;
-    }
 }
 
 @media (max-width: 57rem) { 
