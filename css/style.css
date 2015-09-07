@@ -41,7 +41,7 @@ nav {
 }
 
 .navbar {
-	background-color: #008080;
+	background-color: #76C6C6;
 	padding-top: 15px;
 	padding-bottom: 5px;
 }
@@ -84,9 +84,7 @@ nav {
 	text-decoration: none;
 }
 
-h3 {
-	color: #555;
-}
+
 
 .btn {
 	margin: 5px;
