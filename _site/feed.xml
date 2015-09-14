@@ -5,13 +5,14 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Sep 2015 14:03:34 -0400</pubDate>
-    <lastBuildDate>Mon, 07 Sep 2015 14:03:34 -0400</lastBuildDate>
+    <pubDate>Mon, 14 Sep 2015 11:19:52 -0400</pubDate>
+    <lastBuildDate>Mon, 14 Sep 2015 11:19:52 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>p3</title>
-        <description></description>
+        <description>&lt;p&gt;I won&amp;rsquo;t be linking to all the proje&lt;/p&gt;
+</description>
         <pubDate>Thu, 03 Sep 2015 00:00:00 -0400</pubDate>
         <link>/project3/</link>
         <guid isPermaLink="true">/project3/</guid>

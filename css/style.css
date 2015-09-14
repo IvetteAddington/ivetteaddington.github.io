@@ -14,17 +14,12 @@ nav {
 
 .nav li {
 	font-size: 1.5em;
-	color: #E3E3E3;
-}
-
-.navbar-brand {
- 	font-size: 2.5em;
- 	font-weight: bold;
- 	color: #E3E3E3;
+	color: #2E2E2E;
 }
 
 .nav a:hover {
-	color: #2E2E2E;
+	color: #76c6c6;
+	/*black*/
 	background-color: transparent;
 }
 
@@ -41,17 +36,27 @@ nav {
 }
 
 .navbar {
-	background-color: #76C6C6;
+	background-color: #ffffff ;
+	/*white*/
 	padding-top: 15px;
 	padding-bottom: 5px;
+	border-bottom: 1.5px #ccc groove;
 }
 
-.navbar a {
-	color: #E3E3E3;
+a.navbar-brand {
+ 	font-size: 2em;
+ 	font-weight: bold;
+ 	color: #76c6c6;
+}
+
+a.navbar-brand:hover {
+	color: #2E2E2E;
+	/*black*/
+	background-color: transparent;
 }
 
 #page_title{
-	font-size:2.3em;
+	font-size: 2em;
 }
 
 .main {
@@ -61,21 +66,21 @@ nav {
 }
 
 .main li {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	border-bottom: 1px #ccc solid;
-	font-weight: bold;
 }
 
 .title {
-	font-size: 2.1em;
+	font-size: 1.8em;
 	font-family: 'Laila', serif;
 	font-weight: bold;
 	color: #008080;
+	margin-bottom: 2px
 }
 
 .line {
-	font-size: 1.6em;
+	font-size: 1.5em;
 	color: #555;
 }
 
@@ -83,8 +88,6 @@ nav {
 	color: #008080;
 	text-decoration: none;
 }
-
-
 
 .btn {
 	margin: 5px;
@@ -162,7 +165,7 @@ nav {
 .navbar-brand {
 	 font-size: 1.8em;
 	 font-weight: bold;
-	 color: #E3E3E3;
+	 color: #76c6c6;
 	 margin-left: 5px;
 }
 
