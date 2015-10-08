@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Sep 2015 12:14:47 -0400</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2015 12:14:47 -0400</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2015 11:27:59 -0400</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2015 11:27:59 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -190,6 +190,8 @@
 
 &lt;p&gt;After that chat, I was inspired to start writing about my own experiences, in both English and Spanish, but was not quite sure what the best approach for a bilingual blog was. After some research I came across articles about the new &lt;html&gt;&lt;a href=&quot;http://healthcare.gov&quot;&gt;healthcare.gov&lt;/a&gt;&lt;/html&gt; website. The developers commissioned with creating this site used &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;&lt;/html&gt;, a simple, static site generator without a relational database. I was skeptical at first, but its ease and great documentation really made using Jekyll a no brainer. As a single language blog, Jekyll is pretty much ready to go as soon as the gem is installed and ran, but making the blog bilingual took a bit more work. &lt;/p&gt;
 
+&lt;p&gt;Before going any further, I did want to point out that this, and any other posts about the creation of this blog, does not go over the general concepts or verbiage of Jekyll. Besides going through the documentation, I found the videos on &lt;html&gt;&lt;a href=&quot;http://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages&quot;&gt;Team Treehouse&amp;rsquo;s Jekyll&lt;/a&gt;&lt;/html&gt; track to be very helpful with general concepts.&lt;/p&gt;
+
 &lt;p&gt;I wanted the users to be able to navigate to a post&amp;rsquo;s language counterpart from wherever they were on the site, so I had to create a relationship between all the posts. This is where Jekyll&amp;rsquo;s &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot; target=&quot;_blank&quot;&gt;Front Matter&lt;/a&gt;&lt;/html&gt; functionality became especially handy. &lt;/p&gt;
 
 &lt;p&gt;First thing was to utilize the &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot; target=&quot;_blank&quot;&gt;_posts&lt;/a&gt;&lt;/html&gt; folder to house both english and spanish pages and posts. I created a &amp;ldquo;en&amp;rdquo; and &amp;ldquo;es&amp;rdquo; folder and each of those housed a pages, posts, and projects folder.&lt;/p&gt;
@@ -329,7 +331,9 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
         <title>Empezando Este Blog</title>
         <description>&lt;p&gt;Hace unas semanas me encontré con alguien en un meetup tecnología que se había trasladado recientemente a los Estados Unidos de Sur America. Ella mencionó cuán grande era ver una próspera comunidad de mujeres en tecnología, pero desearía ver mas latinas compartiendo su historia a la comunidad hispana.&lt;/p&gt;
 
-&lt;p&gt;Después de esa charla, me inspiré a finalmente escribir un blog sobre mis propias experiencias, en Inglés y Español. Tratando de buscar informacion acerca de come crear un blog bilingüe, me encontré con artículos sobre la creacion de la nueva healthcare.gov sitio web. Los desarrolladores encargados de crear este sitio utilizaron &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;&lt;/html&gt;, un generador de sitio simple, estático sin una base de datos relacional. Al principio, era un poco escéptica, pero su facilidad y gran documentación realmente hice usando jekyll una obviedad. Como un blog de un solo lenguaje, Jekyll esta casi listo para ir tan pronto la joya está instalada y corria, pero haciendo el blog multilingüe tomó un poco más trabajo. &lt;/p&gt;
+&lt;p&gt;Después de esa charla, me inspiré a finalmente escribir un blog sobre mis propias experiencias, en Inglés y Español. Tratando de buscar informacion acerca de come crear un blog bilingüe, me encontré con artículos sobre la creacion de la nueva healthcare.gov sitio web. Los desarrolladores encargados de crear este sitio utilizaron &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;&lt;/html&gt;, un generador de sitio simple, estático sin una base de datos relacional. Al principio, era un poco escéptica, pero su facilidad y gran documentación realmente hice usando jekyll una obviedad. Como un blog de un solo lenguaje, Jekyll esta casi listo para ir tan pronto la joya está instalada y corrida, pero haciendo el blog multilingüe tomó un poco más trabajo. &lt;/p&gt;
+
+&lt;p&gt;Antes de seguir adelante, quiero señalar que este, y cualesquier otra entrada acerca de la creación de este blog, no cubre conceptos generales o verborrea de Jekyll. Además de repasar la documentación en su pagina, los videos acerca de Jekyll en el sitio &lt;html&gt;&lt;a href=&quot;http://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages&quot;&gt;Team Treehouse&lt;/a&gt;&lt;/html&gt; fue un gran ayuda. Los videos estan en inglés, pero este tutorial en español de &lt;html&gt;&lt;a href=&quot;http://blog.hostdime.com.co/como-crear-un-blog-con-jekyll-una-guia-para-principiantes/&quot;&gt;HostDime blog&lt;/a&gt;&lt;/html&gt; revisa los conceptos generales y como empazer un blog usando la joya de Jekyll.  &lt;/p&gt;
 
 &lt;p&gt;Quería que los usuarios puedan navegar de languge a languge de dondequiera que estuvieran en el sitio, así que tuve que crear una relación entre todos los puestos. Aquí es donde el &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot; target=&quot;_blank&quot;&gt;Front Matter&lt;/a&gt;&lt;/html&gt; de Jekyll convirtió especically práctico.&lt;/p&gt;
 

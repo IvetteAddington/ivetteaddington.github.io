@@ -19,7 +19,6 @@ nav {
 
 .nav a:hover {
 	color: #76c6c6;
-	/*black*/
 	background-color: transparent;
 }
 
@@ -37,10 +36,9 @@ nav {
 
 .navbar {
 	background-color: #ffffff ;
-	/*white*/
 	padding-top: 15px;
 	padding-bottom: 5px;
-	border-bottom: 1.5px #ccc groove;
+	border-bottom: 1px groove;
 }
 
 a.navbar-brand {

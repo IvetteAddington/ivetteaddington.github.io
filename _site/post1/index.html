@@ -122,6 +122,8 @@
 
 <p>After that chat, I was inspired to start writing about my own experiences, in both English and Spanish, but was not quite sure what the best approach for a bilingual blog was. After some research I came across articles about the new <html><a href="http://healthcare.gov">healthcare.gov</a></html> website. The developers commissioned with creating this site used <html><a href="http://jekyllrb.com/" target="_blank">Jekyll</a></html>, a simple, static site generator without a relational database. I was skeptical at first, but its ease and great documentation really made using Jekyll a no brainer. As a single language blog, Jekyll is pretty much ready to go as soon as the gem is installed and ran, but making the blog bilingual took a bit more work. </p>
 
+<p>Before going any further, I did want to point out that this, and any other posts about the creation of this blog, does not go over the general concepts or verbiage of Jekyll. Besides going through the documentation, I found the videos on <html><a href="http://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages">Team Treehouse&rsquo;s Jekyll</a></html> track to be very helpful with general concepts.</p>
+
 <p>I wanted the users to be able to navigate to a post&rsquo;s language counterpart from wherever they were on the site, so I had to create a relationship between all the posts. This is where Jekyll&rsquo;s <html><a href="http://jekyllrb.com/docs/frontmatter/" target="_blank">Front Matter</a></html> functionality became especially handy. </p>
 
 <p>First thing was to utilize the <html><a href="http://jekyllrb.com/docs/structure/" target="_blank">_posts</a></html> folder to house both english and spanish pages and posts. I created a &ldquo;en&rdquo; and &ldquo;es&rdquo; folder and each of those housed a pages, posts, and projects folder.</p>
@@ -174,7 +176,7 @@ Each post and page has an identical identifying &ldquo;name&rdquo; in the other 
 
         </div>
     </div>
-    <div class="footer">
+        <div class="container-fluid footer">
         <a href="http://twitter.com/ivetteaddington" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>  
         <a href="https://github.com/IvetteAddington" target="_blank"><i class="fa fa-github fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/ivetteaddington" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
