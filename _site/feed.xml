@@ -5,9 +5,46 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Oct 2015 22:36:21 -0400</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2015 22:36:21 -0400</lastBuildDate>
+    <pubDate>Tue, 20 Oct 2015 17:41:55 -0400</pubDate>
+    <lastBuildDate>Tue, 20 Oct 2015 17:41:55 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>General Assembly Opportunity Fund Fellow</title>
+        <description>&lt;p&gt;It started with a tweet. This tweet, from &lt;html&gt;&lt;a href=&quot;http://women2.com/&quot; target=&quot;_blank&quot;&gt;Women 2.0&lt;/a&gt;&lt;/html&gt; to be exact:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/scholarshipTweet.png&quot; alt=&quot;scholarship tweet&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, let me back up. Before that tweet, I had spent a few months learning HTML and CSS. Through &lt;html&gt;&lt;a href=&quot;https://teamtreehouse.com&quot; target=&quot;_blank&quot;&gt;Team Treehouse&amp;rsquo;s online tutorials&lt;/a&gt;&lt;/html&gt;, blog posts and John Duckett&amp;rsquo;s &lt;html&gt;&lt;a href=&quot;http://www.htmlandcssbook.com/&quot; target=&quot;_blank&quot;&gt;HTML&amp;amp;CSS design and build websites&lt;/a&gt;&lt;/html&gt; book, I created a webiste. It was nothing fancy, but it was a pretty great feeling to see working links, a responsive header (everything else was responsive too, but the header was where I can see the most transition) and something I created on my computer&amp;rsquo;s screen. &lt;/p&gt;
+
+&lt;p&gt;As the weeks past, I was reading and going through more complicated frontend tutorials and dipped my toes into backend as often as I could, but something was missing, and that was structure. I applaud the people who have been able to learn on their own, without classes, bootcamps, etc. There are a lot of resources out there, but I wanted to be in a class. I thought about going back to school, but then I saw the tweet about scholarships for women looking to learn to code. On that list, was &lt;html&gt;&lt;a href=&quot;https://generalassemb.ly/opportunity-fund&quot; target=&quot;_blank&quot;&gt;General Assembly&amp;rsquo;s Opportunity Fund&lt;/a&gt;&lt;/html&gt;. Since I received the scholarship, the format has changed a bit, and now all scholarships fall under three categories. But, I had specifically received the Alexis Ohanian Fellowship for Women of Color, which now falls under &lt;html&gt;&lt;a href=&quot;https://generalassemb.ly/opportunity-fund/fellowships/code-for-change&quot; target=&quot;_blank&quot;&gt;Code for Change&lt;/a&gt;&lt;/html&gt;. Check it out- that&amp;rsquo;s me in the Fellow Spotlight!&lt;/p&gt;
+
+&lt;p&gt;I was pretty scared to apply, for many reasons. For starters, if I did get a scholarship, that would mean quitting my job, while my husband was in school full-time. Also, I can work my way through problems, but I was no math or science whiz, so I was concerned that coding was out of my leauge. Honestly, I could keep going with the list of why nots, bu I got over the fears and applied anyway. I thought, what are the odds&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;I few weeks later, I was called in for an interview, with both the Opportunity Fund Director and a teacher at General Assembly. Needless to say, I was pretty intimiated, but later that evening I was informed that I would be given the scholarship.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s been a few months since I finished the program and had the privilage of teaching a Girls Who Code class in Harlem soon after I was done. I&amp;rsquo;ve been coding just about everyday since graduating, but I had planned to travel throughout the summer while my husband, Josh, finished school and an internsip, so I have postponed looking for a full-time job. Late last week, we Josh officially accepted a data science/web development job in Durham, NC. So were packing up and heading south! It&amp;rsquo;s been a crazy few months, but I am so very excited to get involved with the thriving tech community in the Raleigh/Durham/Chapel Hill area of North Carolina. &lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2015 00:00:00 -0400</pubDate>
+        <link>/post4/</link>
+        <guid isPermaLink="true">/post4/</guid>
+        
+        
+        <category>general</category>
+        
+        <category>assembly,</category>
+        
+        <category>nyc,</category>
+        
+        <category>opportunity</category>
+        
+        <category>fund,</category>
+        
+        <category>coding,</category>
+        
+        <category>bootcamp</category>
+        
+      </item>
     
       <item>
         <title>ruby-build&amp;#58; definition not found&amp;#58; 2.2.3</title>
@@ -430,70 +467,6 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
         <pubDate>Mon, 25 May 2015 00:00:00 -0400</pubDate>
         <link>/entrada2/</link>
         <guid isPermaLink="true">/entrada2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Empezando Este Blog</title>
-        <description>&lt;p&gt;Hace unas semanas me encontré con alguien en un meetup tecnología que se había trasladado recientemente a los Estados Unidos de Sur America. Ella mencionó cuán grande era ver una próspera comunidad de mujeres en tecnología, pero desearía ver mas latinas compartiendo su historia a la comunidad hispana.&lt;/p&gt;
-
-&lt;p&gt;Después de esa charla, me inspiré a finalmente escribir un blog sobre mis propias experiencias, en Inglés y Español. Tratando de buscar informacion acerca de come crear un blog bilingüe, me encontré con artículos sobre la creacion de la nueva healthcare.gov sitio web. Los desarrolladores encargados de crear este sitio utilizaron &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;&lt;/html&gt;, un generador de sitio simple, estático sin una base de datos relacional. Al principio, era un poco escéptica, pero su facilidad y gran documentación realmente hice usando jekyll una obviedad. Como un blog de un solo lenguaje, Jekyll esta casi listo para ir tan pronto la joya está instalada y corrida, pero haciendo el blog multilingüe tomó un poco más trabajo. &lt;/p&gt;
-
-&lt;p&gt;Antes de seguir adelante, quiero señalar que este, y cualesquier otra entrada acerca de la creación de este blog, no cubre conceptos generales o verborrea de Jekyll. Además de repasar la documentación en su pagina, los videos acerca de Jekyll en el sitio &lt;html&gt;&lt;a href=&quot;http://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages&quot;&gt;Team Treehouse&lt;/a&gt;&lt;/html&gt; fue un gran ayuda. Los videos estan en inglés, pero este tutorial en español de &lt;html&gt;&lt;a href=&quot;http://blog.hostdime.com.co/como-crear-un-blog-con-jekyll-una-guia-para-principiantes/&quot;&gt;HostDime blog&lt;/a&gt;&lt;/html&gt; revisa los conceptos generales y como empazer un blog usando la joya de Jekyll.  &lt;/p&gt;
-
-&lt;p&gt;Quería que los usuarios puedan navegar de languge a languge de dondequiera que estuvieran en el sitio, así que tuve que crear una relación entre todos los puestos. Aquí es donde el &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot; target=&quot;_blank&quot;&gt;Front Matter&lt;/a&gt;&lt;/html&gt; de Jekyll convirtió especically práctico.&lt;/p&gt;
-
-&lt;p&gt;Para empezar, tuve que crear capretas para los dos lenguges: &amp;ldquo;en&amp;rdquo; y &amp;ldquo;es&amp;rdquo; adentro de la carpeta &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot; target=&quot;_blank&quot;&gt;_posts&lt;/a&gt;&lt;/html&gt;. Adentro de esas caprets tuve que crear tres mas: &amp;ldquo;pages&amp;rdquo;, &amp;ldquo;posts&amp;rdquo;, y &amp;ldquo;projects&amp;rdquo; para aguantar las paginas y entradas en Inglés y Español. &lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;02&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;projects&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;projects&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;project1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;02&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;project2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;es&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;acerca&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;de&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;02&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entradas&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proyectos&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entrada1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;projects&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;         &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proyecto1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;         &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;0001&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;02&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proyecto2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;md&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Además de los usos mas comunos de Front Matter, como &amp;ldquo;type&amp;rdquo; (tipo), &amp;ldquo;layout&amp;rdquo; (diseño), &amp;ldquo;title&amp;rdquo; (título), &amp;ldquo;date&amp;rdquo; (fecha) he añadido dos variables adicionales que crearían la relación entre los dos: &amp;ldquo;name&amp;rdquo; (nombre) y &amp;ldquo;lang&amp;rdquo; (lenguge). Cada puesto y página tiene una identificación identica de &amp;ldquo;name&amp;rdquo; en el otro idioma, por lo que usuarios pueden alternar fácilmente entre los dos idiomas . &lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;English&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post1&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;Spanish&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post1&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;es&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Despues en _layouts/default, añadí el sigiente hreflang tag para alternar entre los idiomas cuando incitado.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assign&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;sx&quot;&gt;    {% for post in posts %}&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;sx&quot;&gt;        &amp;lt;link rel=&amp;quot;alternate&amp;quot; hreflang=&amp;quot;{{ post.lang }&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; href=&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; /&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;s2&quot;&gt;      {% endif %}&lt;/span&gt;
-&lt;span class=&quot;s2&quot;&gt;    {% endfor %}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Estos tres pasos son vitales para que de sitio trabaje a propósito. La siguiente entrada explicará cómo crear navegación dinámica con la capacidad de alternar entre los dos idiomas.  &lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 May 2015 00:00:00 -0400</pubDate>
-        <link>/entrada1/</link>
-        <guid isPermaLink="true">/entrada1/</guid>
         
         
       </item>
