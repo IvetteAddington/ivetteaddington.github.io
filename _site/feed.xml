@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Oct 2015 17:41:55 -0400</pubDate>
-    <lastBuildDate>Tue, 20 Oct 2015 17:41:55 -0400</lastBuildDate>
+    <pubDate>Tue, 20 Oct 2015 21:29:33 -0400</pubDate>
+    <lastBuildDate>Tue, 20 Oct 2015 21:29:33 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,6 +28,43 @@
         <pubDate>Tue, 20 Oct 2015 00:00:00 -0400</pubDate>
         <link>/post4/</link>
         <guid isPermaLink="true">/post4/</guid>
+        
+        
+        <category>general</category>
+        
+        <category>assembly,</category>
+        
+        <category>nyc,</category>
+        
+        <category>opportunity</category>
+        
+        <category>fund,</category>
+        
+        <category>coding,</category>
+        
+        <category>bootcamp</category>
+        
+      </item>
+    
+      <item>
+        <title>Oportunidad Becaria para atender General Assembly</title>
+        <description>&lt;p&gt;Todo comenzó con un tweet. Este tweet, para ser exacto de &lt;html&gt;&lt;a href=&quot;http://women2.com/&quot; target=&quot;_blank&quot;&gt;Women 2.0&lt;/a&gt;&lt;/html&gt; para ser exacto:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/scholarshipTweet.png&quot; alt=&quot;scholarship tweet&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Bueno, antes de ese tweet, había pasado algunos meses aprendiendo HTML y CSS. A través de tutoriales de diseño de web en el sitio &lt;html&gt;&lt;a href=&quot;https://teamtreehouse.com&quot; target=&quot;_blank&quot;&gt;Team Treehouse&lt;/a&gt;&lt;/html&gt;, entradas de blog y el libro &lt;html&gt;&lt;a href=&quot;http://www.htmlandcssbook.com/&quot; target=&quot;_blank&quot;&gt;HTMLyCSS diseño y construcción de sitios web&lt;/a&gt;&lt;/html&gt; escrito por John Duckett, construi my primer sitio web. No era algo lujoso, pero fue una gran sensación ver los vínculos trabajando, navegacion responsivo (todo el sitio era responsivo, pero la transición fue más evidente en la navegacion) y en general, algo que yo crei con codificación que pudo ver en mi computadora. &lt;/p&gt;
+
+&lt;p&gt;Segui leyendo y aprendiendo, usando tutoriales mas complicados de frontend y empeze a aprender un poco del backend, pero algo faltaba, estructura. Aplaudo a las personas que han sido capaces de aprender diseño de web por su cuenta, sin clases, bootcamps, etc. Se que hay un montón de recursos, pero yo quería estar en clases y aprender de ellos que saben mas que yo. Pensé volver a la escuela, pero luego vi el tweet acerca de becas para las mujeres que desean aprender código. En esa lista, aprendi de &lt;html&gt;&lt;a href=&quot;https://generalassemb.ly/opportunity-fund&quot; target=&quot;_blank&quot;&gt; Opportunity Fund de General Assembly&lt;/a&gt;&lt;/html&gt;. Desde que recibí la beca, el formato ha cambiado un poco, ahora todas las becas estan bajo tres categorías. Yo específicamente recibi la beca Alexis Ohanian Becas para Mujeres de Color, que ahora cae bajo &lt;html&gt; &lt;a href = &quot;https://generalassemb.ly/opportunity-fund/fellowships/code-for-change&quot; target =&quot;_blank&quot;&gt; Código para Cambio&lt;/a&gt;&lt;/html&gt;. Visita la pagina! El articulo es de mi!&lt;/p&gt;
+
+&lt;p&gt;Tenia muchas reservaciones pensando en la posibilidad de aprender codificación. Para empezar, la beca significaría dejar mi trabajo, mientras mi marido estaba en la escuela tiempo completo. Ademas, puedo trabajar mi camino a través de problemas, pero no soy un genio de matemáticas o las ciencias, así que estaba preocupado de que la codificación estaba pueda ser mas dificil para mi. Honestamente, podría seguir con la lista de por qué no, pero aplique. Pensé, ¿cuáles son las probabilidades &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Unas semanas más tarde, me llamaron para una entrevista, con el Director de Opportunity Fund y un profesor de General Assembly. No hace falta decir que estaba bastante intimidada, pero esa misma noche me informaron de que gane la beca.&lt;/p&gt;
+
+&lt;p&gt;Ha sido un par de meses desde que termine el programa y tuve el privilegio de enseñar con Girls Who Code en Harlem, NY. He estado codificación casi todos los días desde que gradue del progrema, pero había planeado viajar durante el verano, mientras que mi marido, Josh, termina sus estudios y un internado, así que he pospuesto buscar trabajo de tiempo completo. La semana pasada, Josh oficialmente aceptó una posición de ciencia de datos/diseño de web en Durham, Carolina del Norte. Así que nos vamos sur! Han sido unos locos meses, pero estoy muy emocionados de ser parte de una comunidad próspera tecnología en el área de Raleigh/Durham/Chapel Hill en Carolina del Norte .&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2015 00:00:00 -0400</pubDate>
+        <link>/entrada4/</link>
+        <guid isPermaLink="true">/entrada4/</guid>
         
         
         <category>general</category>
@@ -394,80 +431,6 @@ Each post and page has an identical identifying &amp;ldquo;name&amp;rdquo; in th
         <category>jekyll</category>
         
         <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Navegación Dinámica con Jekyll</title>
-        <description>&lt;p&gt;Cuando empeće a planear la functionalidad de este blog, queria que la navegación del sitio cambiara de acuerdo al idioma en qual el usuario eliga, ingles o español, con la opción de cambier de un idioma al otro facilmente. Para lograr esa functionalidad, creé la navegación personalizado usando Jekyll, un creador de sitio&amp;rsquo;s estaticos de web. Dentro de Jekyll&amp;rsquo;s &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/datafiles/&quot; target=&quot;_blank&quot;&gt;data files&lt;/a&gt;&lt;/html&gt;, comúnmente usado para almacenar datos y information para crear sitio&amp;rsquo;s web con funcionalidad personalizada, pude programar la navegacion bilingüe.&lt;/p&gt;
-
-&lt;p&gt;En mi caso, quería dos navegaciones separadas que alterarían de acuerdo con el idioma (page.lang) en la qual el usuario actualmente esta. Así que, para empezar cree navigation.yml interior de _data.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_data&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yml&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;En navigation.yml he creado dos juegos para la navigacion del sitio- en Inglés (en) y uno en español (es). &amp;ldquo;Title&amp;rdquo; es lo que aparecerá en la barra de navegación, con su correspondiente &amp;ldquo;url &amp;rdquo; debajo de él. Una cosa de tener en cuenta aquí- YAML, como el lenguaje Python, es específico acerca de su espacio blanco, así que asegúrese de usar la barra espaciadora en lugar de TAB.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Posts&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/index/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;projects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Projects&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/projects/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;About&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/about/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;es&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;entradas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Entradas&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/entradas/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;proyectos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Proyectos&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/proyectos/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;19&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;acerca&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Acerca De&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;21&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/acerca-de/&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Para completar la funcionalidad dinámica en la navegación, en default.html, bucle mediante navigation.yml de acuerdo a la corriente idioma, determinado por [page.lang]. Este código permite al usuario naveger el resto del sitio en esa misma idioma.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;nav navbar-nav pull-right&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;menu&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    &amp;lt;li class=&amp;quot;list-inline&amp;quot;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;     &amp;lt;a href=&amp;quot;{{ menu[1].url }&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;gt;{{ menu[1].title }}&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;    &amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;    {% endfor %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;También quería la capacidad de pasar de un idioma al otro en la barra de navegación, pero sólo quería que el enlace del idioma contraparte sea visible. Por ejemplo, si el usuario estaba en un puesto de Inglés, no mas el enlace &amp;ldquo;Español&amp;rdquo; es visible y lo contrario para un puesto/pagina en Español. Elegí esto por dos razones. En primer lugar, no quería que la barra de navegación este llena de enlaces y segundo es innecesarios, no hay necesidad de vincular a la página en la cual el usuario ya esta en.&lt;/p&gt;
-
-&lt;p&gt;Para empezar, en las líneas 1 y 2 tuve que crear el variable para poder recorrer los puestos. El &amp;lsquo;where: &amp;ldquo;name&amp;rdquo;&amp;rsquo; filtro atraviesa a través de los mensajes para busca de su poste/página contraparte. Despues tuve que &amp;ldquo;capturar&amp;rdquo; el idioma de la página. Línea 4 representa la captura que es una etiqueta que captura el texto y lo converte a un variable. A continuación, utilizar ese variable para determinar el resultado de la siguiente declaración if/else. Ese variable pasa por la declaracion if/else, que determina qual enlace mostrar- Inglés o Español. Cuando el idioma ha sido determinado, utilicé un filtro&lt;html&gt;&lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot; target = &quot;_blank&quot;&gt;Liquid&lt;/a&gt;&lt;/html&gt;, línea 7, para sustituir &amp;ldquo;en&amp;rdquo; (el variable utilizado para diferenciar entre los dos idiomas) con la palabra &amp;ldquo;English&amp;rdquo; y elimine &amp;ldquo;es&amp;rdquo; (para Español), ya que el usuario ya está leyendo esa página en Español. Y viceversa en la línea 11, cuando el usuario se encuentra en una página en Inglés.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assign&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;path&amp;#39;&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%} &lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    {% for post in posts %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;lang&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;         &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;capture&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;language&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}{{page.lang}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endcapture&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%} &lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;        {% if language == &amp;quot;es&amp;quot; %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;{{ post.url }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;{{ post.lang }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;              &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;post.lang&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;en&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;en&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;English&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;es&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt; &lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;        {% else %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;            &amp;lt;a href=&amp;quot;{{ post.url }}&amp;quot; class=&amp;quot;{{ post.lang }}&amp;quot;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;                {{ post.lang | where: &amp;quot;post.lang&amp;quot;, &amp;quot;es&amp;quot; | replace: &amp;quot;es&amp;quot;, &amp;quot;Español&amp;quot; | remove: &amp;quot;en&amp;quot; }}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;            &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;         &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endif&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    &amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    {% endfor %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-   
-
-&lt;p&gt;Luego utiliza el mismo formato en las plantillas para proyectos y mensajes.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 May 2015 00:00:00 -0400</pubDate>
-        <link>/entrada2/</link>
-        <guid isPermaLink="true">/entrada2/</guid>
-        
         
       </item>
     
