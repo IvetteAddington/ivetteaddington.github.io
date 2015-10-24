@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Oct 2015 13:14:07 -0400</pubDate>
-    <lastBuildDate>Thu, 22 Oct 2015 13:14:07 -0400</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2015 21:21:47 -0400</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2015 21:21:47 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -191,8 +191,36 @@
       </item>
     
       <item>
-        <title>p3</title>
-        <description>&lt;p&gt;I won&amp;rsquo;t be linking to all the proje&lt;/p&gt;
+        <title>Contact List w/ Local Storage</title>
+        <description>&lt;p&gt;&lt;html&gt;&lt;a href=&quot;http://contactlist12.herokuapp.com/&quot; class=&quot;project_link&quot; target=&quot;_blank&quot;&gt;View Online&lt;/a&gt;&lt;/html&gt;
+|
+&lt;html&gt;&lt;a href=&quot;https://github.com/IvetteAddington/Contact-List&quot; class=&quot;project_link&quot; target=&quot;_blank&quot;&gt;View Source Code&lt;/a&gt;&lt;/html&gt;&lt;/p&gt;
+
+&lt;h3&gt;About this Blog&lt;/h3&gt;
+
+&lt;p&gt;When I was at General Assembly, our second project was to create a contact list. At the time, I remember being overwhelmed by the MVP list. Although I delivered most of what was on that list, I remember thinking I would come back later and redo it. So this is Contact List 2.0 and there was quite a bit of changes. &lt;/p&gt;
+
+&lt;p&gt;For starters, the original project had us create a postgreSQL database for for the contact&amp;rsquo;s information. I have nothing against postgres, its my go-to for databases. But, over the past few weeks, I had wanted to work on a small project that incorporated local storage, a way for web pages to locally store name/key value pairs. That is the simply put definition, but for a more in depth look at local storage, check out &lt;html&gt;&lt;a href=&quot;http://diveintohtml5.info/storage.html&quot; target =&quot;_blank&quot;&gt;Dive Into HTML5&amp;rsquo;s&lt;/a&gt;&lt;/html&gt; chapter dedicated to local storage. The original version either showed all the contacts or would break them up into categories(I omitted the categories on this version), but the search feature on this returns all contacts that contain the inputs in the name. Also, I played with some jquery animation and toggle functions to display the information.&lt;/p&gt;
+
+&lt;h3&gt;Challenges&lt;/h3&gt;
+
+&lt;p&gt;What took me the longest was getting the jquery right. Oftentimes, once I got one feature working, something else would break. Also, I had originally set up the contact information to save in a table format, but the gave me limited options when it came to displaying the info the way I had planned. I also came across times where the code did what I wanted it to do within local storge, but would not change the info on the DOM without a page refresh. So, I had to make sure that what was happening in local storage was being reflected on the DOM. However, I think my biggest challenge DOM traversal. I&amp;rsquo;ve worked with the DOM in the past, so I was a bit frustrated that I could not get the animation to work on the child elements at first, but after a break and some more careful reading on the subject I was able to get the functions working. &lt;/p&gt;
+
+&lt;h2&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;I can still see things here and there that I would like to edit, but not sure how to yet&amp;hellip; for example all the white space on the search portion of the page, editing the css for the pagination links, and I&amp;rsquo;ll likely get to those in version 3, but for now I&amp;rsquo;m happy to have learned how to work with local storage, as well as getting jquery animation working the way I intented it to. It took a little longer than I hoped to get these edits done, but it truly is so much better that the first version, and I can see my personal growth, which deep down was the purpose of revisiting this project. &lt;/p&gt;
+
+&lt;p&gt;Resources Used
+&lt;html&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://jquery.com/&quot; target=&quot;_blank&quot;&gt;Jquery&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage&quot; target=&quot;_blank&quot;&gt;Local Storage&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://t4t5.github.io/sweetalert/&quot; target=&quot;_blank&quot;&gt;Sweet Alert&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.listjs.com/&quot; target=&quot;_blank&quot;&gt;list.js&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://st3ph.github.io/jquery.easyPaginate/&quot; target=&quot;_blank&quot;&gt;easyPaginate.js&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/html&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 03 Sep 2015 00:00:00 -0400</pubDate>
         <link>/project3/</link>
@@ -330,7 +358,11 @@
     
       <item>
         <title>ivetteaddington.com</title>
-        <description>&lt;p&gt;I&amp;rsquo;m a newbie when it comes to coding, but I wanted to be able to show the projects I&amp;rsquo;ve been working on, documenting my progress and writing about the challenges I&amp;rsquo;ve tackled to get the code to work. As a newbie, I realize how important to not only show personal progress and clearly communicate the process, but also have a portfolio for potential employers or clients. &lt;/p&gt;
+        <description>&lt;p&gt;&lt;html&gt;&lt;a href=&quot;http://ivetteaddington.com/index/&quot; class=&quot;project_link&quot; target=&quot;_blank&quot;&gt;View Online&lt;/a&gt;&lt;/html&gt;
+|
+&lt;html&gt;&lt;a href=&quot;https://github.com/IvetteAddington/ivetteaddington.github.io&quot; class=&quot;project_link&quot; target=&quot;_blank&quot;&gt;View Source Code&lt;/a&gt;&lt;/html&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m a newbie when it comes to coding, but I wanted to be able to show the projects I&amp;rsquo;ve been working on, documenting my progress and writing about the challenges I&amp;rsquo;ve tackled to get the code to work. As a newbie, I realize how important to not only show personal progress and clearly communicate the process, but also have a portfolio for potential employers or clients. &lt;/p&gt;
 
 &lt;h3&gt;About this Blog&lt;/h3&gt;
 

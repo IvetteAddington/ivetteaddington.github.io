@@ -52,7 +52,7 @@ a.navbar-brand:hover {
 	background-color: transparent;
 }
 
-#page_title{
+#page_title {
 	font-size: 2em;
 }
 
@@ -62,7 +62,7 @@ a.navbar-brand:hover {
 	font-size: 16px;
 }
 
-.main li {
+.list li{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-bottom: 1px #ccc solid;
@@ -206,12 +206,15 @@ a.navbar-brand:hover {
 	padding-bottom: 10px;
 }*/
 
+/*************************************
+	masonry
+/*************************************/
+
 .masonry-image {
   margin-bottom: -6px;
   width: 100%;
 }
 
-/*.masonry-image {
-    width: 100%;
-  }*/
+a.project_link {
+	font-weight: bold;
 }
