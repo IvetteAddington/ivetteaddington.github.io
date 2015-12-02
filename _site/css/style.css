@@ -141,12 +141,11 @@ a.navbar-brand:hover {
 
 .masonry-image {
   margin-bottom: -6px;
-  width: 100%;
+  width: 50%;
+  padding: 12px;
 }
 
-.masonry-image {
-    width: 50%;
-  }
+
 /*************************************
 	responsive
 /*************************************/
@@ -215,6 +214,3 @@ a.navbar-brand:hover {
   width: 100%;
 }
 
-a.project_link {
-	font-weight: bold;
-}
