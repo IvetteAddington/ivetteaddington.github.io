@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Dec 2015 22:45:53 -0500</pubDate>
-    <lastBuildDate>Wed, 02 Dec 2015 22:45:53 -0500</lastBuildDate>
+    <pubDate>Thu, 03 Dec 2015 14:30:31 -0500</pubDate>
+    <lastBuildDate>Thu, 03 Dec 2015 14:30:31 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -26,7 +26,7 @@
         &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;green&amp;quot;&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;If I only one of the colors, I can call it by its index number, like so&lt;/p&gt;
+&lt;p&gt;If I only want one of the colors, I can call it by its index number, like so&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&amp;quot;red&amp;quot;&lt;/span&gt;
@@ -65,7 +65,7 @@
     &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;strawberry&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;This was a pretty simple explanation, I&amp;rsquo;ll go into nested arrays and hashes next, but for more usage info, visit the ruby docs on &lt;html&gt;&lt;a href=&quot;http://ruby-doc.org/core-2.2.3/Array.html&quot;&gt;arrays&lt;/a&gt;&lt;/html&gt; and &lt;html&gt;&lt;a href=&quot;http://ruby-doc.org/core-2.2.2/Hash.html&quot;&gt;hashes&lt;/a&gt;&lt;/html&gt;. &lt;/p&gt;
+&lt;p&gt;This was a pretty simple explanation, I&amp;rsquo;ll go into nested arrays and hashes next, but for more usage info, visit the ruby docs on &lt;html&gt;&lt;a href=&quot;http://ruby-doc.org/core-2.2.3/Array.html&quot; target=&quot;_blank&quot;&gt;arrays&lt;/a&gt;&lt;/html&gt; and &lt;html&gt;&lt;a href=&quot;http://ruby-doc.org/core-2.2.2/Hash.html&quot; target=&quot;_blank&quot;&gt;hashes&lt;/a&gt;&lt;/html&gt;. &lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Dec 2015 00:00:00 -0500</pubDate>
         <link>/post6/</link>
@@ -121,6 +121,83 @@
         <category>who</category>
         
         <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Arrays E Hashes</title>
+        <description>&lt;p&gt;Mientras estaba la escuala de codigo, uno de los primeros conceptos que aprendimos fue cómo trabajar con arrays y hashes. Son tipos de datos comunes que se utilizan para almacenar y recuperar información.&lt;/p&gt;
+
+&lt;p&gt;Un ejemplo de un array sería&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colores&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;rojo&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;azul&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;verde&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Si quería todos los colores, no mas llamaria &amp;ldquo;colores&amp;rdquo;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colores&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#=&amp;gt;[&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;rojo&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;azul&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;verde&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Si sólamante quiero uno de los colores, puedo llamarlo por su número de índice&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colores&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&amp;quot;rojo&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;colores&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&amp;quot;azul&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;colores&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&amp;quot;verde&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Este es un hash&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colores_de_fruta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;rojo&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;manzana&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;azul&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;moras&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;verde&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;lima&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;El hash tiene pares de llaves y valores. En este caso, las llaves son &amp;ldquo;rojo&amp;rdquo;, &amp;ldquo;azul&amp;rdquo;, &amp;ldquo;verde&amp;rdquo; y los valores, respectivamente, son &amp;ldquo;manzana&amp;rdquo;, &amp;ldquo;moras&amp;rdquo;, y &amp;ldquo;lima.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Igual que el ejemplo de array, si sólo quería volver &amp;ldquo;lima&amp;rdquo;, llamaría la clave para obtener el valor&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colores_de_fruta&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;verde&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&amp;quot;lima&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Echemos un vistazo a un hash con varios valores de una sola clave&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colores_de_fruta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;red&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;manzana&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;fresa&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;azul&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;moras&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;verde&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;lima&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;uvas&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;En este caso, quiero el valor &amp;ldquo;lima&amp;rdquo;, tendría que obtener los valores de &amp;ldquo;verde&amp;rdquo; y luego tratarlos como índices de un array, en este caso &amp;ldquo;0&amp;rdquo;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colores_de_fruta&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;verde&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; &amp;quot;lima&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;sin añadir el índice del array, volveriamos todos los valores de la clave.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colores_de_fruta&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;rojo&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;[&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;manzana&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;fresa&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Esta fue una explicación simple, la proxima entrada sera acerca de arrays y hashes anidados, pero para obtener más información de sus uso, visite la documentación de rubí sobre &lt;html&gt;&lt;a href=&quot;http://ruby-doc.org/core-2.2.3/Array.html&quot; target=&quot;_blank&quot;&gt;arrays&lt;/a&gt;&lt;/html&gt; e &lt;html&gt;&lt;a href=&quot;http://ruby-doc.org/core-2.2.2/Hash.html&quot; target=&quot;_blank&quot;&gt;hashes&lt;/a&gt;&lt;/html&gt;. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Dec 2015 00:00:00 -0500</pubDate>
+        <link>/entrada6/</link>
+        <guid isPermaLink="true">/entrada6/</guid>
+        
+        
+        <category>coding,</category>
+        
+        <category>bootcamp,</category>
+        
+        <category>ruby,</category>
+        
+        <category>hash,</category>
+        
+        <category>array,</category>
+        
+        <category>nested</category>
         
       </item>
     
@@ -419,86 +496,6 @@
         <link>/project3/</link>
         <guid isPermaLink="true">/project3/</guid>
         
-        
-      </item>
-    
-      <item>
-        <title>Dynamic Navigation with Jekyll</title>
-        <description>&lt;p&gt;When I started to plan the functionality of this blog, I wanted the site&amp;rsquo;s navigation to change according the the user&amp;rsquo;s choice of language, while giving the option to easily switch back and forth from one language to another. To accomplish this, I created a custom navigation file in a Jekyll &lt;html&gt;&lt;a href=&quot;http://jekyllrb.com/docs/datafiles/&quot; target=&quot;_blank&quot;&gt; data folder&lt;/a&gt;&lt;/html&gt; (_data). Within Jekyll, a data file can be used to store additional, non-out-of-the-box functionality to customize a site. &lt;/p&gt;
-
-&lt;p&gt;In my case, I wanted two seperate navigations that would alter according to the language (page.lang) the user was currently on. So, to start I created navigation.yml inside of _data.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_data&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;│  &lt;/span&gt; &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yml&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;In navigation.yml I created two sets of navigations- one in English (en) and one in Spanish (es). The &amp;ldquo;title&amp;rdquo; is what will appear on the navbar, with its corresponding &amp;ldquo;url&amp;rdquo; below it. One thing to keep in mind here- YAML, like Python, is pretty specific about its whitespace, so make sure to use the spacebar instead of tab for spacing. &lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Posts&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/index/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;projects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Projects&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/projects/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;About&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/about/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;es&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;entradas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Entradas&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/entradas/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;proyectos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Proyectos&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/proyectos/&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;19&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;acerca&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Acerca De&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;21&lt;/span&gt;     &lt;span class=&quot;ss&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/acerca-de/&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;To complete the navigation functionality, in default.html I looped through navigation.yml according to the current [page.lang]. This code allows the user to navigate through the rest of the site in that same language.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;nav navbar-nav pull-right&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;menu&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    &amp;lt;li class=&amp;quot;list-inline&amp;quot;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;     &amp;lt;a href=&amp;quot;{{ menu[1].url }&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;gt;{{ menu[1].title }}&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;    &amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;    {% endfor %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;I also wanted the ability to transition from one language to another in the navbar, but only wanted the counterpart language link to show. So, if the user was on an English post, only see the &amp;ldquo;Español&amp;rdquo; link and the opposite for a Spanish post. I chose that for two reasons. First, I did not want the navbar to look crowded with unnecessary links and second, there is no need to link to the page/post the user is already on.        &lt;/p&gt;
-
-&lt;p&gt;First, on lines 1 and 2, I had to create the variable to be able to loop through the posts. The &amp;lsquo;where:&amp;ldquo;name&amp;rdquo;&amp;rsquo; filter traverses through the posts to look for its post/page counterpart. I then had to &amp;ldquo;capture&amp;rdquo; the language of the page. Line 4 depicts the capture tag- which is a block tag that captures text into a variable to then use that variable to determine the result of the following if/else statement. As that variable goes through the if/else statement, that determines which languge link to display- English or Español. Once the languge is determined, I used a liquid filter, line 7, to replace &amp;ldquo;en&amp;rdquo; (the variable used to differentiate between the two languages) with the word &amp;ldquo;English&amp;rdquo; and remove the &amp;ldquo;es&amp;rdquo; (for Español), since the user is already reading in a Spanish language page. And vice versa on line 11, when the user is on an English page. &lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assign&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;path&amp;#39;&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%} &lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    {% for post in posts %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;lang&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;         &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;capture&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;language&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}{{page.lang}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endcapture&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%} &lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;        {% if language == &amp;quot;es&amp;quot; %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;{{ post.url }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;{{ post.lang }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;              &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;post.lang&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;en&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;en&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;English&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;es&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt; &lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;        {% else %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;            &amp;lt;a href=&amp;quot;{{ post.url }}&amp;quot; class=&amp;quot;{{ post.lang }}&amp;quot;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;                {{ post.lang | where: &amp;quot;post.lang&amp;quot;, &amp;quot;es&amp;quot; | replace: &amp;quot;es&amp;quot;, &amp;quot;Español&amp;quot; | remove: &amp;quot;en&amp;quot; }}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;            &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;         &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endif&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    &amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;    {% endfor %}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-   
-
-&lt;p&gt;I then used the same format on the templates for projects and posts.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Aug 2015 00:00:00 -0400</pubDate>
-        <link>/post2/</link>
-        <guid isPermaLink="true">/post2/</guid>
-        
-        
-        <category>jekyll,</category>
-        
-        <category>navigation,</category>
-        
-        <category>bilingual</category>
         
       </item>
     
