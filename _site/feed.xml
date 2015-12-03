@@ -5,9 +5,86 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Dec 2015 11:59:18 -0500</pubDate>
-    <lastBuildDate>Wed, 02 Dec 2015 11:59:18 -0500</lastBuildDate>
+    <pubDate>Wed, 02 Dec 2015 22:45:53 -0500</pubDate>
+    <lastBuildDate>Wed, 02 Dec 2015 22:45:53 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Ruby Arrays and Hashes</title>
+        <description>&lt;p&gt;While at General Assembly, one of the first concepts we learned was how to work with arrays and hashes. They are common data types used to store and retrieve information. &lt;/p&gt;
+
+&lt;p&gt;An example of an array would be&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;red&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;blue&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;green&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If I wanted all the colors, I would simply call &amp;ldquo;colors&amp;rdquo;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colors&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#=&amp;gt;[&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;red&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;blue&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;green&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If I only one of the colors, I can call it by its index number, like so&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;colors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&amp;quot;red&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;colors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&amp;quot;blue&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;colors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&amp;quot;green&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;A hash looks like this&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;fruit_colors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;red&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;apple&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;blue&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;blueberry&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;green&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;lime&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;A hash has what we call key value pairs. In this case, the values are &amp;ldquo;red&amp;rdquo;, &amp;ldquo;blue&amp;rdquo;, &amp;ldquo;green&amp;rdquo; and the values, respectively, are &amp;ldquo;apple&amp;rdquo;, &amp;ldquo;blueberry&amp;rdquo;, and &amp;ldquo;lime.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Just like in the array example, what I just wanted to return &amp;ldquo;lime&amp;rdquo;, I would call the key to get the value&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;fruit_colors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;green&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&amp;quot;lime&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Lets take a look at a hash with multiple values for one key&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;fruit_colors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;red&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;apple&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;strawberry&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;blue&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;blueberry&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;green&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;lime&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;grape&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In this case, say I still want to get &amp;ldquo;lime&amp;rdquo;, I would need to get the values of green and then treat them like array indexes, in this case &amp;ldquo;0&amp;rdquo;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;fruit_colors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;green&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; &amp;quot;lime&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Without adding the array index, you would get back all the values of the key.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;fruit_colors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;red&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;[&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;apple&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;strawberry&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This was a pretty simple explanation, I&amp;rsquo;ll go into nested arrays and hashes next, but for more usage info, visit the ruby docs on &lt;html&gt;&lt;a href=&quot;http://ruby-doc.org/core-2.2.3/Array.html&quot;&gt;arrays&lt;/a&gt;&lt;/html&gt; and &lt;html&gt;&lt;a href=&quot;http://ruby-doc.org/core-2.2.2/Hash.html&quot;&gt;hashes&lt;/a&gt;&lt;/html&gt;. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Dec 2015 00:00:00 -0500</pubDate>
+        <link>/post6/</link>
+        <guid isPermaLink="true">/post6/</guid>
+        
+        
+        <category>coding,</category>
+        
+        <category>bootcamp,</category>
+        
+        <category>ruby,</category>
+        
+        <category>hash,</category>
+        
+        <category>array,</category>
+        
+        <category>nested</category>
+        
+      </item>
     
       <item>
         <title>The Ignite International Girls Hackathon, My First Hackathon</title>
@@ -53,7 +130,7 @@
 
 &lt;p&gt;El día del hackathon, estaba tan nerviosa. Nerviosa de mostrar mi falta de conocimiento, siendo vista como una impostora, y no ser beneficioso al evento. Pero está la cosa que aprendí- esto no se trataba de mí. Se trataba de un grupo de chicas que querían pasar un fin de semana codificacando para resolver problemas más grandes de ellas mismas. Sí, tuvieron preguntas que no sabia como responder, pero como ya había estado haciendo en clase, buscamos las respuestas en linia, resolvimos las preguntas y siguimos adelante.&lt;/p&gt;
 
-&lt;p&gt;En retrospeca, me alegro que no dejé mi miedo obtener lo mejor de mí. Para obtener más información acerca de Ignite o cómo fue el día, visita la entrada que escribí para el &lt;html&gt;&lt;a href=&quot;http://blog.generalassemb.ly/coding-for-change-opportunity-fund-fellow-mentors-all-girl-hackathon&quot; target=&quot;_blank&quot;&gt;blog de General Assembly blog&lt;/a&gt;&lt;/html&gt;.&lt;/p&gt;
+&lt;p&gt;En retrospeca, me alegro que no dejé mi aprensión obtener lo mejor de mí. Para obtener más información acerca de Ignite o cómo fue el día, visita la entrada que escribí para el &lt;html&gt;&lt;a href=&quot;http://blog.generalassemb.ly/coding-for-change-opportunity-fund-fellow-mentors-all-girl-hackathon&quot; target=&quot;_blank&quot;&gt;blog de General Assembly&lt;/a&gt;&lt;/html&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Dec 2015 00:00:00 -0500</pubDate>
         <link>/entrada5/</link>
@@ -422,16 +499,6 @@
         <category>navigation,</category>
         
         <category>bilingual</category>
-        
-      </item>
-    
-      <item>
-        <title>Blog Dedicado a Comida</title>
-        <description></description>
-        <pubDate>Wed, 15 Jul 2015 00:00:00 -0400</pubDate>
-        <link>/proyecto2/</link>
-        <guid isPermaLink="true">/proyecto2/</guid>
-        
         
       </item>
     
