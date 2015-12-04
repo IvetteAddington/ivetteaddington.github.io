@@ -5,9 +5,159 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Dec 2015 14:30:31 -0500</pubDate>
-    <lastBuildDate>Thu, 03 Dec 2015 14:30:31 -0500</lastBuildDate>
+    <pubDate>Fri, 04 Dec 2015 13:53:42 -0500</pubDate>
+    <lastBuildDate>Fri, 04 Dec 2015 13:53:42 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Environmental Variables</title>
+        <description>&lt;p&gt;The first time I used environmental variables was in Ruby program, which is probably why I often forget there are a few more steps when using them in a javascript app. This is one of those posts that I&amp;rsquo;m sure I&amp;rsquo;ll be coming back to myself, but hope it&amp;rsquo;s helpful for someone else out there. &lt;/p&gt;
+
+&lt;h3&gt;First, what is an environmental variable?&lt;/h3&gt;
+
+&lt;p&gt;I want to start out by saying, there are probably more technical terms/explanations than the one I&amp;rsquo;m about to write, but in its simplest form (at least the way I understand it), its like a variable that is set on your machine and can be accessed system-wide. &lt;/p&gt;
+
+&lt;h3&gt;Why do I need them?&lt;/h3&gt;
+
+&lt;p&gt;They come in really handy when you start working with API client keys, IDs, OAuth, sensitive information,etc. How so? When working on client projects or even just playing around with API&amp;rsquo;s, we are often given information that serves as a password of sort. This is great, because we don&amp;rsquo;t want just anyone being able to access our programs or sensitive information. &lt;/p&gt;
+
+&lt;p&gt;Say you are working on a personal project and you push your code to Github, all the code, including all those IDs, keys, passwords are now out there for everyone to see. In all honesty, this may not be too consequential in some cases, but it can easily have cause major problems I would rather avoid. That is when environmental variables come in handy.&lt;/p&gt;
+
+&lt;p&gt;I store environmental variables in my &lt;html&gt;&lt;a href=&quot;http://natelandau.com/my-mac-osx-bash_profile/&quot; target=&quot;_blank&quot;&gt;bash profile&lt;/a&gt;&lt;/html&gt;. There are various ways to access it, but I open it through &lt;html&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot; target=&quot;_blank&quot;&gt;SublimeText&lt;/a&gt;&lt;/html&gt;. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;subl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.bash_profile&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This sets the variable in bash&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;GITHUB_CLIENT_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;xxxxxxxxxxxxxxxxxxx&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now to get it and use it. &lt;/p&gt;
+
+&lt;p&gt;For Ruby:
+The first time I worked with environmental variables, I was learning about OAuth with Github-&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;GITHUB_CLIENT_ID&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;to shorten it, I assigned it to another variable&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;client_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;GITHUB_CLIENT_ID&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;and called it on line 8&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;base_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;https://github.com/login/oauth/authorize&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SecureRandom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlsafe_base64&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;state&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;state&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;query&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt;       &lt;span class=&quot;ss&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt;       &lt;span class=&quot;ss&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;user&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt;       &lt;span class=&quot;ss&quot;&gt;client_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;9&lt;/span&gt;   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For Javascript:
+In this case, I was using Instagram&amp;rsquo;s API and wanted to keep my client ID hidden using Node, but overall same concept. &lt;/p&gt;
+
+&lt;p&gt;The bash profile step is the same &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;INSTAGRAM_CLIENT_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;xxxxxxxxxxxxxxxxxx&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In my code, I assigned it to a variable and then used it in my request &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apiKey&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;INSTAGRAM_CLIENT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;https://api.instagram.com/v1/tags/&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;searchTerm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/media/recent?client_id=&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apiKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;One more step here, in the same terminal window you are using to run the app, run the following&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.bash_profile&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;It&amp;rsquo;s that last step that I often forget and inspired this post.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Dec 2015 00:00:00 -0500</pubDate>
+        <link>/post7/</link>
+        <guid isPermaLink="true">/post7/</guid>
+        
+        
+        <category>coding,</category>
+        
+        <category>ruby,</category>
+        
+        <category>javascript,</category>
+        
+        <category>node,</category>
+        
+        <category>env.process,</category>
+        
+        <category>enviornmental</category>
+        
+        <category>variables</category>
+        
+      </item>
+    
+      <item>
+        <title>Nested Arrays and Hashes</title>
+        <description>&lt;p&gt;This post assumes that you have a general understanging of arrays and hashes. &lt;/p&gt;
+
+&lt;p&gt;Pretty quickly after being introduced to arrays and hashes, we were given problems where the information we were asked to retrieve was nested inside of another array, hash, or array of hases. You imagine it, and we worked on it. One of our instructors made it clear, that we would be coming back to this over and over as the course progressed, so one way or another, we were going to learn this. He was not kidding, so I&amp;rsquo;m glad that this was one of those concepts that we drilled on to ge. &lt;/p&gt;
+
+&lt;p&gt;I had a hard time with this at first, but with just about anything, the more I worked on these problems, the easier they became. There are plenty of posts, stack overflow answers to nested arrays/hashes and looping to get what we need, but I remember at the time, that those enteries did not make sense, so this is my attemp to make it a bit easier. &lt;/p&gt;
+
+&lt;p&gt;Lets start with an example, this is an array of hashes:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;harry_potter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Harry Potter and the Sorcerer&amp;#39;s Stone&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2001&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;director&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Chris Columbus&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;gross&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$974,755,371&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Harry Potter and the Chamber of Secrets&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2002&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;director&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Chris Columbus&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;gross&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$878,979,634&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Harry Potter and the Chamber of Secrets&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2004&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;director&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Alfonso Cuarón&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;gross&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$796,688,549&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Harry Potter and the Goblet of Fire&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2005&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;director&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Mike Newell&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;gross&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$896,911,078&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Harry Potter and the Order of the Phoenix&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2007&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;director&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;David Yates&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;gross&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$942,943,935&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Harry Potter and the Half-Blood Prince&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2009&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;director&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;David Yates&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;gross&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$935,083,686&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Harry Potter and the Deathly Hallows: Part I&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2010&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;director&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Matt Birch&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;gross&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$959,301,070&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Harry Potter and the Deathly Hallows: Part II&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;year&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2011&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;director&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Matt Birch&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;gross&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$1,341,511,219&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Say all I wanted was the movie titles. I can do it the long way&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;harry_potter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;Harry Potter and the Sorcerer&amp;#39;s Stone&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;harry_potter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;Harry Potter and the Chamber of Secrets&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;or I can write a method to loop through the information&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;harry_potter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movie_title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movie_title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Harry&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Potter&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sorcerer&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Stone&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Harry&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Potter&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Chamber&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Secrets&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Harry&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Potter&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Chamber&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Secrets&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Harry&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Potter&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Goblet&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Fire&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Harry&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Potter&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Order&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Phoenix&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;HHarry&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Potter&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Half&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Blood&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Prince&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Harry&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Potter&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Deathly&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;Hallows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Part&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;I&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Harry&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Potter&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Deathly&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;Hallows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Part&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;II&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Thu, 03 Dec 2015 00:00:00 -0500</pubDate>
+        <link>/post8/</link>
+        <guid isPermaLink="true">/post8/</guid>
+        
+        
+        <category>coding,</category>
+        
+        <category>ruby,</category>
+        
+        <category>hash,</category>
+        
+        <category>array,</category>
+        
+        <category>nested,</category>
+        
+        <category>loop,</category>
+        
+        <category>looping</category>
+        
+      </item>
     
       <item>
         <title>Ruby Arrays and Hashes</title>
@@ -416,86 +566,6 @@
         <category>homebrew,</category>
         
         <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Lista De Contactos Con localStorage</title>
-        <description>&lt;p&gt;&lt;html&gt;&lt;a href=&quot;http://contactlist12.herokuapp.com/&quot; class=&quot;project_link&quot; target=&quot;_blank&quot;&gt;Ver En Línea&lt;/a&gt;&lt;/html&gt;
-|
-&lt;html&gt;&lt;a href=&quot;https://github.com/IvetteAddington/Contact-List&quot; class=&quot;project_link&quot; target=&quot;_blank&quot;&gt;View Source Code&lt;/a&gt;&lt;/html&gt;&lt;/p&gt;
-
-&lt;h3&gt;Acerca de Este Proyecto&lt;/h3&gt;
-
-&lt;p&gt;Cuando estuve en classes en General Assembly, nuestro segundo proyecto era crear una lista de contactos. En ese momento, recuerdo que la lista de entregablesme dejo un poca abrumada. Complete casí todo lo que estaba en esa lista, pero supe que revisitaria este proyecto en el futuro. Así que esto es Lista de Contactos 2.0 con algunos cambios un poco de cambios.&lt;/p&gt;
-
-&lt;p&gt;Para empezar, los requisitos del proyecto incuia direciones de crear una base de datos usando PostgreSQL para guargar toda la informacion acerca de nuestos contactos. No tengo nada en contra de postgres, por lo general, es lo que uso para mis proyectos. Pero, queria usar localStorage, que permite acceder al objeto local Storage sin fecha de expiración usando pares de llaves/valors. Eso es una breve explicación de localStorage, pero si deseas leer un poco mas acerca del tema, &lt;html&gt;&lt;a href=&quot;http://diveintohtml5.info/storage.html&quot; target =&quot;_blank&quot;&gt;Dive Into HTML5&amp;rsquo;s&lt;/a&gt;&lt;/html&gt; tiene un capitulo dedicado a localStorage. Además, la versión original mostró todos los contactos o separados por categorías (omití las categorías en esta versión), pero la función para búsquar en esta version devuelve todos los contactos que contienen las entradas en el nombre. Finalments, jugué con algunas funciones de jQuery animación jQuery y toggle para mostrar la información final.&lt;/p&gt;
-
-&lt;h3&gt;Desafíos&lt;/h3&gt;
-
-&lt;p&gt;Lo que me llevó más tiempo fue la animacion dejQuery . A menudo, cuando una función empezo a trabajar, otra se rompería. Además, originalmente pense que mostrando la información de contactos en una tabla de HTML, pero eso me dio pocas opciones  para mostrar la información de la manera la qual había planeado. También me encontré con momentos en los que el código hice lo que quería que hiciera dentro localStorge, pero no cambiaría la información en el DOM sin ​​una actualización de página. Así que tenía que asegurarme de que lo que estaba ocurriendo en localStorafe se reflejaria en el DOM. Pero, creo que mi mayor desafío era atravesar el DOM. He trabajado con el DOM en el pasado, así que estaba un poco frustrado que no pude podia codigar la animación deseada para los elementos padres e hijos. Pero después de un descanso y leer más cuidadiosamente en el tema, finalmente tenia las functionces trabajando. &lt;/p&gt;
-
-&lt;h3&gt;Pensamientos Finales&lt;/h3&gt;
-
-&lt;p&gt;Todavía puedo ver las cosas que me gustaría editar, pero todavia no estoy segura cómo&amp;hellip; por ejemplo todo el espacio blanco en la párte derecha , la edición del CSS para los enlaces de paginación, cosas que probablemente revisitare  versión 3, pero por ahora estoy feliz de haber aprendido a trabajar con el localStorage, la animación jQuery trabajado de la manera que intente. Me tomó un poco más de tiempo de lo que esperaba para con estos cambios, pero realmente esta mucho mejor de la primera versión. Importantements, puedo ver mi crecimiento personal, que en el fondo era el propósito de volver a visitar este proyecto.&lt;/p&gt;
-
-&lt;h3&gt;Recursos Usado&lt;/h3&gt;
-
-&lt;p&gt;&lt;html&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;http://jquery.com/&quot; target=&quot;_blank&quot;&gt;Jquery&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage&quot; target=&quot;_blank&quot;&gt;Local Storage&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://t4t5.github.io/sweetalert/&quot; target=&quot;_blank&quot;&gt;Sweet Alert&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://www.listjs.com/&quot; target=&quot;_blank&quot;&gt;list.js&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://st3ph.github.io/jquery.easyPaginate/&quot; target=&quot;_blank&quot;&gt;easyPaginate.js&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/html&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Sep 2015 00:00:00 -0400</pubDate>
-        <link>/proyecto3/</link>
-        <guid isPermaLink="true">/proyecto3/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Contact List w/ Local Storage</title>
-        <description>&lt;p&gt;&lt;html&gt;&lt;a href=&quot;http://contactlist12.herokuapp.com/&quot; class=&quot;project_link&quot; target=&quot;_blank&quot;&gt;View Online&lt;/a&gt;&lt;/html&gt;
-|
-&lt;html&gt;&lt;a href=&quot;https://github.com/IvetteAddington/Contact-List&quot; class=&quot;project_link&quot; target=&quot;_blank&quot;&gt;View Source Code&lt;/a&gt;&lt;/html&gt;&lt;/p&gt;
-
-&lt;h3&gt;About this Project&lt;/h3&gt;
-
-&lt;p&gt;When I was at General Assembly, our second project was to create a contact list. At the time, I remember being overwhelmed by the MVP list. Although I delivered most of what was on that list, I remember thinking I would come back later and redo it. So this is Contact List 2.0 and there was quite a bit of changes. &lt;/p&gt;
-
-&lt;p&gt;For starters, the original project had us create a postgreSQL database for for the contact&amp;rsquo;s information. I have nothing against postgres, its my go-to for databases. But, over the past few weeks, I had wanted to work on a small project that incorporated local storage, a way for web pages to locally store name/key value pairs. That is the simply put definition, but for a more in depth look at local storage, check out &lt;html&gt;&lt;a href=&quot;http://diveintohtml5.info/storage.html&quot; target =&quot;_blank&quot;&gt;Dive Into HTML5&amp;rsquo;s&lt;/a&gt;&lt;/html&gt; chapter dedicated to local storage. Also, the original version either showed all the contacts or would break them up into categories(I omitted the categories on this version), but the search feature on this returns all contacts that contain the inputs in the name. Lastly, I played with some jquery animation and toggle functions to display the information.&lt;/p&gt;
-
-&lt;h3&gt;Challenges&lt;/h3&gt;
-
-&lt;p&gt;What took me the longest was getting the jquery right. Oftentimes, once I got one feature working, something else would break. Also, I had originally set up the contact information to save in a table format, but the gave me limited options when it came to displaying the info the way I had planned. I also came across times where the code did what I wanted it to do within local storge, but would not change the info on the DOM without a page refresh. So, I had to make sure that what was happening in local storage was being reflected on the DOM. However, I think my biggest challenge DOM traversal. I&amp;rsquo;ve worked with the DOM in the past, so I was a bit frustrated that I could not get the animation to work on the child elements at first, but after a break and some more careful reading on the subject I was able to get the functions working. &lt;/p&gt;
-
-&lt;h3&gt;Final Thoughts&lt;/h3&gt;
-
-&lt;p&gt;I can still see things here and there that I would like to edit, but not sure how to yet&amp;hellip; for example all the white space on the search portion of the page, editing the css for the pagination links, and I&amp;rsquo;ll likely get to those in version 3, but for now I&amp;rsquo;m happy to have learned how to work with local storage, as well as getting jquery animation working the way I intented it to. It took a little longer than I hoped to get these edits done, but it truly is so much better that the first version, and I can see my personal growth, which deep down was the purpose of revisiting this project. &lt;/p&gt;
-
-&lt;h3&gt;Resources Used&lt;/h3&gt;
-
-&lt;p&gt;&lt;html&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;http://jquery.com/&quot; target=&quot;_blank&quot;&gt;Jquery&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage&quot; target=&quot;_blank&quot;&gt;Local Storage&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://t4t5.github.io/sweetalert/&quot; target=&quot;_blank&quot;&gt;Sweet Alert&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://www.listjs.com/&quot; target=&quot;_blank&quot;&gt;list.js&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://st3ph.github.io/jquery.easyPaginate/&quot; target=&quot;_blank&quot;&gt;easyPaginate.js&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/html&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Sep 2015 00:00:00 -0400</pubDate>
-        <link>/project3/</link>
-        <guid isPermaLink="true">/project3/</guid>
-        
         
       </item>
     
