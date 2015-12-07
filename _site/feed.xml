@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Dec 2015 14:21:57 -0500</pubDate>
-    <lastBuildDate>Mon, 07 Dec 2015 14:21:57 -0500</lastBuildDate>
+    <pubDate>Mon, 07 Dec 2015 16:28:08 -0500</pubDate>
+    <lastBuildDate>Mon, 07 Dec 2015 16:28:08 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -76,6 +76,91 @@ In this case, I was using Instagram&amp;rsquo;s API and wanted to keep my client
         <pubDate>Fri, 04 Dec 2015 00:00:00 -0500</pubDate>
         <link>/post7/</link>
         <guid isPermaLink="true">/post7/</guid>
+        
+        
+        <category>coding,</category>
+        
+        <category>ruby,</category>
+        
+        <category>javascript,</category>
+        
+        <category>node,</category>
+        
+        <category>env.process,</category>
+        
+        <category>enviornmental</category>
+        
+        <category>variables</category>
+        
+      </item>
+    
+      <item>
+        <title>Variables Ambientales</title>
+        <description>&lt;p&gt;La primera vez que utiliza variables ambientales fue en programacion de Ruby, lo cual es probable la razon que a menudo me olvido como utilizarlos en una aplicación javascript. Este es uno de esas entradas que you misma volvere una y otra ves, pero espero que sea útil para alguien más por ahí . &lt;/p&gt;
+
+&lt;h3&gt;Primero, Que es Un Variable Ambiental?&lt;/h3&gt;
+
+&lt;p&gt;Quiero comenzar diciendo que probablemente hay términos y explicacionesmás técnicos, que los siguientes, pero en su forma más simple (al menos como yo lo entiendo), es como una variable que se establece en su máquina y puede ser visto por todo el sistema.&lt;/p&gt;
+
+&lt;h3&gt;Why do I need them?&lt;/h3&gt;
+
+&lt;p&gt;Son prácticos cuando empiezas a trabajar con claves del cliente, API&amp;rsquo;s, identificaciones ,OAuth ,información sensible. ¿Cómo es eso ? Cuando trabajas con proyectos de clientes o jugas con API&amp;rsquo;s, a menudo se nos dieron información que sirve como claves secretas.&lt;/p&gt;
+
+&lt;p&gt;Say you are working on a personal project and you push your code to Github, all the code, including all those IDs, keys, passwords are now out there for everyone to see. En verdad, esta informacion no sera demasiado consecuentes si no es secreta, pero fácilmente puede tener problemas grandes que preferiría evitar. Esto es cuando las variables ambientales son útiles&lt;/p&gt;
+
+&lt;p&gt;Almaceno las variables ambientales en mi &lt;html&gt;&lt;a href=&quot;http://natelandau.com/my-mac-osx-bash_profile/&quot; target=&quot;_blank&quot;&gt;bash profile&lt;/a&gt;&lt;/html&gt;. Hay varias formas de acceder a ella, pero yo lo acceso a través de &lt;html&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot; target=&quot;_blank&quot;&gt;SublimeText&lt;/a&gt;&lt;/html&gt;. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;subl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.bash_profile&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Esto establece la variable en bash&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;GITHUB_CLIENT_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;xxxxxxxxxxxxxxxxxxx&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Ahora conseguirlo y utilizarlo. &lt;/p&gt;
+
+&lt;p&gt;Para Ruby:
+La primera vez que trabajé con variables ambientales, estaba aprendiendo acerca OAuth with Github,&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;GITHUB_CLIENT_ID&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;para acortarlo, lo asigne a un variable local&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;client_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;GITHUB_CLIENT_ID&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;y lo llame en la línea 8&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;base_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;https://github.com/login/oauth/authorize&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SecureRandom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlsafe_base64&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;state&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;state&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;query&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt;       &lt;span class=&quot;ss&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt;       &lt;span class=&quot;ss&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;user&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt;       &lt;span class=&quot;ss&quot;&gt;client_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;9&lt;/span&gt;   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Para Javascript:
+En este caso, yo estaba usando el API de Instagram y quería mantener mi ID de cliente oculto. En este ejemplo, seguiremos el mismo concepto general. &lt;/p&gt;
+
+&lt;p&gt;El paso de bash profile es el mismo&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;INSTAGRAM_CLIENT_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;xxxxxxxxxxxxxxxxxx&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;En mi código, lo he asignado a un variable &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apiKey&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;INSTAGRAM_CLIENT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;https://api.instagram.com/v1/tags/&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;searchTerm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/media/recent?client_id=&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apiKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Un paso más que aquí, en la misma ventana terminal que está utilizando para ejecutar la aplicación, ejecute el siguiente&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.bash_profile&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Es el último paso que a menudo olvido e inspirado este post .&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Dec 2015 00:00:00 -0500</pubDate>
+        <link>/entrada7/</link>
+        <guid isPermaLink="true">/entrada7/</guid>
         
         
         <category>coding,</category>
@@ -501,41 +586,6 @@ In this case, I was using Instagram&amp;rsquo;s API and wanted to keep my client
         <category>homebrew,</category>
         
         <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Random Word</title>
-        <description>&lt;p&gt;&lt;html&gt;&lt;a href=&quot;https://github.com/IvetteAddington/Word&quot; class=&quot;project_link&quot; target=&quot;_blank&quot;&gt;View Source Code&lt;/a&gt;&lt;/html&gt;&lt;/p&gt;
-
-&lt;h3&gt;About this Project&lt;/h3&gt;
-
-&lt;p&gt;Random was my first attemp at working with angular. I love words, so I thougt of a simple way to learn some more words, while building something to do that. This project quickly became a little bit more complicated than I had originally intended it to be, which in turn changed the outcome of it. But, although still glitchy (which is why its not live yet), I am excited that I was able to make the project run, while hitting two different API&amp;rsquo;s for the output. &lt;/p&gt;
-
-&lt;h3&gt;Challenges&lt;/h3&gt;
-
-&lt;p&gt;When I started this project, I thought, apart from the angular portion, this really should not be so difficult. I really should not have any assumptions, because although in theory this seemed simple, I hit roadblocks I had no idea existed yet. Getting the random word from the Wordnik API was fairly simple. Turned it into JSON and set it as a variable for the next query. This is where the problem came in. The Merriam Webster API is kinda hard to work through. It has all the information that you need, but its messy and getting the definition is not always in the same format. I worked through thise by running the definition through a function that cleaned it up, but it was still messy. 
-My second problem, the one I&amp;rsquo;m still working on, is that the words that are returned by the Wordnik API are not all real words, at least not by Merria Webster&amp;rsquo;s terms. Meaning that sometimes, I just get back an emply object, which is so user unfriendly. I&amp;rsquo;ve tried a few things to solve, like only haveing words appear if they return data instead of an empty array, but that crashed the app. I&amp;rsquo;ve also tried an if/else statement, but that does not seem to work either. I know there is a solution, once I have it, I&amp;rsquo;ll feel good about uploading the app.
-Now for some good, I was able to get angular to run the app, it was hard, and I don&amp;rsquo;t even think I remember all of it, but I was especially happy to get the sound working. The dictionary API has a sound function, and through a few trial and error phases, the sound works. &lt;/p&gt;
-
-&lt;h3&gt;Final Thoughts&lt;/h3&gt;
-
-&lt;p&gt;I&amp;rsquo;m not done with this, so these will change, but what I learned from this experience is that sometimes all the planning in the world will only get you so far. I had to be open to reworking and rethinking how I was going to approach the dictionary API. I hope to get this running soon!&lt;/p&gt;
-
-&lt;h3&gt;Resources&lt;/h3&gt;
-
-&lt;p&gt;&lt;html&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&quot;http://developer.wordnik.com/&quot; target=&quot;_blank&quot;&gt;Wordnik API&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;http://www.dictionaryapi.com/&quot; target=&quot;_blank&quot;&gt;Merriam Webster API&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;https://angularjs.org/&quot; target=&quot;_blank&quot;&gt;AngularJS&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/html&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 06 Sep 2015 00:00:00 -0400</pubDate>
-        <link>/project5/</link>
-        <guid isPermaLink="true">/project5/</guid>
-        
         
       </item>
     
