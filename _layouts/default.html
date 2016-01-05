@@ -8,19 +8,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/masonry.pkgd.min.js"></script>
-    <script src="/js/script.js"></script>
-  
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato|Laila|Roboto' rel='stylesheet' type='text/css'>
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    {% assign posts=site.posts %} 
-    {% for post in posts %} 
+    {% assign posts=site.posts %}
+    {% for post in posts %}
     {% if post.lang != page.lang %}
-    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" /> 
-    {% endif %} 
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+    {% endif %}
     {% endfor %}
-    
+
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
@@ -37,13 +35,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                
+
                 {% if page.lang == 'en' %}
-                  <a class="navbar-brand" href="/index/">Ivette Addington</a> 
+                  <a class="navbar-brand" href="/index/">Ivette Addington</a>
                 {% else %}
-                  <a class="navbar-brand" href="/entradas/">Ivette Addington</a> 
+                  <a class="navbar-brand" href="/entradas/">Ivette Addington</a>
                 {% endif %}
-                
+
             </div>
             <div class="collapse navbar-collapse" id="nav-collapse">
                 <ul class="nav navbar-nav pull-right">
@@ -51,16 +49,16 @@
                       <li class="list-inline">
                         <a href="{{ menu[1].url }}">{{ menu[1].title }}</a>
                       </li>
-                    {% endfor %} 
-                    
-                    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %} 
+                    {% endfor %}
+
+                    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
                     {% for post in posts %}
                     <li class="lang">
-                        {% capture language %}{{page.lang}}{% endcapture %} 
+                        {% capture language %}{{page.lang}}{% endcapture %}
                         {% if language == "es" %}
-                          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "en" | replace: "en", "English" | remove: "es" }}</a> 
+                          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "en" | replace: "en", "English" | remove: "es" }}</a>
                         {% else %}
-                          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Español" | remove: "en" }}</a> 
+                          <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang | where: "post.lang", "es" | replace: "es", "Español" | remove: "en" }}</a>
                         {% endif %}
                     </li>
                     {% endfor %}
@@ -70,12 +68,15 @@
     </nav>
     <div class="container main">
         <div class="page-content col-md-10 col-md-offset-1">
-            <p id="page_title">{{ page.title }}</p> 
+            <p id="page_title">{{ page.title }}</p>
             {{ content }}
         </div>
     </div>
     {% include footer.html %}
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script src="/js/masonry.pkgd.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'></script>
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
     <script src="/js/masonry.pkgd.min.js"></script>
