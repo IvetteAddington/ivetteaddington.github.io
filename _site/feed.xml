@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Jan 2016 13:40:58 -0500</pubDate>
-    <lastBuildDate>Tue, 05 Jan 2016 13:40:58 -0500</lastBuildDate>
+    <pubDate>Tue, 05 Jan 2016 14:57:32 -0500</pubDate>
+    <lastBuildDate>Tue, 05 Jan 2016 14:57:32 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -257,7 +257,7 @@ En este caso, yo estaba usando el API de Instagram y quería mantener mi ID de c
       </item>
     
       <item>
-        <title>The Ignite International Girls Hackathon, My First Hackathon</title>
+        <title>Mentoring at the Ignite International Girls Hackathon</title>
         <description>&lt;p&gt;When I was asked to volunteer at this event, I remember thinking, REALLY? I just started learning to code, what in the world can I possibly contribute to this. But, in spite of the fear and doubts, I reluctantly agreed. For me, coding was taking me leaps out of my comfort zone, and I knew this was going to be no different. &lt;/p&gt;
 
 &lt;p&gt;The day of the hackathon, I was so nervous. Nervous about showing my lack of knowledge, looking like an imposter, not being beneficial to the event. But here&amp;rsquo;s the thing I learned that day- this was not about me. This was about a group of girls who wanted to spend a weekend coding and solving problems larger then themselves. Yes, they asked questions that I was not ready to answer, but like I had already been doing in class, we looked it up, solved it and moved on.&lt;/p&gt;
@@ -372,7 +372,7 @@ En este caso, yo estaba usando el API de Instagram y quería mantener mi ID de c
       </item>
     
       <item>
-        <title>Ignite International Girls Hackathon, Mi Primer Hackathon</title>
+        <title>Tutoría En El Hackathon de Ignite International Girls</title>
         <description>&lt;p&gt;Cuando me preguntaron si queria ser uno de los voluntarios en este evento, recuerdo que pensé, de veras? Apenas empeze a aprender código, que posiblemente puedo contribuir. Pero, a pesar del miedo y mis dudas, aceptó, pero un poco de mala gana. Para mí, codificación me ha llevaba saltos fuera de mi zona de comodidad, y sabía que esto no seria diferente. &lt;/p&gt;
 
 &lt;p&gt;El día del hackathon, estaba tan nerviosa. Nerviosa de mostrar mi falta de conocimiento, siendo vista como una impostora, y no ser beneficioso al evento. Pero está la cosa que aprendí- esto no se trataba de mí. Se trataba de un grupo de chicas que querían pasar un fin de semana codificacando para resolver problemas más grandes de ellas mismas. Sí, tuvieron preguntas que no sabia como responder, pero como ya había estado haciendo en clase, buscamos las respuestas en linia, resolvimos las preguntas y siguimos adelante.&lt;/p&gt;
@@ -409,20 +409,22 @@ En este caso, yo estaba usando el API de Instagram y quería mantener mi ID de c
       </item>
     
       <item>
-        <title>I&#39;m a General Assembly Code for Change Scholarship Recipient!!</title>
+        <title>General Assembly Code for Change Scholarship</title>
         <description>&lt;p&gt;It started with a tweet. This tweet, from &lt;html&gt;&lt;a href=&quot;http://women2.com/&quot; target=&quot;_blank&quot;&gt;Women 2.0&lt;/a&gt;&lt;/html&gt; to be exact:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/scholarshipTweet.png&quot; alt=&quot;scholarship tweet&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Well, let me back up. Before that tweet, I had spent a few months learning HTML and CSS. Through &lt;html&gt;&lt;a href=&quot;https://teamtreehouse.com&quot; target=&quot;_blank&quot;&gt;Team Treehouse&amp;rsquo;s online tutorials&lt;/a&gt;&lt;/html&gt;, blog posts and John Duckett&amp;rsquo;s &lt;html&gt;&lt;a href=&quot;http://www.htmlandcssbook.com/&quot; target=&quot;_blank&quot;&gt;HTML&amp;amp;CSS design and build websites&lt;/a&gt;&lt;/html&gt; book, I created a website. It was not fancy, but it was functional. Not going to downplay this, it was a pretty great feeling to see the working links, a responsive header (everything else was responsive too, but the header was where I could see the most transition) and something I created on my computer&amp;rsquo;s screen. &lt;/p&gt;
+&lt;p&gt;Well, let me back up. Before this tweet, I had spent a few months learning HTML and CSS. With help &lt;html&gt;&lt;a href=&quot;https://teamtreehouse.com&quot; target=&quot;_blank&quot;&gt;Team Treehouse&amp;rsquo;s online tutorials&lt;/a&gt;&lt;/html&gt;, blog posts and John Duckett&amp;rsquo;s &lt;html&gt;&lt;a href=&quot;http://www.htmlandcssbook.com/&quot; target=&quot;_blank&quot;&gt;HTML&amp;amp;CSS design and build websites&lt;/a&gt;&lt;/html&gt; book, I created a website. It wasn&amp;rsquo;t fancy, but it was functional.   &lt;/p&gt;
 
-&lt;p&gt;As the weeks past, I was reading and going through more complicated frontend tutorials and dipped my toes into backend as often as I could. But, something was missing. Structure. I applaud those who have been able to learn on their own, without classes, bootcamps, etc. There are a lot of resources out there, but I knew that if I wanted to continue on this path, I would have to commit full-time. I thought about going back to school, but then I saw the tweet about scholarships for women looking to learn to code. On that list, was &lt;html&gt;&lt;a href=&quot;https://generalassemb.ly/opportunity-fund&quot; target=&quot;_blank&quot;&gt;General Assembly&amp;rsquo;s Opportunity Fund&lt;/a&gt;&lt;/html&gt;. Since I received the scholarship, the format has changed a bit, and now all scholarships fall under two categories, Web Development Immersive and User Experience Design Immersive. But at the time, I specifically received the Alexis Ohanian Fellowship for Women of Color. Scroll down to Fellows Spotlight for some info on some of the scholarship recipients, including me. &lt;/p&gt;
+&lt;p&gt;As the weeks past, I worked my way through more complicated frontend tutorials and dipped my toes into backend. But for me, something was missing. Structure. I applaud those who have been able to learn on their own, without classes, bootcamps, etc. There are a lot of resources out there, but I knew that if I wanted to continue on this path, I would have to commit full-time. I thought about going back to school for a CS degree, but then I saw the tweet about scholarships for women looking to learn code. On that list, was &lt;html&gt;&lt;a href=&quot;https://generalassemb.ly/opportunity-fund&quot; target=&quot;_blank&quot;&gt;General Assembly&amp;rsquo;s Opportunity Fund&lt;/a&gt;&lt;/html&gt;. Since I received the scholarship, the format has changed a bit, and now all scholarships fall under two categories, Web Development Immersive and User Experience Design Immersive. But at the time, I specifically received the Alexis Ohanian Fellowship for Women of Color. &lt;/p&gt;
 
-&lt;p&gt;I was pretty scared to apply, for many reasons. For starters, if I did get a scholarship, that would mean quitting my job, while my husband was in school full-time. Also, I can work my way through problems, but I was no math or science whiz, so I was concerned that coding was out of my leauge. Honestly, I could keep going with the list of why nots, bu I got over the fears and applied anyway. I thought, what are the odds&amp;hellip;&lt;/p&gt;
+&lt;p&gt;At first, I was scared to apply. If I did get a scholarship, that would mean quitting my job, while my husband was in school full-time. Also, I can work my way through problems, but programming, building software and webpages seemed out of my league. Honestly, I could keep going with the list of why nots, but I got over the fears and applied anyway. I thought, what are the odds&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;I few weeks later, I was called in for an interview, with both the Opportunity Fund Director and a teacher at General Assembly. Needless to say, I was pretty intimiated, but later that evening I was informed that I would be given the scholarship.&lt;/p&gt;
+&lt;p&gt;Turns out the odds were about one in six hundred, but a few weeks later, I was called in for an interview with both the Opportunity Fund Director and an instructor at General Assembly. Needless to say, I was intimidated, but later that evening I was informed that I would be given the scholarship.&lt;/p&gt;
 
-&lt;p&gt;It&amp;rsquo;s been a few months since I finished the program and had the privilage of teaching a Girls Who Code class in Harlem soon after I was done. I&amp;rsquo;ve been coding just about everyday since graduating, but I had planned to travel throughout the summer while my husband, Josh, finished school and an internsip, so I have postponed looking for a full-time job. Late last week, we Josh officially accepted a data science/web development job in Durham, NC. So were packing up and heading south! It&amp;rsquo;s been a crazy few months, but I am so very excited to get involved with the thriving tech community in the Raleigh/Durham/Chapel Hill area of North Carolina. &lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s been a few months since I finished the program soon after taught a Girls Who Code class in Harlem. They say there is nothing better than teaching to truly understand a concept. It&amp;rsquo;s true. Explaining loops, functions and if/else statements to 13 year olds made me have to break those concepts down to their simplest terms and in turn, I got a better understanding of them. &lt;/p&gt;
+
+&lt;p&gt;Going through the program was one of the hardest and most exhausting experices I&amp;rsquo;ve gone through, but I don&amp;rsquo;t regret any of it. Not only did I learn how to code, but learned how to think differently. How to break down problems and work in small increments to accomplish a larger goal. It&amp;rsquo;s been a great experience so far, and excited for what&amp;rsquo;s to come. &lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Oct 2015 00:00:00 -0400</pubDate>
         <link>/post4/</link>
@@ -535,7 +537,7 @@ En este caso, yo estaba usando el API de Instagram y quería mantener mi ID de c
       </item>
     
       <item>
-        <title>ruby-build&amp;#58; definición no encontrada&amp;#58; 2.2.3</title>
+        <title>ruby-build&amp;#58; definition not found&amp;#58; 2.2.3</title>
         <description>&lt;p&gt;En el pasado, he usado &lt;html&gt;&lt;a href=&quot;https://github.com/sstephenson/rbenv&quot;&gt;rbenv&lt;/a&gt;&lt;/html&gt; para actualizar mis dependencias, generalmente sin ningún problema. Pero, al intentar de actualizar a la versión de Ruby 2.2.3 , me encontré con este error:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;vg&quot;&gt;$rbenv&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
