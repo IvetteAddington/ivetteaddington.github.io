@@ -9,7 +9,7 @@ en:
     title: "About"
     url: "/about/"
 es:
-  entradas: 
+  entradas:
     title: "Entradas"
     url: "/entradas/"
   proyectos:
@@ -18,3 +18,4 @@ es:
   acerca:
     title: "Acerca De"
     url: "/acerca-de/"
+

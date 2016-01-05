@@ -1,4 +1,3 @@
-
 permalink: /:title/
 # http:/ivetteaddington.com
 markdown: redcarpet
@@ -7,12 +6,6 @@ redcarpet:
 
 gems:
    - jekyll-redirect-from
-
-
-
-
-
-
 
 
 
