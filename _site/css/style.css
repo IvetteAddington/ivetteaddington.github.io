@@ -1,6 +1,7 @@
 html, body {
 	height: 100%;
 	color: #555;
+  font-family: 'Roboto', serif;
 }
 
 a, a:hover, a:visited {
@@ -161,8 +162,12 @@ a.navbar-brand:hover {
 }
 
 .masonry-image {
-  margin-bottom: -6px;
-  width: 50%;
+  /*margin-bottom: -6px;
+  width: 50%;*/
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
   padding: 12px;
 }
 
@@ -217,13 +222,6 @@ a.navbar-brand:hover {
 	padding-top: 30px;
 	color:#555;
 }
-
-/*.fa {
-	width: 30px;
-	height: 30px;
-	margin: 0 8px;
-	padding-bottom: 10px;
-}*/
 
 /*************************************
 	masonry
