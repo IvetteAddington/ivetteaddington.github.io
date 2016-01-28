@@ -35,8 +35,8 @@
                 {% else %}
                   <a class="navbar-brand" href="/entradas/">Ivette Addington</a>
                 {% endif %}
-
             </div>
+            <!-- Navigation -->
             <div class="collapse navbar-collapse" id="nav-collapse">
                 <ul class="nav navbar-nav pull-right">
                     {% for menu in site.data.navigation[page.lang] %}
@@ -60,13 +60,20 @@
             </div>
         </div>
     </nav>
+    <!-- End Navigation -->
+
+    <!-- Main -->
     <div class="container main">
         <div class="page-content col-md-10 col-md-offset-1">
             <p id="page_title">{{ page.title }}</p>
             {{ content }}
         </div>
     </div>
+    <!-- End Main -->
+
+    <!-- Footer -->
     {% include footer.html %}
+    <!-- End Footer -->
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
