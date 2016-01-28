@@ -131,12 +131,6 @@ a.navbar-brand:hover {
 	color: inherit;
 }
 
-.project-img {
-	height: 260px;
-	width: 100%;
-	display: block;
-}
-
 .footer {
 	font-size: 1em;
 	text-align:center;
@@ -151,7 +145,6 @@ a.navbar-brand:hover {
 	margin: 0 8px;
 	padding-bottom: 10px;
 }
-
 #grid {
   list-style-type: none;
   text-align: center;
@@ -159,16 +152,6 @@ a.navbar-brand:hover {
 
 #grid img {
   width: 100%;
-}
-
-.masonry-image {
-  /*margin-bottom: -6px;
-  width: 50%;*/
-  display: block;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  padding: 12px;
 }
 
 /*************************************
@@ -222,7 +205,7 @@ a.navbar-brand:hover {
 	padding-top: 30px;
 	color:#555;
 }
-
+}
 /*************************************
 	masonry
 /*************************************/
@@ -232,3 +215,8 @@ a.navbar-brand:hover {
   width: 100%;
 }
 
+@media (min-width: 49rem){
+  .masonry-image {
+    width: 50%;
+  }
+}

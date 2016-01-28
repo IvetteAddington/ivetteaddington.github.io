@@ -1,11 +1,10 @@
-<p>Click on the photos to learn a bit more about each project.</p>
+
 <div id="grid" class="js-masonry" >
     {% assign posts=site.posts | where:"lang", page.lang | where:"type", "projects" %}
     {% for post in posts %}
-
         <div class="masonry-image">
             <a href="{{ post.url }}" class="{{ post.lang }}">
-                <img src="/img/{{ post.image }}" class="project-img">
+                <img src="/img/{{ post.image }}">
             </a>
         </div>
     {% endfor %}
